@@ -37,6 +37,7 @@ There are the following philosophy I would like to address with my audience.
 ## Teaching Philosophy
 
 $$\text{Passion}$$
+$$\nearrow\swarrow \text{   } \searrow\nwarrow$$
 $$\text{Talent} \longleftrightarrow \text{Wealth}$$
 
 ## Philosophy with Machine Learning / Artificial Intelligence
