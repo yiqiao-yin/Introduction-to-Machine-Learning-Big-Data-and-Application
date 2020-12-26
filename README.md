@@ -28,9 +28,15 @@ We focus on selected topics in the required textbooks above. Topics are describe
 - Python/Jupyter Lab (optional)
 - Github (a website repo where students show case their projects)
 
-### Additional Resources
+### Resources and References
 
-In addition to textbooks listed above, please refer to the following resources for extra information
+I refer topics from a combination of websites, textbooks, and course sites:
+- Probability and Statistics: [site](https://www.probabilitycourse.com/)
+- Stat Lecture: [site](https://www.statlect.com/)
+- Deep Learning: [site](https://www.deeplearningbook.org/lecture_slides.html)
+- Stanford CS 229: [site](https://stanford.edu/~shervine/teaching/cs-229/)
+
+In addition to textbooks listed above, please refer to the following resources for extra resourcew
 - Free digital textbooks on Probability and Statistics: https://www.statlect.com/
 - Introduction to Probability, Statistics, and Random Processes:  https://www.probabilitycourse.com/ 
 - Free Online Coding Platform (C++/Python/R/Matlab/Java all available): https://coderpad.io/launch-sandbox 
