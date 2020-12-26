@@ -37,7 +37,7 @@ There are the following philosophy I would like to address with my audience.
 ## Teaching Philosophy
 
 $$
-\begin{array}[ccc
+\begin{array}[ccc]
               & \text{Passion} & \\
 \text{Talent} &                & \text{Wealth} \\
 \end{array}
