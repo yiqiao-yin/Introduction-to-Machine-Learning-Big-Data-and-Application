@@ -38,7 +38,7 @@ There are the following philosophy I would like to address with my audience.
 
 $$
 \begin{bmatrix}
-a & \text{Passion & b \\
+a & \text{Passion} & b \\
 \text{Talent} & c & \text{wealth} \\
 \end{bmatrix}
 $$
