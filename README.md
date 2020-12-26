@@ -47,7 +47,7 @@ With the above definition given, the relationship of these three elements can be
 
 $$\text{Passion}$$
 $$\nearrow\swarrow \text{   } \searrow\nwarrow$$
-$$\text{Talent} \longleftrightarrow \text{Wealth}$$
+$$\text{Talent} \rightleftharpoons \text{Wealth}$$
 
 - The left arrows connect Passion with Talent. If I am interested in a topic, it is more likely I spend more time on this topic. Then it makes sense I am getting better at it. The converse is also true. If I happen to stumble upon some skills that I am good at, it is veyr likely I want to keep doing things that way because I am good at it. It will make me fall in love of what I am doing. 
 
