@@ -19,4 +19,5 @@ Please select the following: (i) Neural Network, (ii) Convolutional Neural Netwo
 Sample Project:
 - Keras RStudio Examples: [here](https://keras.rstudio.com/articles/examples/index.html).
 - Here is a basic example: [here](https://tensorflow.rstudio.com/tutorials/beginners/).
-- 
+- Basic Classification: [here](https://tensorflow.rstudio.com/tutorials/beginners/).
+- Basic Image Classification: [here](https://tensorflow.rstudio.com/tutorials/beginners/basic-ml/tutorial_basic_classification/).
