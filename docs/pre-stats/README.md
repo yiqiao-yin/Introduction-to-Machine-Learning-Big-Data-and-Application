@@ -16,7 +16,13 @@ This folder contains lecture notes of Pre-Statistics. There are in total of 5 le
 
 ## References
 
-I usually refer to my own [notes](https://yinscapital.com/notes/). 
+I usually refer to the topics in the following websties;
+- Probability and Statistics: [site](https://www.probabilitycourse.com/)
+- Stat Lecture: [site](https://www.statlect.com/)
+- Deep Learning: [site](https://www.deeplearningbook.org/lecture_slides.html)
+- Stanford CS 229: [site](https://stanford.edu/~shervine/teaching/cs-229/)
+
+and my own [notes](https://yinscapital.com/notes/). 
 - Probability and Statistics: [PDF](https://yiqiaoyin.files.wordpress.com/2017/07/intro_probability_theory.pdf).
 - Probability Theory (PhD): [PDF](https://yiqiaoyin.files.wordpress.com/2017/12/probability-theory.pdf).
 - Statistical Inference: [PDF](https://yiqiaoyin.files.wordpress.com/2017/01/statistical-inference.pdf).
