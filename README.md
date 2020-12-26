@@ -1,6 +1,14 @@
 # SML
 
+[![AnYinProduction](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://yinscapital.com/research/)
+[![Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 This github repo introduces a portfolio of probability theory, statistical inference, and applied machine learning topics.
+
+<p align="center">
+  <img width="300" src="https://github.com/yiqiao-yin/SML/blob/main/pics/main.gif">
+</p>
+
 
 ## Instructor
 
