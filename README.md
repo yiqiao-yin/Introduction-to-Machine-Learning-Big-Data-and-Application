@@ -37,10 +37,10 @@ There are the following philosophy I would like to address with my audience.
 ## Teaching Philosophy
 
 $$
-\begin{array}[ccc]
-              & \text{Passion} & \\
-\text{Talent} &                & \text{Wealth} \\
-\end{array}
+\begin{bmatrix}
+a & \text{Passion & b \\
+\text{Talent} & c & \text{wealth} \\
+\end{bmatrix}
 $$
 
 ## Philosophy with Machine Learning / Artificial Intelligence
