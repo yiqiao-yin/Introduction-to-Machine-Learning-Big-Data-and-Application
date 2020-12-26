@@ -6,7 +6,7 @@
 This github repo introduces a portfolio of probability theory, statistical inference, and applied machine learning topics.
 
 <p align="center">
-  <img width="600" src="https://github.com/yiqiao-yin/SML/blob/main/pics/main2.gif">
+  <img width="800" src="https://github.com/yiqiao-yin/SML/blob/main/pics/main2.gif">
 </p>
 
 
