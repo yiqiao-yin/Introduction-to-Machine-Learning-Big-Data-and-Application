@@ -36,10 +36,7 @@ There are the following philosophy I would like to address with my audience.
 
 ## Teaching Philosophy
 
-$$
-\begin{bmatrix}
-    r & s \\ s & t
-\end{bmatrix}
-$$
+$$\text{Passion}$$
+$$\text{Talent} \longleftrightarrow \text{Wealth}$$
 
 ## Philosophy with Machine Learning / Artificial Intelligence
