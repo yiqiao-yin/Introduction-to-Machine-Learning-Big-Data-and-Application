@@ -64,6 +64,8 @@ It is required to use the programming language R. I will explain the difference 
 - Do not worry about Windows or Macbook. The links provided above have download for both Windos and Macbook. 
 - For installation of the programming language Python, please use the link [here](https://www.python.org/downloads/). It is required that you install Python. This is because we will render Python language in IDE RStudio. 
 
+For dev purpose, please install Git (sometimes also called Git Bash) using links here for [Windows](https://git-scm.com/download/win). If you have a Macbook, it should be built in already. 
+
 # Philosophy
 
 There are the following philosophy I would like to address with my audience. 
