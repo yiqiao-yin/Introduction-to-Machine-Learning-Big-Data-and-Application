@@ -15,6 +15,20 @@ Yiqiao Yin is currently at [Columbia University](http://stat.columbia.edu/depart
 
 He uses the website [YinsCapital](https://yinscapital.com/) and his also has media coverage of interesting topics in Money Management, Machine Learning, Deep Learning, Interpretable ML, Artificial General Intelligence, eXpalinable AI, and Responsible AI on his [YouTube Channel: YinsCapital](https://youtube.com/YiqiaoYin/).
 
+| ITEMS  | LINK |
+| ------------- | ------------- |
+| Courses  | https://github.com/yiqiao-yin/SML#courses  |
+| - Pre Statistics  | https://github.com/yiqiao-yin/SML#pre-statistics  |
+| -- Materials  | https://github.com/yiqiao-yin/SML#materials  |
+| -- Resources and References  | https://github.com/yiqiao-yin/SML#resources-and-references  |
+| -- Software Installation  | https://github.com/yiqiao-yin/SML#software-installation  |
+| Philosophy  | https://github.com/yiqiao-yin/SML#philosophy  |
+| -- Teaching Philosophy  | https://github.com/yiqiao-yin/SML#teaching-philosophy-trinity-set  |
+| -- Philosophy with Machine Learning / Data Science / Artificial Intelligence  | https://github.com/yiqiao-yin/SML#philosophy-with-machine-learning--data-science--artificial-intelligence  |
+| -- What You Take Away From This Course  | https://github.com/yiqiao-yin/SML#what-you-take-away-from-this-course  |
+| -- Skill Sets  | https://github.com/yiqiao-yin/SML#skill-sets  |
+| -- Career Development  | https://github.com/yiqiao-yin/SML#career-development  |
+
 # Courses
 
 ## Pre Statistics
