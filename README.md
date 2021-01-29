@@ -11,9 +11,9 @@ This github repo introduces a portfolio of probability theory, statistical infer
 
 [Yiqiao Yin](https://www.linkedin.com/in/yiqiaoyin/): He received B.A. in [Mathematics](https://www.sas.rochester.edu/mth/) from [University of Rochester](https://www.rochester.edu/), [M.S. in Finance](https://simon.rochester.edu/programs/full-time-ms-in-finance) from University of Rochester [Simon Business School](https://simon.rochester.edu/), [M.A. in Statistics](https://stat.columbia.edu/masters-programs/) from [Columbia University](https://www.columbia.edu/). He has prior experience at T3 Trading as a Trader and at AQR Capital as a Quant. He also used to be an enterprise level Data Scientist at a EURO STOXX 50 company, Bayer. With three top hit skill sets (trading, quant, and data science) under his belt, he has a wide range of experience in financial analysis, quantitative modeling, statistical machine learning, representation learning, transfer learning, interpretable machine learning, computer vision, and so on.
 
-Yiqiao Yin is currently at Columbia University and he is doing research in developing interpretable machine learning algorithms for both theoretical and industrial practice.
+Yiqiao Yin is currently at [Columbia University](http://stat.columbia.edu/department-directory/name/yiqiao-yin/) and he is doing research in developing interpretable machine learning algorithms for both theoretical and industrial practice.
 
-He uses the website [YinsCapital](https://yinscapital.com/) and his also has media coverage of interesting topics in machine learning and Artificial Intelligence on his [channel](https://youtube.com/YiqiaoYin/).
+He uses the website [YinsCapital](https://yinscapital.com/) and his also has media coverage of interesting topics in Money Management, Machine Learning, Deep Learning, Interpretable ML, Artificial General Intelligence, eXpalinable AI, and Responsible AI on his [YouTube Channel: YinsCapital](https://youtube.com/YiqiaoYin/).
 
 # Courses
 
@@ -23,6 +23,12 @@ This course prepares high school students some basic and advanced understanding 
 
 ### Materials
 
+Required text (all links are publicly available):
+- Probability and Statistics: [Link](https://www.statlect.com/)
+- Introduction to Probability, Statistics and Random Processes: [Link](https://www.probabilitycourse.com/)
+- Seeing Theory: [Link](https://seeing-theory.brown.edu/)
+- Professor Shervine's Computer Science Courses at Stanford: [Link](https://stanford.edu/~shervine/teaching/)
+
 We focus on selected topics in the required textbooks above. Topics are described under Course Schedule below. For additional textbooks, please reach out to Yiqiao Yin for more resources. It is also recommended for students to have a working laptop or desktop. Please install R / RStudio for homework as well as capstone project.
 - R/RStudio (required): please refer to [RStudio Cloud](https://rstudio.cloud/), we will be using this IDE as main development environment
 - Python/Jupyter Lab (optional)
@@ -30,15 +36,24 @@ We focus on selected topics in the required textbooks above. Topics are describe
 
 ### Resources and References
 
-I refer topics from a combination of websites, textbooks, and course sites:
+Let me cite these resources again here (and more):
+
+For Probability and Statistics:
 - Probability and Statistics: [site](https://www.probabilitycourse.com/)
 - Stat Lecture: [site](https://www.statlect.com/)
+
+For Computer Science & Deep Learning:
 - Deep Learning: [site](https://www.deeplearningbook.org/lecture_slides.html)
 - Stanford CS 229: [site](https://stanford.edu/~shervine/teaching/cs-229/)
+- Columbia COMS 4995: [site](https://www.cs.columbia.edu/~amueller/comsw4995s19/schedule/)
+- Isabelle Guyon: [site](http://www.clopinet.com/isabelle/)
+- Trevor Hastie: [site](https://web.stanford.edu/~hastie/)
 
-In addition to textbooks listed above, please refer to the following resources for extra resourcew
-- Free digital textbooks on Probability and Statistics: https://www.statlect.com/
-- Introduction to Probability, Statistics, and Random Processes:  https://www.probabilitycourse.com/ 
+For Capstone Projects (Individual Research Project):
+- Tensorflow R Interface: [site](https://tensorflow.rstudio.com/guide/keras/)
+- RStudio AI Blog: [site](https://blogs.rstudio.com/ai/)
+
+For Online CoderPad (Technical Interview): 
 - Free Online Coding Platform (C++/Python/R/Matlab/Java all available): https://coderpad.io/launch-sandbox 
 
 # Philosophy
@@ -75,3 +90,32 @@ There are three stages of learning curves down the road of pursuing Machine Lear
 - Stage II: This stage is at intermediate level. This is a level where you already known plenty of topics and you probably already seen some interesting projects. You need to test and examine if you can reproduce or carry out these projects yourself by looking at a brand new data set. It is time to explore as many data sets as possible and to go through as many projects as possible independently. In brief, Stage II is about broaden your horizon. 
 
 - Stage III: This stage is at an advanced level. This level assumes you already went through Stage I and II. It means you know almost all of the tools and you have done plenty of projects independently and critically. However, through all these practices you have come across some issues that were never resolved by previous people (academically or industrial). You have gain some insights yourself about these issues and more importantly you have a solution that you found. It is time to come up with a software package to collect the tools you create and become the expert yourself. In brief, Stage II is about creation and your legacy. 
+
+## What You Take Away From This Course
+
+You only live once. Your life is your legacy! We all want to build a better world and a nice world. I am here to tell you: Ideals are peaceful. History is violent. 
+
+You are here because you are entering college. This means you leave home for the first time in a very long time and you are about to write your own legacy. So you want to work hard and you want to deliver. Be the kind of person who thrives and shines. Be the kind of person who others look up to and who others can learn from. Show others what life can be. Show others what legacy is about. 
+
+End of the day we are fighting off a common enemy: the extinction of mankind. Newton left us the laws in physics. Confucius left us laws in being the right person. Dr. MLK showed us what can be done as a regular citizen. Elon Musk sent a car to space. These are stories that will be told. These are the legacies we are left with. These are all noble work. What type of noble work will you choose do? What kind of tomorrow are you trying to build so you can start today?
+
+### Career
+
+I make the assumption that you are all here because you are somewhat interested in a tech job. Allow me to illustrate the taxonomy of "tech job" and what that means. 
+
+Software Engineer
+- Facebook SWE [Glassdoor](https://www.glassdoor.com/Salary/Facebook-Software-Engineer-Salaries-E40772_D_KO9,26.htm) [Facebook Career](https://www.facebook.com/careers/)
+- Amazon SWE [Glassdoor](https://www.glassdoor.com/Salary/Amazon-Software-Development-Engineer-I-Salaries-E6036_D_KO7,38.htm) [Amazon Career](https://www.amazon.jobs/en/search?base_query=Software+Engineer&loc_query=)
+- Google SWE [Glassdoor](https://www.glassdoor.com/Salary/Google-Software-Engineer-Salaries-E9079_D_KO7,24.htm) [Google Career](https://careers.google.com/jobs/results/?q=Software%20Engineer)
+- Netflix SWE [Glassdoor](https://www.glassdoor.com/Salary/Netflix-Software-Engineer-Salaries-E11891_D_KO8,25.htm) [Netflix Career](https://jobs.netflix.com/search?q=software%20engineer)
+
+Research Scientist (AI Focused)
+- DeepMind [Glassdoor](https://www.glassdoor.com/Salary/DeepMind-Salaries-E1596815.htm) [DeepMind Career](https://deepmind.com/careers)
+- Facebook AI Research (FAIR) [FAIR Career](https://ai.facebook.com/)
+- GoogleBrain [Homepage](https://research.google/teams/brain/) [Career](https://research.google/careers/)
+
+Data Scientist (Research Focused)
+- Research Scientist [Facebook Example](https://www.facebook.com/careers/v2/jobs/246967836398280/)
+
+Data Scientist (Data Cleanup Focused)
+- Data Scientist [Facebook Example](https://www.facebook.com/careers/v2/jobs/838729243359721/)
