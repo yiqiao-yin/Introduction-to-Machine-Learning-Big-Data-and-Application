@@ -99,7 +99,30 @@ You are here because you are entering college. This means you leave home for the
 
 End of the day we are fighting off a common enemy: the extinction of mankind. Newton left us the laws in physics. Confucius left us laws in being the right person. Dr. MLK showed us what can be done as a regular citizen. Elon Musk sent a car to space. These are stories that will be told. These are the legacies we are left with. These are all noble work. What type of noble work will you choose do? What kind of tomorrow are you trying to build so you can start today?
 
-### Career
+### Skill Sets
+
+Individual and Independent Github Opensource Package
+- You are responsible for the design of the package
+- You are responsible for the documentation and shipped code
+- You are capable of making a showcase what problems your package solves
+
+Area of Expertise: [Reference](https://career.bayer.com/en/career/working-at-bayer/functional-areas/datascience)
+- Embedded Advanced Analytics - close collaboration & dialogue with business
+- Scalable Analytics Solutions - development of scalable analytics tools & recommendations in close cooperation with IT
+- Innovative Data Science - experts on AI, machine learning, deep learning
+- Integrated Care Platform - platform for digital health solutions and data architecture design
+
+Skill Sets (you may end up developing): [Reference](https://www.facebook.com/careers/v2/jobs/246967836398280/)
+- Lead research to advance the science and technology of intelligent machines.
+- Lead research that enables learning the semantics of data (images, video, text, audio, speech and other modalities).
+- Devise better data-driven models of human behavior.
+- Work towards long-term ambitious research goals, while identifying intermediate milestones.
+- Influence progress of relevant research communities by producing publications.
+- Contribute research that can be applied to Facebook product development.
+- Lead and collaborate on research projects within a globally based team.
+
+
+### Career Development
 
 I make the assumption that you are all here because you are somewhat interested in a tech job. Allow me to illustrate the taxonomy of "tech job" and what that means. 
 
