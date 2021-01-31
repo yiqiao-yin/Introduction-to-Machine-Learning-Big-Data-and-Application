@@ -9,7 +9,7 @@ Experiments and Events:
 
 Conditional Probability: 
 
-- What is Bayes’ Theorem? 
 - How to model the Venn Diagram? 
+- What is Bayes’ Theorem? 
 - What is Law of Total Probability? 
 - What does it mean when we say two events are independent of each other?
