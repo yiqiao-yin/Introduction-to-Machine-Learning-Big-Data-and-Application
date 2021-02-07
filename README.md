@@ -164,3 +164,8 @@ Data Scientist (Research Focused)
 
 Data Scientist (Data Cleanup Focused)
 - Data Scientist [Facebook Example](https://www.facebook.com/careers/v2/jobs/838729243359721/)
+
+### Interview 
+
+Technical Interview:
+- R Questions: [27 R Questions](https://www.springboard.com/blog/27-essential-r-interview-questions-with-answers/)
