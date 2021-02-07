@@ -148,13 +148,25 @@ Skill Sets (you may end up developing): [Reference](https://www.facebook.com/car
 
 I make the assumption that you are all here because you are somewhat interested in a tech job. Allow me to illustrate the taxonomy of "tech job" and what that means. 
 
-Software Engineer
+Software Engineer: 
+
+Software engineering is a branch of computer science which includes the development and building of computer systems software and applications software. Computer systems software is composed of programs that include computing utilities and operations systems. Applications software consists of user-focused programs that include web browsers, database programs, etc.
+
+There is a lot of investment going into software engineering at the moment due to the increasing reliance on mobile technology, venture capital-backed start-ups, the growing complexity of technology, and emerging industries. The demand for skilled and qualified software engineers seems to have no end. This demand is strengthened by a changing economic landscape and fueled by the need for technology solutions. With billions of physical devices around the world that are now connected to the internet and that are collecting and sharing data, all industries are quickly becoming technology driven industries. [Reference](https://www.careerexplorer.com/careers/software-engineer/)
+
 - Facebook SWE [Glassdoor](https://www.glassdoor.com/Salary/Facebook-Software-Engineer-Salaries-E40772_D_KO9,26.htm) [Facebook Career](https://www.facebook.com/careers/)
 - Amazon SWE [Glassdoor](https://www.glassdoor.com/Salary/Amazon-Software-Development-Engineer-I-Salaries-E6036_D_KO7,38.htm) [Amazon Career](https://www.amazon.jobs/en/search?base_query=Software+Engineer&loc_query=)
 - Google SWE [Glassdoor](https://www.glassdoor.com/Salary/Google-Software-Engineer-Salaries-E9079_D_KO7,24.htm) [Google Career](https://careers.google.com/jobs/results/?q=Software%20Engineer)
 - Netflix SWE [Glassdoor](https://www.glassdoor.com/Salary/Netflix-Software-Engineer-Salaries-E11891_D_KO8,25.htm) [Netflix Career](https://jobs.netflix.com/search?q=software%20engineer)
 
-Research Scientist (AI Focused)
+Research Scientist (AI Focused):
+
+Research Scientists at Google work closely with Software Engineers to discover, invent, and build at the largest scale. Ideas may come from internal projects as well as from collaborations with researchers at partner universities and technical institutes all over the world. From creating experiments and prototyping implementations to designing new learning algorithms, Research Scientists work on challenges in machine perception, data mining, machine learning, and natural language understanding. As a Google Research Scientist, you will continue to be an active contributor to the wider research community by collaborating with academic researchers and by publishing papers.
+
+Researchers on the Google AI team have the freedom to set their research agenda and to engage as much or as little as they wish with existing products, choosing between doing more basic, methodological research or more applied research as necessary to produce the most compelling results. Because many of the advances we develop today may take years to become useful, the team as a whole maintains a portfolio of projects across this spectrum. It is our philosophy that making substantive progress on hard applications can help drive and sharpen the research questions we study, and in turn scientific breakthroughs can spawn entirely new applications.
+
+The Google AI team’s research focuses on methods that can learn multiple layers of rich, non-linear feature extractors and can scale to large amounts of data. Much of our work is best understood as part of the deep learning subfield of machine learning, but we are interested in any methods capable of efficient and effective feature learning that get good results on challenging problems. We have resources and access to projects impossible to find elsewhere. Our broad and fundamental research goals allow us to collaborate closely with and–contribute uniquely to–many different product teams across the company. [Google Example](https://careers.google.com/jobs/results/112893191134290630-research-scientist-google-ai-united-states/)
+
 - DeepMind [Glassdoor](https://www.glassdoor.com/Salary/DeepMind-Salaries-E1596815.htm) [DeepMind Career](https://deepmind.com/careers)
 - Facebook AI Research (FAIR) [FAIR Career](https://ai.facebook.com/)
 - GoogleBrain [Homepage](https://research.google/teams/brain/) [Career](https://research.google/careers/)
@@ -169,3 +181,4 @@ Data Scientist (Data Cleanup Focused)
 
 Technical Interview:
 - R Questions: [27 R Questions](https://www.springboard.com/blog/27-essential-r-interview-questions-with-answers/)
+- Python Questions: [Python Interview Questions](https://www.interviewbit.com/python-interview-questions/)
