@@ -14,8 +14,8 @@ The final project focuses on the field of deep learning. It is strongly recommen
 
 ### Requirements
 
-- All students should have an independent Github Repo for Capstone Project.
-- All students should have Github Repo set up following the structure of this course repo. This means everyone should have folders specifically dedicated to *docs*, *pics*, *scripts*, and so on. Each folder must have a *README* file explaining in a few sentences what the folder is about.
+- All students should have an independent Github Repo for Capstone Project. You are welcomed to copy/fork mine and develop from there. You do not have to start fresh. However, you must have README file in each folder.
+- All students should have Github Repo set up following the structure of this course repo. This means everyone should have folders specifically dedicated to *docs*, *pics*, *scripts*, and so on. Each folder must have a *README* file explaining in a few sentences what the folder is about. The capstone project must have one of the following output: (i) a notebook, (ii) a PDF, (iii) a graph, (iv) a table for presentation purpose. For example, in stock data, I have shown you a plot (the bullet curve). In visualization of *Pi*, I have shown you an animation. In deep learning script (we haven't discussed in depth yet), I have shown you a confusion table. 
 - All students must present using one or a combination of the following materials: Github repo, slides, or papers.
 
 ### Bonus
@@ -35,3 +35,5 @@ Sample Project:
 - Here is a basic example: [here](https://tensorflow.rstudio.com/tutorials/beginners/).
 - Basic Classification: [here](https://tensorflow.rstudio.com/tutorials/beginners/).
 - Basic Image Classification: [here](https://tensorflow.rstudio.com/tutorials/beginners/basic-ml/tutorial_basic_classification/).
+
+If you do not have any clue what project you should do, please feel free to directly work with one of the sample pages in the above links as your project. You can make small changes or baby steps of the script to twist the model to see if you can come up with something different.
