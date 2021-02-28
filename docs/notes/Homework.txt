@@ -1,0 +1,55 @@
+# HOMEWORK
+
+# HW 1
+
+- please refer to this page: https://github.com/yiqiao-yin/SML/blob/main/docs/pre-stats/Topic1.md
+- please simply "google" all the key words and see what you come what with, make a list of internet websites and hyperlinks of whatever you think it's important and related to these key words
+- ask yourself this question: why are these concepts helpful?
+
+# HW 2
+
+What is the mean and standard deviation of a uniform random variable?
+What is the marginal distribution of a joint distribution?
+What is a moment generating function? Why is it helpful?
+
+Coding exercise:
+Simulate an experiment (the exact framework as what we did in class): what does Pi look like? (Pi is 3.141592653 ....) Please refer to https://github.com/yiqiao-yin/SML/blob/main/scripts/R/topic2_LLN.R#L29-L42 if you are confused how to start.
+
+# HW 3
+
+Part I: 
+1. Given a sequence of data, what is the likelihood function?
+2. What is MLE?
+3. What is the asymptotic distribution for this MLE?
+4. What is hypothesis testing?
+Bonus: if you can write in mathematical form, that's even better. But it's not required.
+
+Part II:
+1. Go through this link: https://tensorflow.rstudio.com/tutorials/beginners/; and run line by line in RStudio and see if you can get them running. I would advise you to copy the code directly from website. But you should type the comment and try to understand what the comment is saying.
+2. Answer the following question about what do you want to do with your Capstone Project:
+(i) What is the topic of your capstone project? (It's strongly recommended to pick between FinTech, Machine Learning, or Deep Learning)
+(ii) What is an interesting you are trying to answer? (For example, how to visulize Pi is a question. As another example, how to allocate weights amongst different stocks?)
+(iii) What is your proposed solution? (It could be a direct application of a mathematical model, ex. we tried to apply Bernoulli idea in stocks data example, another example is we try to come up with a simulation to visualize pi)
+
+# HW4
+
+Please derive the following:
+
+I. MLE
+Given X1, X2, ... drawn from Normal(mu, sigma), assume mu is known. What is the MLE of sample mean (this is defined as the summation term we discussed in class).
+
+II. Asymptotic Distribution of MLE
+We discussed the final conclusion of asymptotic distribution. In doing so, we need expectationo of X-bar and variance of X-bar. I gave you the results. Derive them.
+
+III. Loss function and Gradient Descent
+We discussed in class what is loss function of MSE. In the procedure, we assume linear model y ~ bX. What do we do when the model is logistic? Derive this. (You simply take partial derivative of a logistic model). 
+
+IV. Capstone Project
+Please submit the following before the next class:
+- submit a github link (make sure you have a "script" folder and you have a sample script that is the neural network tutorial in it)
+- submit the answer to the following questions:
+What is the title of your project?
+What is the data of your project?
+What do you intend to do? 
+Are you able to create a final production?
+Comment: Whatever you do, you need to land on a final production that is either a table, chart, or animation.
