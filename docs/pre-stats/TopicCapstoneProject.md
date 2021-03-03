@@ -35,7 +35,7 @@ The final output of your capstone project is the following:
 
 ### Bonus
 
-For students who want to challenge themselves, it can be achieved to create a software package in *R*. The students should state clearly the following:
+For students who want to challenge themselves, students can seek out answers to the following questions:
 - What is the market for this software package?
 - What problem does this package solve?
 - What is the potential audience for this package?
