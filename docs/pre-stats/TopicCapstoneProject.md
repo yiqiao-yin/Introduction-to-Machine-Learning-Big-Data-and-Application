@@ -14,13 +14,28 @@ The final project focuses on the field of deep learning. It is strongly recommen
 
 ### Requirements
 
-- All students should have an independent Github Repo for Capstone Project. You are welcomed to copy/fork mine and develop from there. You do not have to start fresh. However, you must have README file in each folder.
+- All students must have an independent Github Repo for Capstone Project. You are welcomed to copy/fork mine and develop from there. You do not have to start fresh. However, you must have README file in each folder. For software package, you can copy my sample package repo [here](https://github.com/yiqiao-yin/YinsKerasNN).
 - All students should have Github Repo set up following the structure of this course repo. This means everyone should have folders specifically dedicated to *docs*, *pics*, *scripts*, and so on. Each folder must have a *README* file explaining in a few sentences what the folder is about. The capstone project must have one of the following output: (i) a notebook, (ii) a PDF, (iii) a graph, (iv) a table for presentation purpose. For example, in stock data, I have shown you a plot (the bullet curve). In visualization of *Pi*, I have shown you an animation. In deep learning script (we haven't discussed in depth yet), I have shown you a confusion table. 
 - All students must present using one or a combination of the following materials: Github repo, slides, or papers.
 
+Please read the following *Grading Scheme*:
+- Structure: You must have a Github repo as a final submission. This repo should have 
+    * README.md
+    * "scripts" folder (must)
+    * "docs" folder (must)
+    * "data" folder (if any)
+- Each folder must have its own README file (even if it's just one sentence). 
+- The "scripts" folder must have all your code saved in names you can recognize. 
+- The "docs" folder must have all your document (slides or PDF) for you to make presentation.
+- You must have an installable software package named after yourself. You can directly copy my sample package repo [here](https://github.com/yiqiao-yin/YinsKerasNN) and change everywhere with "Yins" to "YOUR_LASTNAME".
+
+The final output of your capstone project is the following:
+- You are a fundamental AI researcher and you can provide a pipeline to solve ONE type of AI problem. <= This can be elaborated to help you apply for any Quantitative Researcher or Data Scientist jobs.
+- You are a software programmer and you deliver code! You publish a deep learning software package and this open-source software speaks for your programming ability. <= This can help you to apply for Software Engineer jobs.
+
 ### Bonus
 
-For students who want to challenge themselves, it can be achieved to create a software package in *R*. The students should state clearly the following:
+For students who want to challenge themselves, students can seek out answers to the following questions:
 - What is the market for this software package?
 - What problem does this package solve?
 - What is the potential audience for this package?
