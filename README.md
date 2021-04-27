@@ -90,7 +90,9 @@ Teaching philosophy can be explained with the following diagram. The first eleme
 
 With the above definition given, the relationship of these three elements can be shown as the following diagram:
 
-![](https://github.com/yiqiao-yin/SML/blob/main/pics/AE2BA565-1B61-4990-A83A-4D7AE48ECB92.jpeg)
+<p align="center">
+  <img width="300" src="https://github.com/yiqiao-yin/SML/blob/main/pics/AE2BA565-1B61-4990-A83A-4D7AE48ECB92.jpeg">
+</p>
 
 - The left arrows connect Passion with Talent. If I am interested in a topic, it is more likely I spend more time on this topic. Then it makes sense I am getting better at it. The converse is also true. If I happen to stumble upon some skills that I am good at, it is veyr likely I want to keep doing things that way because I am good at it. It will make me fall in love of what I am doing. 
 
