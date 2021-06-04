@@ -78,7 +78,7 @@ For Online CoderPad (Technical Interview):
 It is required to use the programming language R. I will explain the difference of using Python and R.
 - For installation of the programming language R, please use the link [here](https://cran.r-project.org/bin/windows/base/) and click the big blue link that says "Download R 4.0.3. for Windows". In situation where the location is not in the United States, there could be different versions. Do not worry about this the version. 
 - For installation of the programming IDE RStudio (this is a different installation of R), please use the link [here](https://rstudio.com/products/rstudio/download/#download)
-- Do not worry about Windows or Macbook. The links provided above have download for both Windos and Macbook. 
+- Do not worry about Windows or Macbook. The links provided above have download for both Windows and Macbook. 
 - For installation of the programming language Python, please use the link [here](https://www.python.org/downloads/). It is required that you install Python. This is because we will render Python language in IDE RStudio. 
 
 For dev purpose, please install Git (sometimes also called Git Bash) using links here for [Windows](https://git-scm.com/download/win). If you have a Macbook, it should be built in already. 
