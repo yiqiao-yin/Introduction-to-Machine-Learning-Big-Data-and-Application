@@ -50,7 +50,7 @@ Post-Session Readings and Other Activities:
 - Class Laboratory Notebook Review: For-Loop Simulation Example Using Stock Data (stock data can be accessed using a library called “quantmod”)
 - Some basic R tutorial (simple algebra, matrix algebra, for loop, definition of a function).
 
-Day 3 – Understanding Value of Data. Introduction into Statistics for Data Science.
+## Day 3 – Understanding Value of Data. Introduction into Statistics for Data Science.
 
 Pre-Session Readings (peak any 2 articles):
 - What is financial statement? – Recall how to extract data
@@ -73,7 +73,7 @@ Afternoon Session – Topics and In-Class Activities:
 - Introduction to Exploratory Data Analysis (EDA): first insights from the data, summary statistics, outliers.
 - Group Exercise: Investigate the stock returns of your favorite stocks, animations of stock price behavior (R or Python).
 
-Day 4 – Data Visualization and Intermediate Statistical Concepts Towards Data Science
+## Day 4 – Data Visualization and Intermediate Statistical Concepts Towards Data Science
 
 Morning Session – Topics and In-Class Activities:
 - Class Laboratory: EDA of a dataset in R. 
@@ -92,7 +92,7 @@ Post-Session Readings and Other Activities:
 - Requirements: (i) use R Notebook for presentation and submit with R Markdown format (in one PDF document) (ii) select a data, (iii) pick an interesting question, (iv) provide a solution
 - Prepare a pitch of analytical project based on Assignment 1.
 
-Day 5 – Summary of the 1st Week and Introduction to Data Science
+## Day 5 – Summary of the 1st Week and Introduction to Data Science
 
 Morning Session – Topics and In-Class Activities:
 - Class Activity: Concepts Review.
@@ -111,7 +111,7 @@ Post-Session Readings and Other Activities:
 - Kaki King & Giorgia Lupi: "Bruises: The Data We Don't See", Talks at Google | [Link](https://www.youtube.com/watch?v=zi3jIT8cqgs) 
 - Technology Tackles Teen Suicide: TED Talk | [Link](https://www.ted.com/talks/tanmay_bakshi_technology_that_tackles_the_teen_suicide_epidemic?trk=organization-update-content_share-video-embed_share-article_title) 
 
-Day 6 – Introduction into Machine Learning
+## Day 6 – Introduction into Machine Learning
 
 Pre-Session Readings and Other Activities:
 - Prepare to share feedback on Storytelling with Data Videos and 1st Week’s Summary.
@@ -132,7 +132,7 @@ Afternoon Session - In-Class Activities:
 Post-Session Readings and Other Activities:
 - Data Visualization Challenge – Reproducing the Visualization
 
-Day 7 – Linear Regression & Logistic Regression
+## Day 7 – Linear Regression & Logistic Regression
 
 Pre-Session Readings and Other Activities:
 - Deciding on a representative from the group to present team status on the project
@@ -152,7 +152,7 @@ Post-Session Readings and Other Activities:
 - Building a linear regression model on a given dataset. 
 - Deep Learning Review | [Link](https://youtu.be/U1NLM91g0Kk) Watch this video and take some notes. Prepare for in-class discussion.
 
-Day 8 – Classification Algorithms I
+## Day 8 – Classification Algorithms I
 
 Pre-Session Readings and Other Activities:
 - Deciding on a representative from the group to present team status on the project
@@ -177,7 +177,7 @@ Post-Session Readings and Other Activities:
 - Building a logistic regression model on a given dataset. 
 - Building a neural network model on a given dataset.
 
-Day 9 - Classification Algorithms II
+## Day 9 - Classification Algorithms II
 
 Pre-Session Readings and Other Activities:
 - Deciding on a representative from the group to present team status on the project
@@ -201,7 +201,7 @@ Post-Session Readings and Other Activities:
 - Decision Trees in R. Running the code.
 - Lab: Introduction to Sci-kit Learn (Python, specifically training, testing, and performance; models include linear regression, logistic regression, decision-tree, and random forest)
 
-Day 10 – Supervised Machine Learning Review. Brief Introduction to Unsupervised Machine Learning: Clustering.
+## Day 10 – Supervised Machine Learning Review. Brief Introduction to Unsupervised Machine Learning: Clustering.
 
 Pre-Session Readings and Other Activities:
 - Deciding on a representative from the group to present team status on the project
@@ -217,7 +217,7 @@ Afternoon Session - In-Class Activities:
 - Class Laboratory: K-means implementation.
 - Project Time: Feature Engineering and Modeling. Choosing what technique works best to solve the problem. Looking into interpretation of the results.
 
-Day 11 - Text Mining and Natural Language Processing
+## Day 11 - Text Mining and Natural Language Processing
 
 Pre-Session Readings and Other Activities:
 - Deciding on a representative from the group to present team status on the project
@@ -236,7 +236,7 @@ Afternoon Session - In-Class Activities:
 - Optional: Predict stock price using LSTM. Ep1: Idea Explanation: [Link](https://youtu.be/oZRmrf6V62g) | Ep2: Code Review: [Link](https://youtu.be/L_yVdwCEK6w) 
 - Project time: Working towards interpretation of a model output. Using a model to predict. Evaluate the predictions quality.
 
-Day 12 – Reinforcement Learning and Data Ethics
+## Day 12 – Reinforcement Learning and Data Ethics
 
 Pre-session – Watch Boston Dynamics Videos
 - “Do You Love Me?” | [Link](https://youtu.be/fn3KWM1kuAw) 
@@ -257,7 +257,7 @@ Afternoon Session - In-Class Activities:
 - Class Discussion: Data Ethics
 - Continuation of group project.
 
-Day 13
+## Day 13
 
 Morning Session – Topics and In-Class Activities:
 - Project time: Finalizing project findings, assembling a presentation to share results of the project. Practicing presentation. 
@@ -269,7 +269,7 @@ Afternoon Session - In-Class Activities:
 Post-Session Readings and Other Activities:
 - Group Project submission
 
-Day 14
+## Day 14
 
 Pre-Session Readings and Other Activities:
 - Practicing group presentations
