@@ -1,5 +1,9 @@
 # Syllabus
 
+|    Schedule   |     LINK      |
+| ------------- | ------------- |
+|   Module I    |  [Day 1](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#day-1---introduction-to-data-analysis-big-data-and-ai) |
+
 ## Day 1 - Introduction to Data Analysis, Big Data and AI
 
 Pre-Session Readings and Assignments:
