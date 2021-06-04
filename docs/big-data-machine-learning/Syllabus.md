@@ -311,3 +311,5 @@ Afternoon Session - In-Class Activities:
 - Demo: GitHub. 
 - Data professions landscape
 - Class Activity: Reflections on the course and future steps.
+
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
