@@ -1,7 +1,7 @@
 # Syllabus
 
 |    Schedule   |     LINK      |
-| ------------- | ------------- |  ------------- |  ------------- |  ------------- |  ------------- |
+| ------------- | ------------- |
 |   Module I    |  [Day 1](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#day-1---introduction-to-data-analysis-big-data-and-ai) | [Day 2](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#day-2---data-science-process-from-a-problem-to-model-that-leads-to-a-solution) | [Day 3](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#day-3--understanding-value-of-data-introduction-into-statistics-for-data-science) | [Day 4](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#day-4--data-visualization-and-intermediate-statistical-concepts-towards-data-science) | [Day 5](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#day-5--summary-of-the-1st-week-and-introduction-to-data-science) |
 
 ## Day 1 - Introduction to Data Analysis, Big Data and AI
