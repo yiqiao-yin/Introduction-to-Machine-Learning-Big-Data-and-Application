@@ -19,14 +19,14 @@ Morning Session – Topics and In-Class Activities:
 - Class rules and policies.
 - Course overview.
 - Capstone Project (this is a project that each team presents on the last day of class, each team can be 3-5 people)
-- Requirements of Capstone Project (a Github link, a LaTex presentation using OverLeaf, and for bonus part a software package; discussion of potential usage of data sets)
+- Requirements of Capstone Project (a Github link, a LaTex presentation using [OverLeaf](https://www.overleaf.com/), and for bonus part a software package; discussion of potential usage of data sets)
 - Big picture (or mind-map) of statistical learning, machine learning, and artificial intelligence.
 
 Afternoon Session - Topics and In-Class Activities:
 - Data and Big Data
 - Introduction of Statistical Learning
 - R and other programming languages for analytics.
-- Class Lab: R and RStudio installation.
+- Class Lab: R and RStudio installation | [Link](https://www.rstudio.com/products/rstudio/download/).
 - Class Lab: Introduction to Overleaf
 
 Post-Session Readings and Assignments:
@@ -40,7 +40,7 @@ To go back to the Content, please click [here](https://github.com/yiqiao-yin/Int
 
 Morning Session – Topics and In-Class Activities:
 - Introduction to Data Analytics.
-- Introduction to Basic Statistics and Probability.
+- Introduction to Basic Statistics and Probability: [chance of events](https://seeing-theory.brown.edu/basic-probability/index.html), [expectation](https://seeing-theory.brown.edu/basic-probability/index.html), [variation](https://seeing-theory.brown.edu/basic-probability/index.html)
 - Class Activity: Introduction to Simulations.
 - Data Project: Create a mathematical simulation to solve a problem.
 
@@ -52,16 +52,16 @@ Afternoon Session – Topics and In-Class Activities:
 
 Post-Session Readings and Other Activities:
 - Class Laboratory Notebook Review: For-Loop Simulation Example Using Stock Data (stock data can be accessed using a library called “quantmod”)
-- Some basic R tutorial (simple algebra, matrix algebra, for loop, definition of a function).
+- Some basic R tutorial (simple algebra, matrix algebra, for loop, definition of a function), some advanced R (see [RStudio AI Blog](https://blogs.rstudio.com/ai/))
 
 To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
 
 ## Day 3 – Understanding Value of Data. Introduction into Statistics for Data Science.
 
 Pre-Session Readings (peak any 2 articles):
-- What is financial statement? – Recall how to extract data
+- What is financial statement? – Recall how to extract data | [Investopedia Financial Statement](https://www.investopedia.com/terms/f/financial-statements.asp) | [Bill Ackman Explanation of Financial Statement](https://www.businessinsider.com/bill-ackman-on-basics-of-finance-and-investing-2015-3)
 - What are fundamental indicators?  - Recall how to manipulate data
-- What is algorithmic trading? Recall data collection.
+- What is algorithmic trading? Recall data collection | [AQR Research](https://www.aqr.com/Insights/Research) | [MorningStar Barometer](https://www.morningstar.com/)
 - Case Study: Long-term Capital Management | [Link](https://en.wikipedia.org/wiki/Long-Term_Capital_Management) 
 
 Morning Session – Topics and In-Class Activities:
