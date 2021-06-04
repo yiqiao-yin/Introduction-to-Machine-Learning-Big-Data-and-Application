@@ -3,11 +3,11 @@
 ## Day 1 - Introduction to Data Analysis, Big Data and AI
 
 Pre-Session Readings and Assignments:
-•	Participate in the Getting Acquainted discussion forum before the Class Session.
+- Participate in the Getting Acquainted discussion forum before the Class Session.
 
 Morning Session – Topics and In-Class Activities:
-•	Introductions and Icebreaker (get to know each other!)
-•	Class Activity: Introduction exercise. 
+- Introductions and Icebreaker (get to know each other!)
+- Class Activity: Introduction exercise. 
 •	Class rules and policies. 
 •	Course overview.
 •	Capstone Project (this is a project that each team presents on the last day of class, each team can be 3-5 people)
