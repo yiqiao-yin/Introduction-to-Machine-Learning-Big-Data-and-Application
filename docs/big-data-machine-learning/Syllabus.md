@@ -25,8 +25,10 @@ Morning Session – Topics and In-Class Activities:
 Afternoon Session - Topics and In-Class Activities:
 - Data and Big Data
 - Introduction of Statistical Learning
+- What is machine learning and modern day Artificial Intelligence? | Video (Scan His Fight Pattern): [here](https://www.youtube.com/watch?v=rKl4-zC1WZs)
 - R and other programming languages for analytics.
 - Class Lab: R and RStudio installation | [Link](https://www.rstudio.com/products/rstudio/download/).
+- Class Lab: Basic R Tutorial | [Source](https://www.guru99.com/r-tutorial.html?fbclid=IwAR3y_DTc5h0h099bWRy5xgyoARrVWX-OW74bSk-mWo86BowzGqb09yK_AvA)
 - Class Lab: Introduction to Overleaf
 
 Post-Session Readings and Assignments:
