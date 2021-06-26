@@ -28,7 +28,7 @@ Afternoon Session - Topics and In-Class Activities:
 - What is machine learning and modern day Artificial Intelligence? | Video (Scan His Fight Pattern): [here](https://www.youtube.com/watch?v=rKl4-zC1WZs)
 - R and other programming languages for analytics.
 - Class Lab: R and RStudio installation | [Link](https://www.rstudio.com/products/rstudio/download/).
-- Class Lab: Basic R Tutorial | [Source](https://www.guru99.com/r-tutorial.html?fbclid=IwAR3y_DTc5h0h099bWRy5xgyoARrVWX-OW74bSk-mWo86BowzGqb09yK_AvA)
+- Class Lab: Basic R Tutorial | [Source 1](https://www.guru99.com/r-tutorial.html?fbclid=IwAR3y_DTc5h0h099bWRy5xgyoARrVWX-OW74bSk-mWo86BowzGqb09yK_AvA) [Source 2](https://bookdown.org/rdpeng/rprogdatascience/)
 - Class Lab: Introduction to Overleaf
 
 Post-Session Readings and Assignments:
@@ -49,12 +49,12 @@ Morning Session – Topics and In-Class Activities:
 Afternoon Session – Topics and In-Class Activities:
 - Data collection. Sources of data. 
 - Class Activity: Data sources exploration. How to extract data? How to manipulate data?
-- Class Laboratory: Variables, data types and structures, operators, loops, functions.
+- Class Laboratory: Variables, data types and structures, operators, loops, functions | [Source](https://bookdown.org/rdpeng/rprogdatascience/)
 - Class Discussion: Learn to ask the right questions and provide mathematical modeling for applying basic programming concepts.
 
 Post-Session Readings and Other Activities:
 - Class Laboratory Notebook Review: For-Loop Simulation Example Using Stock Data (stock data can be accessed using a library called “quantmod”)
-- Some basic R tutorial (simple algebra, matrix algebra, for loop, definition of a function), some advanced R (see [RStudio AI Blog](https://blogs.rstudio.com/ai/))
+- Some basic R tutorial (simple algebra, matrix algebra, for loop, definition of a function), some basic R (see [BookDown: R for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)) and advanced R (see [RStudio AI Blog](https://blogs.rstudio.com/ai/))
 
 To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
 
