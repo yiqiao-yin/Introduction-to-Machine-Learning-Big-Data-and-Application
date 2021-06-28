@@ -43,7 +43,8 @@ To go back to the Content, please click [here](https://github.com/yiqiao-yin/Int
 Morning Session – Topics and In-Class Activities:
 - Introduction to Data Analytics.
 - Introduction to Basic Statistics and Probability: [chance of events](https://seeing-theory.brown.edu/basic-probability/index.html), [expectation](https://seeing-theory.brown.edu/basic-probability/index.html), [variation](https://seeing-theory.brown.edu/basic-probability/index.html)
-- Class Activity: Introduction to Simulations.
+- Lab: Some more basic R command and problem thinking with code
+- Class Activity: Introduction to Simulations. [MCMC Simulation](https://github.com/yiqiao-yin/YinsCapital/blob/master/R/MCMC_Simulation.R)
 - Data Project: Create a mathematical simulation to solve a problem.
 
 Afternoon Session – Topics and In-Class Activities:
