@@ -25,3 +25,10 @@ This section describes the proposed model and the architecture (some diagram).
 
 - Hard way: you can design a new model. Originally, we have the data $X$ and the model $f(\cdot)$ with educated guess of $\hat{Y}_1 = f(X)$. Now I propose a new model $g(\cdot)$. Then we have new educated guess $\hat{Y}_2 = g(X)$. I land on presenting the empirical evidence that $\hat{Y}_2$ is more accurate then $\hat{Y}_1$. A good example is in this [post](https://towardsdatascience.com/lazy-predict-fit-and-evaluate-all-the-models-from-scikit-learn-with-a-single-line-of-code-7fe510c7281). One can write each function yourself or use packages such as *lazypredict* to come up with many results once. Next one can propose to use a different model with high accuracy.
 
+Remark: there are situations when we need to insert code in a markdown file. We can do the following
+
+```
+x = rnorm(10)
+hist(x)
+```
+
