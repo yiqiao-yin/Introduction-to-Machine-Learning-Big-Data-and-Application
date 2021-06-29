@@ -46,7 +46,7 @@ Morning Session – Topics and In-Class Activities:
 - Lab: Some more basic R command and problem thinking with code
 - Class Activity: Introduction to Simulations.
 - Data Project: Create a mathematical simulation to solve a problem.
-- Lab: some simulation exercises [MCMC Simulation](https://github.com/yiqiao-yin/YinsCapital/blob/master/R/MCMC_Simulation.R), [Visualization of Pi](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/scripts/R/2021Spring/topic3_VisualizePi.R)
+- Lab: some simulation exercises [MCMC Simulation](https://github.com/yiqiao-yin/YinsCapital/blob/master/R/MCMC_Simulation.R), [Visualization of Pi](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/scripts/R/2021Spring/topic3_VisualizePi.R), [Intro to R](https://github.com/yiqiao-yin/intro_statistics_R)
 
 Afternoon Session – Topics and In-Class Activities:
 - Data collection. Sources of data. 
@@ -96,7 +96,7 @@ Morning Session – Topics and In-Class Activities:
 Afternoon Session - In-Class Activities:
 - Video: Hans Rosling’s data visualization | [Link](https://youtu.be/jbkSRLYSojo)
 - Class Activity: Use dygraph or plotly packages to tell stories from data. 
-- Visualization in R (packages such as dygraph and plotly).
+- Visualization in R (packages such as dygraph and plotly). [My library: Growth Strategy (see notes for the code)](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/tree/main/docs/big-data-machine-learning/notes)
 - Visualization in Python (plotly).
 
 Post-Session Readings and Other Activities:
