@@ -71,11 +71,13 @@ Pre-Session Readings (peak any 2 articles):
 Morning Session – Topics and In-Class Activities:
 - Data-driven Thinking: intrinsic and extrinsic value of data.
 - Class Discussion: Think in statistical and financial approaches what is the best way to predict stock price?
+- Lab: [Basic Plots](https://github.com/yiqiao-yin/YinsCapital/blob/master/R/Overview_Plot.R), [Interactive Plots](https://github.com/yiqiao-yin/YinsCapital/blob/master/R/Basic_Plot.R), [Many Other Plots](https://github.com/yiqiao-yin/YinsCapital/blob/master/R/AutoViz_Portfolio.R)
 - Introduction to statistics for data analysis: sample and population. 
 - Law of Large Number and how is it applied?
 - Measures of central tendency.
 - Central Limit Theorem.
 - Markov Inequality.
+- Lab: [Stock Market Random Walk](https://github.com/yiqiao-yin/Communicating-Statistics/blob/master/script/market_cap_ret_paths_bm.R)
 
 Afternoon Session – Topics and In-Class Activities:
 - Class Activity: What does stock return look like? 
