@@ -64,7 +64,7 @@ To go back to the Content, please click [here](https://github.com/yiqiao-yin/Int
 
 Pre-Session Readings (peak any 2 articles):
 - What is financial statement? – Recall how to extract data | [Investopedia Financial Statement](https://www.investopedia.com/terms/f/financial-statements.asp) | [Bill Ackman Explanation of Financial Statement](https://www.businessinsider.com/bill-ackman-on-basics-of-finance-and-investing-2015-3)
-- What are fundamental indicators?  - Recall how to manipulate data
+- What are fundamental indicators? - Recall how to manipulate data | [Money Flow Diagram](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/relations-between-financial-statement-example.jpg)
 - What is algorithmic trading? Recall data collection | [AQR Research](https://www.aqr.com/Insights/Research) | [MorningStar Barometer](https://www.morningstar.com/)
 - Case Study: Long-term Capital Management | [Link](https://en.wikipedia.org/wiki/Long-Term_Capital_Management) 
 
