@@ -83,7 +83,8 @@ Afternoon Session – Topics and In-Class Activities:
 - Class Activity: What does stock return look like? 
 - Preparing for analysis: How to extract data? How to process data?
 - Introduction to Exploratory Data Analysis (EDA): first insights from the data, summary statistics, outliers.
-- Group Exercise: Investigate the stock returns of your favorite stocks, animations of stock price behavior (R or Python).
+- Take-home Exercise: Investigate the stock returns of your favorite stocks, animations of stock price behavior (R or Python).
+- Lab: Python tutorial
 
 To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
 
