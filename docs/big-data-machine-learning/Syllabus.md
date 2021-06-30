@@ -78,6 +78,7 @@ Morning Session – Topics and In-Class Activities:
 - Central Limit Theorem.
 - Markov Inequality.
 - Lab: [Stock Market Random Walk](https://github.com/yiqiao-yin/Communicating-Statistics/blob/master/script/market_cap_ret_paths_bm.R)
+- Lab: [MCTS](https://github.com/yiqiao-yin/Communicating-Statistics/blob/master/script/mc_sim_tree_search.R)
 - Video: [Reinforcement Learning Car](https://www.youtube.com/watch?v=Aut32pR5PQA)
 
 Afternoon Session – Topics and In-Class Activities:
