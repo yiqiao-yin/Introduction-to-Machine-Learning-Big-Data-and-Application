@@ -114,12 +114,14 @@ To go back to the Content, please click [here](https://github.com/yiqiao-yin/Int
 ## Day 5 – Summary of the 1st Week and Introduction to Data Science
 
 Morning Session – Topics and In-Class Activities:
-- Class Activity: Concepts Review.
-- Class Laboratory: Building your first R package. 
+- Class Activity: Overview of Module I.
+- Class Laboratory: Building your first R package.
 - Seminar: Storytelling with Data, Reproducible Software Package.
+- Lab: Dataset: [Housing Price](https://rpubs.com/ablythe/520912)
+- Project Discussion: [Recall this markdown file](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/notes/Day2.md)
 
 Afternoon Session - In-Class Activities:
-- Exploratory and explanatory analysis.  Audience analysis as a tool to efficiently convey findings. 
+- Exploratory and explanatory analysis. Audience analysis as a tool to efficiently convey findings. 
 - Context of storytelling. 
 - Class Discussion: Types of audiences. Difference in delivery to different audiences. 
 - Group Project Introduction. 
