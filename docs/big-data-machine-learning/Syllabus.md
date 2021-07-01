@@ -101,7 +101,7 @@ Morning Session – Topics and In-Class Activities:
 Afternoon Session - In-Class Activities:
 - Video: Hans Rosling’s data visualization | [Link](https://youtu.be/jbkSRLYSojo)
 - Class Activity: Use dygraph or plotly packages to tell stories from data. 
-- Visualization in R (packages such as dygraph and plotly). [My library: Growth Strategy (see notes for the code)](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/tree/main/docs/big-data-machine-learning/notes)
+- Visualization in R (packages such as dygraph and plotly). [My library: Growth Strategy](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/bfa7eaaad8066c744617538b7e09dfdf9ad74ddc/scripts/R/2021Summer/day_4.R#L209-L407)
 - Visualization in Python (plotly).
 
 Post-Session Readings and Other Activities:
