@@ -19,3 +19,10 @@ Note:
 - $\beta$'s are linear coefficients, there are fixed ways of finding them
 - $\epsilon$: this is the error term, it is whatever this formula cannot model (or cannot learn)
 - $\beta_0$: this is the constant term
+
+Assumptions:
+- Linearity: we first assume that the model is in additive form that consists of the variables $X$'s
+- Multivariate normality: this assumes that the data is coming from normal distribution and same with when we have more than one variables recall the *rnorm()* function that we used in R
+- No multicollinearity: this assumes your variables are *independent* with each other
+- No auto-correlation: this is specifically in time-series data set, ex: in stock data, there is auto-correlation (this means today's stock price/return is highly correlated with yesterdays')
+- Homoscedasticity: this means we have constant variance in our model (refer to the error term $\epsilon$), ex: in stock market, the volatility (which is computed from the variance) is not constant, in this case, you want to either avoid using the linear regression algorithm or use new sets of variables 
