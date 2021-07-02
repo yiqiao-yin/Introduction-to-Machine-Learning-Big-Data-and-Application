@@ -34,3 +34,5 @@ $$\log\bigg(\frac{\mathbb{P}(Y=1|X)}{1 - \mathbb{P}(Y=1|X)}\bigg) = \sum_{j=1}^K
 and here the log-odds is the ratio of $\mathbb{P}(Y)$ over $1 - \mathbb{P}(Y)$.
 
 Let us derive what $\mathbb{P}(Y)$ is based on the above model.
+
+How to interpret it intuitively? Check [here](https://towardsdatascience.com/logistic-regression-derived-from-intuition-d1211fc09b10)
