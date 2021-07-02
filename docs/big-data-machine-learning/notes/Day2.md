@@ -14,6 +14,7 @@ Why is it interesting? What is the motivation? If you successfully build what yo
 
 In scholarly writing, this is also called *Literature Review*. In this section, we would briefly explain what are some existing models out there and what their performances are. 
 
+- Example: check out [Kaggle](https://www.kaggle.com/datasets)
 - Example: check out [UCI](https://archive.ics.uci.edu/ml/index.php)
 - Example: check out [PaperWithCode](https://paperswithcode.com/datasets)
 
