@@ -26,3 +26,9 @@ Assumptions:
 - No multicollinearity: this assumes your variables are *independent* with each other
 - No auto-correlation: this is specifically in time-series data set, ex: in stock data, there is auto-correlation (this means today's stock price/return is highly correlated with yesterdays')
 - Homoscedasticity: this means we have constant variance in our model (refer to the error term $\epsilon$), ex: in stock market, the volatility (which is computed from the variance) is not constant, in this case, you want to either avoid using the linear regression algorithm or use new sets of variables 
+
+# Logistic Regression
+
+The logistic regression model assumes that the log-odds of an observation $Y$ can be expressed using linear model. This can be considered as a linear model get tossed inside a link function (a link function is a non-linear function).
+$$\log\frac{\mathbb{P}(Y)}{1 - \mathbb{P}(Y)} = \sum_{j=1}^K \beta_j X_j$$
+and here the log-odds is the ratio of $\mathbb{P}(Y)$ over $1 - \mathbb{P}(Y)$
