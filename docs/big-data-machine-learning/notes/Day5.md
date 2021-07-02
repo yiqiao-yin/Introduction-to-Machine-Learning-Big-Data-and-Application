@@ -11,3 +11,11 @@ Note:
 - $\mathbb{E}(...)$: this means the expectation of something (recall empirical average)
 - $\mathbb{E}(Y|X)$: this is the average of $Y$ given the information of $X$, it is an educated guess of what $Y$ can be based on the information of $X$
 - $\mathbb{E}(Y - \mathbb{E}(...))$: this is the loss function, the mistakes our educated guess is making when we compare them with the real target $Y$
+
+Now we know the problem, the model of linear regression takes the following form:
+$$Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \epsilon$$
+
+Note:
+- $\beta$'s are linear coefficients, there are fixed ways of finding them
+- $\epsilon$: this is the error term, it is whatever this formula cannot model (or cannot learn)
+- $\beta_0$: this is the constant term
