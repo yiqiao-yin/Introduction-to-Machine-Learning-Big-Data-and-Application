@@ -36,3 +36,14 @@ and here the log-odds is the ratio of $\mathbb{P}(Y)$ over $1 - \mathbb{P}(Y)$.
 Let us derive what $\mathbb{P}(Y)$ is based on the above model.
 
 How to interpret it intuitively? Check [here](https://towardsdatascience.com/logistic-regression-derived-from-intuition-d1211fc09b10)
+Logistic Regression Explained: [StatQuest](https://www.youtube.com/watch?v=yIYKR4sgzI8)
+
+# Machine Learning Introduction
+
+A basic concept in machine learning is the partition on the same data set. The purpose of partitioning data set is to ensure that we have an honest artificial environment for the machines to learn and to have their performances examined. The learning or the training procedure of a machine is done using training set. This is a scenario where I know the true label (aka ground truth). Once I am happy with the results, we will test the performance on a test set that is never seen before. In some occasion where there is tuning procedure, we need separate training and validating environment to check the performance of a machine under different models or tuning parameters. This is the situation where we need to partition our raw data into training, validating, and testing. Suppose we have two models: $f_1()$ and $f_2()$. We can use $f_1()$ and $f_2()$ both on training and validating set. We suppose validating set was not seen by $f_1()$ and $f_2()$ during the training process. We then observe the validating performance and we can pick the best one, say $f_1()$. Last, we can use this model $f_1()$ to performance on the test set to see what the test result it.  
+- Training Set vs. Validating Set vs. Testing Set: [video](https://www.youtube.com/watch?v=PIRQY6xmNZY)
+- Bias Variance Trade-off: [video](https://youtu.be/EuBBz3bI-aA)
+
+Loss function or Cost function is another big component of machine learning. In plain English, a loss function between two vectors refer to some sort of measure of distance between these two vectors. Based on the definition of different types of loss functions, we can come up with certain measure of how far away one vector is from another. Intuitively speaking, one vector can be the ground truth. Another vector can be our educated guesses from our machine learning algorithm. It is obvious that we want the educated guesses to be as close to the ground truth as possible. 
+- Here is a quick python tutorial of using loss function such as mean square error, [here](https://www.youtube.com/watch?v=uD1Dfz0aqkA)
+- A list of different video, [here](https://www.youtube.com/watch?v=QBbC3Cjsnjg)
