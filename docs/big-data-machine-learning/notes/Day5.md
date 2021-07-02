@@ -30,7 +30,7 @@ Assumptions:
 # Logistic Regression
 
 The logistic regression model assumes that the log-odds of an observation $Y$ can be expressed using linear model. This can be considered as a linear model get tossed inside a link function (a link function is a non-linear function).
-$$\log\frac{\mathbb{P}(Y=1|X)}{1 - \mathbb{P}(Y=1|X)} = \sum_{j=1}^K \beta_j X_j$$
+$$\log\big(\frac{\mathbb{P}(Y=1|X)}{1 - \mathbb{P}(Y=1|X)}\big) = \sum_{j=1}^K \beta_j X_j$$
 and here the log-odds is the ratio of $\mathbb{P}(Y)$ over $1 - \mathbb{P}(Y)$.
 
 Let us derive what $\mathbb{P}(Y)$ is based on the above model.
