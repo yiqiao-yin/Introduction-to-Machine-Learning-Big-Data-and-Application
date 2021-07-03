@@ -191,17 +191,18 @@ Morning Session – Topics and In-Class Activities:
 - Introduction to Classification Problems. 
 - Binary and multiclass classifications. Brief introduction to hard and soft classifications.
 - Introduction to Artificial Neural Network.
-- Class Exercise: Business cases for classification problem.
 - Evaluation metrics for classification algorithms. Confusion Matrix. Area-Under-Curve.
+- Lab: Linear Regression Model | [LM](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/lm), [Keras](https://www.datatechnotes.com/2019/01/regression-example-with-keras-in-r.html)
 
 Afternoon Session - In-Class Activities:
 - Logistic Regression.
 - Class Laboratory: Logistic Regression, Artificial Neural Network (Shallow Neural Network, Deep Neural Network)
+- Lab: Logistic Regression: | [GLM](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/glm), [Keras](https://github.com/yiqiao-yin/YinsLibrary__/blob/master/r/KerasNN.R)
 - Group coding Activity: Use Python in R, Keras Tensorflow exercise in R.
-- Project Time: Preprocessing the data. Moving towards tidy data.  
+- Project Time: Preprocessing the data. Moving towards tidy data.
 
 Post-Session Readings and Other Activities:
-- Building a logistic regression model on a given dataset. 
+- Building a logistic regression model on a given dataset.
 - Building a neural network model on a given dataset.
 
 To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
