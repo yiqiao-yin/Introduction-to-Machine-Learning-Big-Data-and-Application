@@ -3,8 +3,7 @@
 The ability to read and analyze [financial statement](https://www.investopedia.com/terms/f/financial-statements.asp) is crucial at excavating hidden secrets in business operations and investment activities when making financial or investment decisions.
 
 A brief highlight of the important relationships can be the following:
-
-[!image](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/relations-between-financial-statement-example.jpg)
+<p align="center"><img src="https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/relations-between-financial-statement-example.jpg"/></p>
 
 # Trader and Investor
 
@@ -18,6 +17,5 @@ The Fama French 3-Factor Model, or [FF3](https://en.wikipedia.org/wiki/Fama%E2%8
 
 Disregard the direction and approaches of an individual's trading or investment style, it is difficult to reject the conclusion that stock returns act like Brownian Motion. A reasonable person would feel indifferent and would have realized very little difference between the animation of a Bronian Motion versus that of stock returns.
 
-[!image](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/brownian-motion.gif)
-
-[!image](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/cross-section-stock-returns.gif)
+<p align="center", width="30px"><img src="https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/brownian-motion.gif"/>
+<img src="https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/cross-section-stock-returns.gif"/></p>
