@@ -138,6 +138,8 @@ To go back to the Content, please click [here](https://github.com/yiqiao-yin/Int
 
 Pre-Session Readings and Other Activities:
 - Prepare to share feedback on Storytelling with Data Videos and 1st Week’s Summary.
+- Class-related installation required (IT MUST BE IN THIS ORDER!! This way we can avoid unnecessary bugs): Most students should have R and Python installed. The following is the order to get tensorflow (a deep learning library) installed into your computer. The order is to get it installed in python first. Then go to RStudio to install a R version there. Please install python (in case you haven't already): download [here](https://www.python.org/downloads/). Next, in a python environment (python, any jupyter is fine), please [install tensorflow](https://www.tensorflow.org/install/pip). Last, go to RStudio, install [R tensorflow](https://tensorflow.rstudio.com/guide/keras/). In case anything failed to run, it is completely okay to run tensorflow in python directly (you do not have to go through R). Worst case scenario, one can always just skip all installation and run python tensorflow in [Google Colab](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb) (all you need is a Gmail account).
+
 Morning Session – Topics and In-Class Activities:
 - Class Laboratory: EDA of a dataset with apply/plyr/dplyr in R. Visualizations as a part of EDA.
 - Introduction into machine learning. Supervised and unsupervised learning. Machine learning for prediction and interpretation.
