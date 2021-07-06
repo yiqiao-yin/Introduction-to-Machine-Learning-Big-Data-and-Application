@@ -6,7 +6,9 @@ There are three major types of *Representation Learning*.
 
 The architecture of a basic Artificial Neural Network (ANN) is the following
 $$
+\text{Input variables:} \rightarrow
 [\vdots] \rightarrow [\vdots]
+\text{output: predictions}
 $$
 
 - *Regressor*: This type of ANN learns from $X$ and produces an estimated value of $Y$ while $Y$ is continuous. The common loss function is [MSE](https://towardsdatascience.com/https-medium-com-chayankathuria-regression-why-mean-square-error-a8cad2a1c96f).
