@@ -12,9 +12,7 @@ $$
 \text{output: predictions}
 $$
 
-$$\begin{bmatrix}
-    a & b \\ b & c
-\end{bmatrix}$$
+$$\stackrel{\circ}{\circ}$$
 
 
 
