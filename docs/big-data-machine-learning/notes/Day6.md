@@ -10,7 +10,8 @@ $$
 \vdots
 \end{bmatrix}}_\text{input}
 \rightarrow
-\underbrace{\begin{bmatrix}
+\underbrace{
+\begin{bmatrix}
 \vdots
 \end{bmatrix}}_\text{output}
 $$
