@@ -27,6 +27,10 @@ Assumptions:
 - No auto-correlation: this is specifically in time-series data set, ex: in stock data, there is auto-correlation (this means today's stock price/return is highly correlated with yesterdays')
 - Homoscedasticity: this means we have constant variance in our model (refer to the error term $\epsilon$), ex: in stock market, the volatility (which is computed from the variance) is not constant, in this case, you want to either avoid using the linear regression algorithm or use new sets of variables 
 
+For example, let $X_1$ be number of bedrooms and let $X_2$ be squre foot of the real estate. Suppose $Y$ is our target and it is the sales price of this real estate. In short, this dataframe has 3 columns (sales price, number of bedrooms, and square foot). The linear regression model takes the following form
+$$Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \epsilon$$
+while $\epsilon$ is the error (aka noise, referring the component in the data that cannot be modeled by $X_1$ and $X_2$). For example, say the model is done. We have $\beta_1 = 3$. This means one unit of increase in the number of bedrooms can increase the sales price by 3. 
+
 # Logistic Regression
 
 The logistic regression model assumes that the log-odds of an observation $Y$ can be expressed using linear model. This can be considered as a linear model get tossed inside a link function (a link function is a non-linear function).
