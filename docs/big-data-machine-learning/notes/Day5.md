@@ -31,6 +31,10 @@ For example, let $X_1$ be number of bedrooms and let $X_2$ be squre foot of the 
 $$Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \epsilon$$
 while $\epsilon$ is the error (aka noise, referring the component in the data that cannot be modeled by $X_1$ and $X_2$). For example, say the model is done. We have $\beta_1 = 3$. This means one unit of increase in the number of bedrooms can increase the sales price by 3. 
 
+In general, we can write
+$$Y = \beta_0 + \sum_{j=1}^p \beta_j X_j + \epsilon$$
+which allows a multivariate linear regression model to have $p$ variables.
+
 # Logistic Regression
 
 The logistic regression model assumes that the log-odds of an observation $Y$ can be expressed using linear model. This can be considered as a linear model get tossed inside a link function (a link function is a non-linear function).
