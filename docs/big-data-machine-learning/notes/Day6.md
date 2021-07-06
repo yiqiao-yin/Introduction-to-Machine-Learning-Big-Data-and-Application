@@ -12,11 +12,10 @@ $$
 \text{output: predictions}
 $$
 
-$$
-\begin{pmatrix}
-1 & 2 & 3\\
-a & b & c
-\end{pmatrix}$$
+$\begin{bmatrix} u\\e \end{bmatrix}  \sim 
+N (\begin{bmatrix}0\\0\end{bmatrix},
+\begin{bmatrix} G(\sigma_g) &0\\ 0 &R(\sigma_{\gamma})\end{bmatrix})$
+
 
 - *Regressor*: This type of ANN learns from $X$ and produces an estimated value of $Y$ while $Y$ is continuous. The common loss function is [MSE](https://towardsdatascience.com/https-medium-com-chayankathuria-regression-why-mean-square-error-a8cad2a1c96f). In a neural network architecture that is designed as a regressor (predict a continuous variable, i.e. like regression model), we output one neuron.
 $$
