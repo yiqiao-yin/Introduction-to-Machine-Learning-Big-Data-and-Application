@@ -12,10 +12,10 @@ $$
 \text{output: predictions}
 $$
 
-$\begin{table}
+$\begin{bmatrix}
 a \\
 b \\
-\end{table}$
+\end{bmatrix}$
 
 
 
