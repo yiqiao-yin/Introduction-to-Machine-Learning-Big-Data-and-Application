@@ -12,10 +12,10 @@ $$
 \text{output: predictions}
 $$
 
-$$\begin{array}{l}
+$\begin{tabular}
 a \\
 b \\
-\end{array}$$
+\end{tabular}$
 
 
 
