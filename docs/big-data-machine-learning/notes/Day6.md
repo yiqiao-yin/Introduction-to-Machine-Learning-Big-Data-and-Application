@@ -6,8 +6,9 @@ There are three major types of *Representation Learning*.
 
 The architecture of a basic Artificial Neural Network (ANN) is the following
 $$
-\text{Input variables:} \rightarrow
+\text{input variables:} \rightarrow
 [\vdots] \rightarrow [\vdots]
+\rightarrow
 \text{output: predictions}
 $$
 
