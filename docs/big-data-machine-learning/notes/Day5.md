@@ -37,9 +37,9 @@ which allows a multivariate linear regression model to have $p$ variables.
 
 # Logistic Regression
 
-The logistic regression model assumes that the log-odds of an observation $Y$ can be expressed using linear model. This can be considered as a linear model get tossed inside a link function (a link function is a non-linear function).
+The logistic regression model assumes that the log-odds (this is the ratio of probability an observation is one class versus the probability that this same observation is not in this class) of an observation $Y$ can be expressed using linear model. This can be considered as a linear model get tossed inside a link function (a link function is a non-linear function).
 $$\log\bigg(\frac{\mathbb{P}(Y=1|X)}{1 - \mathbb{P}(Y=1|X)}\bigg) = \sum_{j=1}^K \beta_j X_j$$
-and here the log-odds is the ratio of $\mathbb{P}(Y)$ over $1 - \mathbb{P}(Y)$.
+and here the log-odds is the ratio of $\mathbb{P}(Y)$ over $1 - \mathbb{P}(Y)$. Here we use a link function called *logit*.
 
 Let us derive what $\mathbb{P}(Y)$ is based on the above model.
 
