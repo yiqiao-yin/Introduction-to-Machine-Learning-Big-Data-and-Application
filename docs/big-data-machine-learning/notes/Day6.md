@@ -36,7 +36,9 @@ $$
 \text{output: predictions}
 $$
 The above architecture assumes two-class classification (the output has two dots).
-- *Optimizer*: The architecture of an ANN consists of input layer (which is the explanatory variables), hidden layer (if any), the output layer (tailored to the type of problems, regressor or classifier), and a loss function. Once the architecture is setup we can use an optimizer to find the weights that are used in the optimizer. A famous optimizer is called [gradient descent](https://towardsdatascience.com/gradient-descent-explained-9b953fc0d2c). Here are some videos I posted: [Gradient Descent](https://www.youtube.com/watch?v=OtLSnzjT5ns), [Adam](https://www.youtube.com/watch?v=AqzK8LeRThM), [ANN Regressor Classifier Summary](https://www.youtube.com/watch?v=zhBLiMdqOdQ), related python scripts are posted [here](https://www.github.com/yiqiao-yin/YinsPy)
+- *Optimizer*: The architecture of an ANN consists of input layer (which is the explanatory variables), hidden layer (if any), the output layer (tailored to the type of problems, regressor or classifier), and a loss function. Once the architecture is setup we can use an optimizer to find the weights that are used in the optimizer. A famous optimizer is called [gradient descent](https://towardsdatascience.com/gradient-descent-explained-9b953fc0d2c). The key of the gradient descent algorithm focuses on using iterated loops to update the parameters $w$ of the model a step at a time. At each step $s$, we compute the gradient of the loss function, i.e. $\nabla \mathcal{L}(\hat{Y}, Y)$. Next, we update the parameters: $w_s = w_{s+1} - \eta \cdot \nabla \mathcal{L}(\hat{Y}, Y)$.
+
+Here are some videos I posted: [Gradient Descent](https://www.youtube.com/watch?v=OtLSnzjT5ns), [Adam](https://www.youtube.com/watch?v=AqzK8LeRThM), [ANN Regressor Classifier Summary](https://www.youtube.com/watch?v=zhBLiMdqOdQ), related python scripts are posted [here](https://www.github.com/yiqiao-yin/YinsPy)
 
 ## Convolutional Neural Network
 
