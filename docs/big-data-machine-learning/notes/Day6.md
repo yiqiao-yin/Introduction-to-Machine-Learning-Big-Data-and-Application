@@ -16,7 +16,8 @@ When the notion of neural network is mentioned, we assume the architecture above
 
 - *Forward Propagation*: This operation allows information to pass from the input layer all the way to the output layer. There are linear components as well as non-linear components. Recall the basic linear regression and logistic regression models. We have explanatory variables $X$ and we first construct a linear combination of $\sum_{j=1}^p w_j X_j$ while the running index $j$ indicates the $j$th variable. This is then fed into the activation function (the famous ones are ReLU and sigmoid) to create predictions $\hat{Y}$. 
 - *Backward Propagation*: This operation allows us to compare the predictions made by the educated guesses generated from the model with the ground truth, i.e. we compare how far away predictions $\hat{Y}$ is from the truth $Y$. This allows us to figure out the exact loss of a model. This is considered as an optimization problem with the following objective function:
-$$\min_w \mathcal{L}(\hat{Y}, y)$$
+$$\min_w \mathcal{L}(\hat{Y}, Y)$$
+and the loss function is a matter of choice by the scientist or user of the algorithm. A list of loss functions can be found [here](https://towardsdatascience.com/most-common-loss-functions-in-machine-learning-c7212a99dae0).
 - *Regressor*: This type of ANN learns from $X$ and produces an estimated value of $Y$ while $Y$ is continuous. The common loss function is [MSE](https://towardsdatascience.com/https-medium-com-chayankathuria-regression-why-mean-square-error-a8cad2a1c96f). In a neural network architecture that is designed as a regressor (predict a continuous variable, i.e. like regression model), we output one neuron.
 $$
 \text{input variables:} \rightarrow
