@@ -12,7 +12,10 @@ $$
 \text{output: predictions}
 $$
 
-$$\stackrel{\circ}{\circ}$$
+$$\begin{array}{l}
+a \\
+b \\
+\end{array}$$
 
 
 
