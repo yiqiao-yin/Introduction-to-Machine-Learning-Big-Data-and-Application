@@ -17,7 +17,7 @@ $$
 \text{input variables:} \rightarrow
 [\vdots] \rightarrow [\vdots]
 \rightarrow
-[.]
+[.], 
 \text{output: predictions}
 $$
 
@@ -26,7 +26,7 @@ $$
 \text{input variables:} \rightarrow
 [\vdots] \rightarrow [\vdots]
 \rightarrow
-[:]
+[:], 
 \text{output: predictions}
 $$
 The above architecture assumes two-class classification (the output has two dots).
