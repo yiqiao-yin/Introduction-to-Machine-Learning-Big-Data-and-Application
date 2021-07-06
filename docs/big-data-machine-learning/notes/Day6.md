@@ -5,12 +5,17 @@ There are three major types of *Representation Learning*.
 ## Artificial Neural Network
 
 The architecture of a basic Artificial Neural Network (ANN) is the following
-$$
+\[
 \begin{bmatrix}
 \circ \\
-\circ \\
+\circ
 \end{bmatrix}
-$$
+\rightarrow
+\begin{bmatrix}
+\circ \\
+\circ
+\end{bmatrix}
+\]
 
 - *Regressor*: This type of ANN learns from $X$ and produces an estimated value of $Y$ while $Y$ is continuous. The common loss function is [MSE](https://towardsdatascience.com/https-medium-com-chayankathuria-regression-why-mean-square-error-a8cad2a1c96f).
 - *Classifier*: This type of ANN learns from $X$ and produes an estimated probability of $Y$ that is a particular discrete value (aka factor or class). The common loss function is [binary cross-entropy](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a).
