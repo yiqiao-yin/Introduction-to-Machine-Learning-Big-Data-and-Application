@@ -19,7 +19,8 @@ A user-friendly interactive web-based application is developed [here](https://y-
 # More on Visualization
 
 There are the following resources that can be helpful for you.
-- *plotly* This is a visualization package that displays user-friendly interactive graphs. A basic tutorial is [here](https://plotly.com/r/plotly-fundamentals/). 
-- *dygraphs* This is another visualization package that displays user-friendly interactive plots. A basic tutorial is [here](https://rstudio.github.io/dygraphs/). 
+- *plotly* This is a visualization package that displays user-friendly interactive graphs. A basic tutorial is [here](https://plotly.com/r/plotly-fundamentals/).
+- *dygraphs* This is another visualization package that displays user-friendly interactive plots. A basic tutorial is [here](https://rstudio.github.io/dygraphs/).
+- *barplot3d* This is a package specifically designed to plot 3-dimensional bar plot. One can navigate [this tutorial](https://cran.r-project.org/web/packages/barplot3d/vignettes/barplot3d.html) to learn about some basic command about this package.
 
 Remark: There are some commentaries online about the difference of using the above packages. A famous [one](https://jtr13.github.io/spring19/group8.html) is posted and it speaks of the general consensus that *dygraphs* might be easier to use and design then *plotly*. They can both do amazing things in both *R* and *Python*. However, *dygraphs* is recommended more for beginners while sophisticated programmers can use either *dygraphs* or *plotly*. Here is another [commentary](https://dirkmjk.nl/en/354/interactive-charts--are-dygraphs-or-plotly-alternatives-for-d3) on the difference between *dygraphs* and *plotly*.
