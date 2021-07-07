@@ -53,5 +53,7 @@ The architecture below illustrates a simple Convolutional Neural Network (CNN) a
 
 Some additional sources:
 - Computer Vision Feature Extraction: [post](https://towardsdatascience.com/computer-vision-feature-extraction-101-on-medical-images-part-1-edge-detection-sharpening-42ab8ef0a7cd)
+- Building advanced model using Variational Auto-Encoder (VAE): [python](https://blog.keras.io/building-autoencoders-in-keras.html), [r](https://keras.rstudio.com/articles/examples/variational_autoencoder.html)
+- Building advanced model using Generalized Adversarial Network (GAN): [python](https://keras.io/examples/generative/dcgan_overriding_train_step/), [r](https://blogs.rstudio.com/ai/posts/2018-08-26-eager-dcgan/)
 
 ## Recurrent Neural Network
