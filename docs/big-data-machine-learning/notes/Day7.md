@@ -45,8 +45,10 @@ Convolutional Neural Network (CNN) is built upon the understanding of a basic ne
 
 The convolutional operation relies on combining matrices. Some basic matrix algebra can be found [here](https://towardsdatascience.com/basics-of-linear-algebra-for-data-science-9e93ada24e5c). The convolutional operation can be found [here](https://www.freecodecamp.org/news/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050/). The following digram is adopted from the sources above.
 
+The convolutional operation can be illustrated in the following diagram. We have a filter (artificially designed) that intends to capture certain pattern in the picture. We apply this filter starting from the top left corner of the image. Then we roll this filter towards right first until we hit the last column. Once we are finished with one column we move the filter down one row and start from the left of the picture. We keep rolling this filter until we hit the bottom right corner of the image.
 <p align="center"><img src="https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/basic-conv-op.png"></img></p>
 
+The architecture below illustrates a simple Convolutional Neural Network (CNN) architecture and the basic forms of operation.
 <p align="center"><img src="https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/basic-cnn.png"></img></p>
 
 Some additional sources:
