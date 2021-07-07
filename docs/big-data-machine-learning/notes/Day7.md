@@ -38,6 +38,21 @@ $$
 The above architecture assumes two-class classification (the output has two dots).
 - *Optimizer*: The architecture of an ANN consists of input layer (which is the explanatory variables), hidden layer (if any), the output layer (tailored to the type of problems, regressor or classifier), and a loss function. Once the architecture is setup we can use an optimizer to find the weights that are used in the optimizer. A famous optimizer is called [gradient descent](https://towardsdatascience.com/gradient-descent-explained-9b953fc0d2c). The key of the gradient descent algorithm focuses on using iterated loops to update the parameters $w$ of the model a step at a time. At each step $s$, we compute the gradient of the loss function, i.e. $\nabla \mathcal{L}(\hat{Y}, Y)$. Next, we update the parameters: $w_s = w_{s+1} - \eta \cdot \nabla \mathcal{L}(\hat{Y}, Y)$. Here are some videos I posted: [Gradient Descent](https://www.youtube.com/watch?v=OtLSnzjT5ns), [Adam](https://www.youtube.com/watch?v=AqzK8LeRThM), [ANN Regressor Classifier Summary](https://www.youtube.com/watch?v=zhBLiMdqOdQ), related python scripts are posted [here](https://www.github.com/yiqiao-yin/YinsPy) 
 - *Loss*: A loss function measures the distance between the predictions and the ground truth. The bigger the loss, the more mistakes there are in the model, and the worse the performance will be. The loss function is a choice given by the scientist or the user of the software package. A common loss function is *Mean Square Error*. Suppose we have ground truth $Y$ and the prediction $\hat{Y}$. The loss function *Mean Square Error* or *MSE* is defined as $\frac{1}{n} \sum_{i=1}^n (\hat{y_i} - y_i)^2$ while the running index $i$ indicates the observation. Another famous loss function is *Cross-entropy*. In binary classification problems, we recall the mathematical model of a Bernoulli random variable (i.e. recall the coin toss example). A random variable $X$ is said to have Bernoulli distribution or is a Bernoulli random variable if $\mathbb{P}(X=0) = 1-p$ and $\mathbb{P}(X=1) = p$ while $X = 0$ or $X = 1$. We can write $\mathbb{P}(X) = p^x (1-p)^{1-x}$ to be the mathematical model describing a coin-toss-like profile. Last, we take logarithm on the last step and obtain $x \log(p) + (1-p) \log(1-x)$. In reality, this $p$ is a predicted probability, so we replace it with $\hat{y}$. The $x$ is replaced with $y$ because it is the ground truth. Hence, we arrive with $y\log(\hat{y}) + (1 - y)\log(1 - \hat{y})$. A common list of lost function can be seen [here](https://towardsdatascience.com/most-common-loss-functions-in-machine-learning-c7212a99dae0).
+- Sample code can be found in the following:
+```
+model <- keras_model_sequential() # sequential here means I am coding the structure layer by layer (it is not referring to sequential model)
+# what is the model above?
+# it is telling computer I want a keras sequential object
+# this sequential object allows me to add dense layer or other NN layers
+model %>%
+  layer_dense(
+    units = number.of.levels, # how many neurons
+    input_shape = c(ncol(x_train)), # input shapes, this is the number of the columns
+    activation = finalactivation, # "sigmoid", "tanh", "relu", .......
+    use_bias = useBias # TRUE / FALSE (it is referring to beta_0 in the markdown file, i.e. recall beta_0 in linear model as well as logistic model)
+  ) # adding one dense layer (or one layer)
+summary(model)
+```
 
 ## Convolutional Neural Network
 
@@ -50,6 +65,25 @@ The convolutional operation can be illustrated in the following diagram. We have
 
 The architecture below illustrates a simple Convolutional Neural Network (CNN) architecture and the basic forms of operation.
 <p align="center"><img src="https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/basic-cnn.png"></img></p>
+
+Sample code can be found in the following:
+```
+model <- keras_model_sequential() %>%
+  layer_conv_2d(filters = convl1, # number of filters
+                kernel_size = convl1kernel, # the size of the filters
+                activation = activation, # same with neural network => non-linear component => for general situation in case the assumptions of linearity break
+                input_shape = input_shape # same with neural network => the only difference is instead of number of variables, we define number of rows and columns in the picture (matrix)
+                ) %>%
+
+  layer_conv_2d(filters = convl2, kernel_size = convl2kernel, activation = activation) %>%
+  # layer_max_pooling_2d(pool_size = maxpooll1) %>% # maxpooling => given a 2x2 matrix, I 'm taking the maximum value => shrink dimension from 2x2=4 to 1 number 
+  # layer_dropout(rate = 0.25) %>% # the percentage of data I drop every round of training
+  layer_flatten() %>% # this function is a necessity and it reshapes the output matrices from the previous layer into a big long vector so that we can process neural network
+  layer_dense(units = l1.units, activation = activation) %>% layer_dropout(rate = 0.5) %>%
+  layer_dense(units = l2.units, activation = activation) %>% layer_dropout(rate = 0.5) %>%
+  layer_dense(units = l3.units, activation = activation) %>% layer_dropout(rate = 0.5) %>%
+  layer_dense(units = num_classes, activation = activationfinal)
+```
 
 Some additional sources:
 - Computer Vision Feature Extraction: [post](https://towardsdatascience.com/computer-vision-feature-extraction-101-on-medical-images-part-1-edge-detection-sharpening-42ab8ef0a7cd)
