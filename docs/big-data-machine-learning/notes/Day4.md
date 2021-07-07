@@ -15,3 +15,11 @@ Question: how to beat the FF3?
 The above background provides the motivation to develop a new trading strategy that follows the same paradigm but produces benchmark-beating performance. This is the motivation to produce the *growth strategy*. I replicated Carhart's work and this is a simple adaption of the growth strategy. It tells a very simple story. A portfolio can be constructed using growth rate of the stock universe. Every month we investigate the growth rate of each stock in the data universe and we sort the stock growth rates from top to bottom. We put our money in the stocks with the top growth rate and we repeated doing this every month. 
 
 A user-friendly interactive web-based application is developed [here](https://y-yin.shinyapps.io/YINS-Q-BRANCH/) and we can explore this benchmark beating portfolio. Please be patient with this app as it is downloading stock data live on a daily basis.
+
+# More on Visualization
+
+There are the following resources that can be helpful for you.
+- *plotly* This is a visualization package that displays user-friendly interactive graphs. A basic tutorial is [here](https://plotly.com/r/plotly-fundamentals/). 
+- *dygraphs* This is another visualization package that displays user-friendly interactive plots. A basic tutorial is [here](https://rstudio.github.io/dygraphs/). 
+
+Remark: There are some commentaries online about the difference of using the above packages. A famous [one](https://jtr13.github.io/spring19/group8.html) is posted and it speaks of the general consensus that *dygraphs* might be easier to use and design then *plotly*. They can both do amazing things in both *R* and *Python*. However, *dygraphs* is recommended more for beginners while sophisticated programmers can use either *dygraphs* or *plotly*. 
