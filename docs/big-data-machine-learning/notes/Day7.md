@@ -41,7 +41,11 @@ The above architecture assumes two-class classification (the output has two dots
 
 ## Convolutional Neural Network
 
-Convolutional Neural Network (CNN) is built upon the understanding of a basic neural network. In addition, we make the assumption that we are accepting image data. This assumption implies two key information: (i) local information and its intrinsic value, (ii) geospatial architecture may have important relationship amonst each other.
+Convolutional Neural Network (CNN) is built upon the understanding of a basic neural network. In addition, we make the assumption that we are accepting image data. This assumption implies two key information: (i) local information and its intrinsic value, (ii) geospatial architecture may have important relationship amonst each other. Based on this information and understanding of this type of data sets, we have a strong motivation of using a new tool to develop new features to feed in the neural network architecture.
+
+The convolutional operation relies on combining matrices. Some basic matrix algebra can be found [here](https://towardsdatascience.com/basics-of-linear-algebra-for-data-science-9e93ada24e5c). The convolutional operation can be found [here](https://www.freecodecamp.org/news/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050/). The following digram is adopted from the sources above.
+
+<p><img src="https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/pics/basic-conv-op.png"></img></p>
 
 Some additional sources:
 - Computer Vision Feature Extraction: [post](https://towardsdatascience.com/computer-vision-feature-extraction-101-on-medical-images-part-1-edge-detection-sharpening-42ab8ef0a7cd)
