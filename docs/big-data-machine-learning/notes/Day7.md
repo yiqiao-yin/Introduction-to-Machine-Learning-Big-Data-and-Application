@@ -53,7 +53,10 @@ The architecture below illustrates a simple Convolutional Neural Network (CNN) a
 
 Some additional sources:
 - Computer Vision Feature Extraction: [post](https://towardsdatascience.com/computer-vision-feature-extraction-101-on-medical-images-part-1-edge-detection-sharpening-42ab8ef0a7cd)
-- Building advanced model using Variational Auto-Encoder (VAE): [python](https://blog.keras.io/building-autoencoders-in-keras.html), [r](https://keras.rstudio.com/articles/examples/variational_autoencoder.html)
-- Building advanced model using Generalized Adversarial Network (GAN): [python](https://keras.io/examples/generative/dcgan_overriding_train_step/), [r](https://blogs.rstudio.com/ai/posts/2018-08-26-eager-dcgan/)
+- Building advanced model using Variational Auto-Encoder (VAE): [python](https://blog.keras.io/building-autoencoders-in-keras.html), [R](https://keras.rstudio.com/articles/examples/variational_autoencoder.html)
+- Building advanced model using Generalized Adversarial Network (GAN): [python](https://keras.io/examples/generative/dcgan_overriding_train_step/), [R](https://blogs.rstudio.com/ai/posts/2018-08-26-eager-dcgan/)
+- Avatarify: [github](https://github.com/alievk/avatarify-python). Please keep the application within a range of practice that does not harm the society of other people!
+- Keras Examples: [python](https://keras.io/examples/), [R](https://tensorflow.rstudio.com/tutorials/)
+- General AI Blog: [R AI Blog](https://blogs.rstudio.com/ai/)
 
 ## Recurrent Neural Network
