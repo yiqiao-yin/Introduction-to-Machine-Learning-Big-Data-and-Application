@@ -1,5 +1,3 @@
-
-
 # kmeans (k-nearest neighborhood)
 # nonparametric clustering technique
 # nonparametric classification technique
@@ -18,23 +16,15 @@ tmp$uncertainty
 tmp2 = kmeans(fakeData$colC, 4) # approach (2) if you know the data => don't trust AI, edit the number manually
 tmp2$centers
 tmp2$cluster
-
-
-
-
-
-
 tmp = mclust::Mclust(rnorm(10)) # package: mclust
 tmp$classification
-
 tmp2 = kmeans(rnorm(10), 2) # package: stats
 tmp2$cluster
 
-
-
-N = 20
-p = 128*128
+N = 20 # number of obs
+p = 6*6*3 # number of variables # mimic a picture with width=32, height=32, and 3 colors
 X = matrix(rnorm(N*p), N, p)
+dim(X)
 y = rbinom(N, 1, 0.5)
 par(mfrow=c(4,4))
 sapply(1:16, function(s) plot(EBImage::Image(matrix(X[s,], 128, 128))))
@@ -44,6 +34,17 @@ tmp = YinsLibrary::KerasFeatureEngineerVGG16(
   y = y,
   verbatim = TRUE,
   useParallel = TRUE )
+tmp$timeConsumption
+tmp$newData
+View(tmp$newData) # standard transfer learning
+tmp$models
+
+# take X as input
+# send it through VGG16
+# and extract the last conv layer
+# give me 512 features
+# (that are generated using VGG16 and new data)
+
 tmp$timeConsumption
 dim(tmp$data[[1]])
 length(tmp$data[[2]])
@@ -67,37 +68,53 @@ sapply(1:dim(conv_layer_output_value[[1]])[3], function(plot_i) plot(EBImage::Im
 
 # > YinsLibrary::KerasFeatureEngineerVGG16
 # function(
-#   X = X,
-#   y = y,
-#   verbatim = TRUE,
-#   useParallel = TRUE
+#   X = X, # picture-like data <= doesn't have to be pictures, as long as this X can be manipulated and reshaped into 3 dimensions (224 by 224 by 3)
+#   y = y, # for personal usage for downstream in the production chain
+#   verbatim = TRUE, # personal habit => for debugging
+#   useParallel = TRUE # 
 # ) {
-#   
+# 
 #   # Library
 #   library(keras)
 #   K <- backend()
-#   
+# 
 #   # LOAD MODEL
 #   model_VGG16 <- application_vgg16(weights = "imagenet") # 512
-#   
+# 
 #   # Parallel:
 #   if (useParallel) {
 #     # Run BDA Many Times (on multiple cores)
 #     result <- list()
 #     if (verbatim) {print(paste0("Running Feature Generator now (in parallel) ... ", "Total Number of Rows in Data: ", nrow(X)))}
 #     if (verbatim) {print(paste0("... detecting total cores ..."))}
+#     
+#     # install.packages("parallel")
 #     ncores <- parallel::detectCores()
+#     
 #     if (verbatim) {print(paste0("... cores detected, number of cores: ", ncores))}
 #     if (verbatim) {print(paste0("... making cluster environment ... "))}
-#     cl <- parallel::makeCluster(ncores)
+#     
+#     cl <- parallel::makeCluster(ncores)#     
+#     # for (i in 20000) # <= 1000 to each core and run 20 cores together (the same time)
 #     if (verbatim) {print(paste0("... setting up parallel environment ..."))}
 #     newX = rbind()
 #     parallel::clusterExport(cl, c("X", "y", "newX"), envir = environment())
 #     parallel::clusterEvalQ(cl=cl, library(YinsLibrary))
+#     
+#     # How is it wired?
+#     # Package 1: parallel => set up cores and assign jobs
+#     # Package 2: pbapply => go to the particular cores assigned and start a loop
+#     
+#     
+#     
+#     
+#     
+#     
 #     if (verbatim) {print(paste0("... finished setting up and starting to generate features using VGG16 ..."))}
 #     # Time:
 #     beginT = Sys.time()
 #     system.time({
+#       # package: pabapply
 #       result = pbapply::pblapply(
 #         cl = cl,
 #         X = 1:nrow(X),
@@ -105,23 +122,23 @@ sapply(1:dim(conv_layer_output_value[[1]])[3], function(plot_i) plot(EBImage::Im
 #           # Library
 #           library(keras)
 #           K <- backend()
-#           
+# 
 #           # LOAD MODEL
 #           model_VGG16 <- application_vgg16(weights = "imagenet") # 512
-#           
+# 
 #           # Aggregate Obs
 #           curr_img <- EBImage::Image(array(X[i, ], dim = c(224, 224, 3)))
 #           curr_img_resized <- EBImage::resize(curr_img, 224, 224)
 #           currIMAGE = curr_img_resized
 #           image <- keras::array_reshape(currIMAGE, dim = c(1, 224, 224, 3))
-#           
+# 
 #           # POST PREDICTION WORKFLOW
 #           # Model: VGG16
 #           last_conv_layer_VGG16 <- model_VGG16 %>% get_layer("block5_conv3")
 #           iterate <- K$`function`(list(model_VGG16$input), list(last_conv_layer_VGG16$output[1,,,]))
 #           conv_layer_output_value %<-% iterate(list(image))
 #           currGAPvalue_VGG16 = sapply(1:512, function(kk) {mean(conv_layer_output_value[[1]][,,kk])})
-#           
+# 
 #           # Store Values
 #           newX <- rbind(
 #             newX,
@@ -136,10 +153,10 @@ sapply(1:dim(conv_layer_output_value[[1]])[3], function(plot_i) plot(EBImage::Im
 #     # LIBRARY
 #     library(keras)
 #     K <- backend()
-#     
+# 
 #     # LOAD MODEL
 #     model_VGG16 <- application_vgg16(weights = "imagenet") # 512
-#     
+# 
 #     # RESHAPE
 #     i = 1; newX = rbind()
 #     # Time
@@ -150,25 +167,25 @@ sapply(1:dim(conv_layer_output_value[[1]])[3], function(plot_i) plot(EBImage::Im
 #       curr_img_resized <- EBImage::resize(curr_img, 224, 224)
 #       currIMAGE = curr_img_resized
 #       image <- array_reshape(currIMAGE, dim = c(1, 224, 224, 3))
-#       
+# 
 #       # POST PREDICTION WORKFLOW
 #       # Model: VGG16
 #       last_conv_layer_VGG16 <- model_VGG16 %>% get_layer("block5_conv3")
 #       iterate <- K$`function`(list(model_VGG16$input), list(last_conv_layer_VGG16$output[1,,,]))
 #       conv_layer_output_value %<-% iterate(list(image))
 #       currGAPvalue_VGG16 = sapply(1:512, function(kk) {mean(conv_layer_output_value[[1]][,,kk])})
-#       
+# 
 #       # Store Values
 #       newX <- rbind(
 #         newX,
 #         c(currGAPvalue_VGG16))
-#       
+# 
 #       # Checkpoint
 #       if (verbatim) {setTxtProgressBar(pb, i)}
 #     }; if (verbatim) {close(pb); print(paste0("Finished generating features!"))} # Done
 #     endT = Sys.time()
 #   } # Done
-#   
+# 
 #   # Output
 #   return(
 #     list(
