@@ -1,23 +1,33 @@
 
 
+# kmeans (k-nearest neighborhood)
+# nonparametric clustering technique
+# nonparametric classification technique
+# I don't need to know what my Y is in the data
+# You give me any vector, I can partition all entries
+# in your vector into different cluster
+fakeData = data.frame(
+  colA = rep(c("A","B","C"), 4),
+  colB = rnorm(12),
+  colC = c(rnorm(6, mean = 0, sd = 1), rnorm(6, mean = 10, sd = 1)) )
+fakeData
+fakeData$colC
+tmp = mclust::Mclust(fakeData$colC) # approach (1) if you are unfamiliar with the data => lack of domain knowledge
+tmp$classification
+tmp$uncertainty
+tmp2 = kmeans(fakeData$colC, 4) # approach (2) if you know the data => don't trust AI, edit the number manually
+tmp2$centers
+tmp2$cluster
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-tmp = mclust::Mclust(rnorm(10))
+tmp = mclust::Mclust(rnorm(10)) # package: mclust
 tmp$classification
 
-tmp2 = kmeans(rnorm(10), 2)
+tmp2 = kmeans(rnorm(10), 2) # package: stats
 tmp2$cluster
 
 
@@ -169,3 +179,107 @@ sapply(1:dim(conv_layer_output_value[[1]])[3], function(plot_i) plot(EBImage::Im
 #     )
 #   )
 # }
+
+#
+# This is a Shiny web application. You can run the application by clicking
+# the 'Run App' button above.
+#
+# Find out more about building applications with Shiny here:
+#
+#    http://shiny.rstudio.com/
+#
+
+
+#### ShinyApp Code (in class) ####
+
+# library(shiny)
+# library(mclust)
+# 
+# 
+# # Define UI for application that draws a histogram
+# ui <- fluidPage(
+#   
+#   # Add a title
+#   titlePanel("Dynamic Clustering in Shiny"),
+#   
+#   # Add a row for the main content
+#   fluidRow(
+#     
+#     # Create a space for the plot output
+#     plotOutput(
+#       "clusterPlot", "100%", "500px", click="clusterClick"
+#     )
+#   ),
+#   
+#   # Create a row for additional information
+#   fluidRow(
+#     # Take up 2/3 of the width with this element  
+#     mainPanel("Points: ", verbatimTextOutput("numPoints")),
+#     
+#     # And the remaining 1/3 with this one
+#     sidebarPanel(actionButton("clear", "Clear Points"))
+#   )    
+# )
+# 
+# # Define server logic required to draw a histogram
+# server <- function(input, output, session) {
+#   
+#   # Create a spot where we can store additional
+#   # reactive values for this session
+#   val <- reactiveValues(x=NULL, y=NULL)    
+#   
+#   # Listen for clicks
+#   observe({
+#     # Initially will be empty
+#     if (is.null(input$clusterClick)){
+#       return()
+#     }
+#     
+#     isolate({
+#       val$x <- c(val$x, input$clusterClick$x)
+#       val$y <- c(val$y, input$clusterClick$y)
+#     })
+#   })
+#   
+#   # Count the number of points
+#   output$numPoints <- renderText({
+#     length(val$x)
+#   })
+#   
+#   # Clear the points on button click
+#   observe({
+#     if (input$clear > 0){
+#       val$x <- NULL
+#       val$y <- NULL
+#     }
+#   })
+#   
+#   # Generate the plot of the clustered points
+#   output$clusterPlot <- renderPlot({
+#     
+#     tryCatch({
+#       # Format the data as a matrix
+#       data <- matrix(c(val$x, val$y), ncol=2)
+#       
+#       # Try to cluster       
+#       if (length(val$x) <= 1){
+#         stop("We can't cluster less than 2 points")
+#       } 
+#       suppressWarnings({
+#         fit <- Mclust(data)
+#       })
+#       
+#       mclust2Dplot(data = data, what = "classification", 
+#                    classification = fit$classification, main = FALSE,
+#                    xlim=c(-2,2), ylim=c(-2,2))
+#     }, error=function(warn){
+#       # Otherwise just plot the points and instructions
+#       plot(val$x, val$y, xlim=c(-2, 2), ylim=c(-2, 2), xlab="", ylab="")
+#       text(0, 0, "Unable to create clusters.\nClick to add more points.")
+#     })
+#   })
+# }
+# 
+# # Run the application 
+# shinyApp(ui = ui, server = server)
+# 
