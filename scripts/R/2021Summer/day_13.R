@@ -36,11 +36,6 @@ matplot(testSetRecover,
         xlab = "Test Set Observation: Day Index",
         ylab = "Price (Receoved)",
         main = "Black: Real Data vs. Red (dotted): Prediction")
-par(mfrow=c(1,2))
-tmp$y_test_eval_matrix[,1]
-tmp$y_test_eval_matrix[,2]
-matplot(tmp$y_test_eval_matrix[,1], type = "l")
-matplot(tmp$y_test_eval_matrix[,2], type = "l")
 
 # Sampling
 # The following code run the same algorithm but use different data
