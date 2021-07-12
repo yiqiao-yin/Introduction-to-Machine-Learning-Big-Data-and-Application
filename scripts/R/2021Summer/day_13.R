@@ -49,56 +49,25 @@ matplot(tmp$y_test_eval_matrix[,2], type = "l")
 # the last takes all columns
 # Each data each experiment we repeat 10 times and store errors
 # in the end we plot errors bars using boxplot()
-errors1 = c()
-errors2 = c()
-errors3 = c()
-errors4 = c()
+errors = c()
 for (i in 1:10) {
   # Run RNN
-  tmp1 = YinsLibrary::KerasNNRegressor(
-    x = X[,c(1:10)],
-    y = y,
-    cutoff = 0.97,
-    numberOfHiddenLayers = 3,
-    activation = "relu",
-    useBias = TRUE,
-    dropoutRate = 0.15,
-    epochs = 20)
-  errors1 = c(errors1, tmp1$Result$MSE_test)
-  tmp2 = YinsLibrary::KerasNNRegressor(
-    x = X[,c(1:20)],
-    y = y,
-    cutoff = 0.97,
-    numberOfHiddenLayers = 3,
-    activation = "relu",
-    useBias = TRUE,
-    dropoutRate = 0.15,
-    epochs = 20)
-  errors2 = c(errors2, tmp2$Result$MSE_test)
-  tmp3 = YinsLibrary::KerasNNRegressor(
-    x = X[,c(1:50)],
-    y = y,
-    cutoff = 0.97,
-    numberOfHiddenLayers = 3,
-    activation = "relu",
-    useBias = TRUE,
-    dropoutRate = 0.15,
-    epochs = 20)
-  errors3 = c(errors3, tmp3$Result$MSE_test)
-  tmp4 = YinsLibrary::KerasNNRegressor(
-    x = X,
-    y = y,
-    cutoff = 0.97,
-    numberOfHiddenLayers = 3,
-    activation = "relu",
-    useBias = TRUE,
-    dropoutRate = 0.15,
-    epochs = 20)
-  errors4 = c(errors4, tmp4$Result$MSE_test)
+  for (j in c(10, 20, 30, 40, 50, 70, 99)) {
+    tmp = YinsLibrary::KerasNNRegressor(
+      x = X[, 1:j],
+      y = y,
+      cutoff = 0.97,
+      numberOfHiddenLayers = 3,
+      activation = "relu",
+      useBias = TRUE,
+      dropoutRate = 0.15,
+      epochs = 30 )
+    errors = c(errors, tmp$Result$MSE_test)
+  } # Done
 } # Done
 
-
-
+boxplot(t(matrix(errors, 7)),
+        main = "Test Set Errors for \nModel 1-7 (repeated 10 times)")
 
 # # Source
 # > YinsLibrary::KerasNNRegressor
