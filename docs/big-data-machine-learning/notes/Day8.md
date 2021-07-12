@@ -7,10 +7,10 @@
 Question: research question that leads to business motivation?
 
 Answer: 
-- (1) mathematical model | linear regression: $y = \beta X_1$ | $X_1$: number of bedroom, y: housing price    
+- (1) mathematical model | linear regression: $y = \beta X_1$ where $X_1$: number of bedroom, y: housing price    
 - (2) simulation (create a fake environment that copies the real environment but it's simple enough for the mathematical model to run many times so we can check every scenario rigorously) | remark: you only have this if no one has done it before | take a subset of your data (this is if you think your data is too large and you don't want to wait that long)
 - (3) real data: what is the data? why is it helpful?    
-- (4) build the algorithm | linear regression X = ... y = .... => run function => some results
+- (4) build the algorithm | linear regression $X = ...$ and  $y = ...$ => run function => some results
 - (5) backtest (cross-validation, train and test) => real results | let's use feature engineer, can we change X? | kmeans => feature engineer | Note: come to manager and see if the results are sound
 
 ### Stage II: Product Management
