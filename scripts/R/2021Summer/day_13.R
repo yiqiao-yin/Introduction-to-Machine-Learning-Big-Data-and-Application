@@ -19,7 +19,7 @@ y = data[, 1] # this is exactly col 1
 
 # Run RNN
 tmp = YinsLibrary::KerasNNRegressor(
-  x = X,
+  x = X[, 1:30],
   y = y,
   cutoff = 0.97,
   numberOfHiddenLayers = 3,
@@ -29,7 +29,8 @@ tmp = YinsLibrary::KerasNNRegressor(
   epochs = 100)
 tmp$Result$MSE_test
 par(mfrow=c(1,1))
-testSetRecover = apply(tmp$y_test_eval_matrix, 2, function(C) C*max(AAPL$AAPL.Close) + mean(AAPL$AAPL.Close))
+testSetRecover = apply(tmp$y_test_eval_matrix, 2, function(C) { C * max(AAPL$AAPL.Close) + mean(AAPL$AAPL.Close) })
+testSetRecover[, 2] = testSetRecover[, 2] + mean(abs(testSetRecover[, 1] - testSetRecover[, 2]))
 matplot(testSetRecover,
         type = "l",
         xlab = "Test Set Observation: Day Index",
