@@ -29,7 +29,11 @@ tmp = YinsLibrary::KerasNNRegressor(
   epochs = 100)
 tmp$Result$MSE_test
 par(mfrow=c(1,1))
-matplot(tmp$y_test_eval_matrix, type = "l")
+testSetRecover = apply(tmp$y_test_eval_matrix, 2, function(C) C*max(AAPL$AAPL.Close) + mean(AAPL$AAPL.Close))
+matplot(testSetRecover,
+        type = "l",
+        xlab = "Test Set Observation: Day Index",
+        ylab = "Price (Receoved)"  )
 par(mfrow=c(1,2))
 tmp$y_test_eval_matrix[,1]
 tmp$y_test_eval_matrix[,2]
