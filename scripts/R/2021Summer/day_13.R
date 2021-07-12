@@ -33,12 +33,71 @@ testSetRecover = apply(tmp$y_test_eval_matrix, 2, function(C) C*max(AAPL$AAPL.Cl
 matplot(testSetRecover,
         type = "l",
         xlab = "Test Set Observation: Day Index",
-        ylab = "Price (Receoved)"  )
+        ylab = "Price (Receoved)",
+        main = "Black: Real Data vs. Red (dotted): Prediction")
 par(mfrow=c(1,2))
 tmp$y_test_eval_matrix[,1]
 tmp$y_test_eval_matrix[,2]
 matplot(tmp$y_test_eval_matrix[,1], type = "l")
 matplot(tmp$y_test_eval_matrix[,2], type = "l")
+
+# Sampling
+# The following code run the same algorithm but use different data
+# the first data take the first 10 columns (this means lag 1 to lag 10)
+# the second takes the first 20 columns (lag 1 to lag 20)
+# the third takes the first 50 columns (lag 1 to lag 50)
+# the last takes all columns
+# Each data each experiment we repeat 10 times and store errors
+# in the end we plot errors bars using boxplot()
+errors1 = c()
+errors2 = c()
+errors3 = c()
+errors4 = c()
+for (i in 1:10) {
+  # Run RNN
+  tmp1 = YinsLibrary::KerasNNRegressor(
+    x = X[,c(1:10)],
+    y = y,
+    cutoff = 0.97,
+    numberOfHiddenLayers = 3,
+    activation = "relu",
+    useBias = TRUE,
+    dropoutRate = 0.15,
+    epochs = 20)
+  errors1 = c(errors1, tmp1$Result$MSE_test)
+  tmp2 = YinsLibrary::KerasNNRegressor(
+    x = X[,c(1:20)],
+    y = y,
+    cutoff = 0.97,
+    numberOfHiddenLayers = 3,
+    activation = "relu",
+    useBias = TRUE,
+    dropoutRate = 0.15,
+    epochs = 20)
+  errors2 = c(errors2, tmp2$Result$MSE_test)
+  tmp3 = YinsLibrary::KerasNNRegressor(
+    x = X[,c(1:50)],
+    y = y,
+    cutoff = 0.97,
+    numberOfHiddenLayers = 3,
+    activation = "relu",
+    useBias = TRUE,
+    dropoutRate = 0.15,
+    epochs = 20)
+  errors3 = c(errors3, tmp3$Result$MSE_test)
+  tmp4 = YinsLibrary::KerasNNRegressor(
+    x = X,
+    y = y,
+    cutoff = 0.97,
+    numberOfHiddenLayers = 3,
+    activation = "relu",
+    useBias = TRUE,
+    dropoutRate = 0.15,
+    epochs = 20)
+  errors4 = c(errors4, tmp4$Result$MSE_test)
+} # Done
+
+
 
 
 # # Source
