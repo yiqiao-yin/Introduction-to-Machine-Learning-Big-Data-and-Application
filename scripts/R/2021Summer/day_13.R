@@ -31,6 +31,8 @@ tmp$Result$MSE_test
 par(mfrow=c(1,1))
 matplot(tmp$y_test_eval_matrix, type = "l")
 par(mfrow=c(1,2))
+tmp$y_test_eval_matrix[,1]
+tmp$y_test_eval_matrix[,2]
 matplot(tmp$y_test_eval_matrix[,1], type = "l")
 matplot(tmp$y_test_eval_matrix[,2], type = "l")
 
