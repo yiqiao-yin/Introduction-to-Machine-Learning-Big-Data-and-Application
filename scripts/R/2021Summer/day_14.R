@@ -44,6 +44,10 @@ all = cbind(y=y, X)
 par(mfrow=c(1,2))
 boxplot(X1~y,data=all)
 
+# Python
+# Random Forest Regressor: https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e
+# Random Forest Classifier: https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76
+
 
 # Source Code:
 # > YinsLibrary::Random_Forest_Classifier
