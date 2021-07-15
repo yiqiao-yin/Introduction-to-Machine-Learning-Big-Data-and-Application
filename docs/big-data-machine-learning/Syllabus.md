@@ -115,7 +115,7 @@ To go back to the Content, please click [here](https://github.com/yiqiao-yin/Int
 
 Morning Session – Topics and In-Class Activities:
 - Class Activity: Overview of Module I.
-- Class Laboratory: Building your first R package.
+- Class Laboratory: Building your first R package. Building your first Python package. | [YinsLibrary](https://github.com/yiqiao-yin/YinsLibrary__), [YinPortfolioManagement](https://github.com/yiqiao-yin/YinPortfolioManagement)
 - Seminar: Storytelling with Data, Reproducible Software Package.
 - Lab: Dataset: [Housing Price](https://rpubs.com/ablythe/520912)
 - Project Discussion: [Recall this markdown file](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/notes/Day2.md)
