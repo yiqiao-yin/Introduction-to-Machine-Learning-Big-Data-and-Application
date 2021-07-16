@@ -327,3 +327,10 @@ Afternoon Session - In-Class Activities:
 - Class Activity: Reflections on the course and future steps.
 
 To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+
+Capstone Project:
+- Team 1 [Github](https://github.com/Vince63/Random-Variables-Capstone-Project)
+- Team 2 [Github](https://github.com/RB3572/Capstone)
+- Team 3 [Github](https://github.com/c-helmlinger/Project0)
+- Team 4 [Github](https://github.com/anjali-ag/Project_1)
+- Team 5 [Github](https://github.com/Sylvia-Duan/Project-2)
