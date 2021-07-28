@@ -94,3 +94,67 @@ Some additional sources:
 - General AI Blog: [R AI Blog](https://blogs.rstudio.com/ai/)
 
 ## Recurrent Neural Network
+
+LSTM is an tweak version of Recurrent Neural Network which forgets or remembers certain information over a long period of time. In this notebook, I will use LSTM to forecast Google stock price.
+
+Stock price today is probably dependent on:
+- The trend it has been folloing from the previous day.
+- The price it was traded at from previous day.
+- Some other factors that may affect stock price today.
+
+Generalize intuition from above to the following:
+- The previous cell state (i.e. the information that was present in the memory after the previous time step).
+- The previous hidden state (i.e. this is the same as the output of the previous cell).
+- The input at the current time step (i.e. the new information that is being fed in at that moment).
+
+In this notebook, we cover
+- Part 1 - Data Preprocessing
+- Part 2 - Construct RNN Architecture
+- Part 3 - Predictions and Performance Visualization
+
+## Recurrent Neural Network (a sequential model)
+
+Given data $X$ and $Y$, we want to feed information forward into a time stamp. Then we form some belief and we make some initial predictions. We investigate our beliefs by looking at the loss function of the initial guesses and the real value. We update our model according to error we observed. 
+
+## Architecture: Feed-forward
+
+Consider data with time stamp
+$$X_{\langle 1 \rangle} \rightarrow X_{\langle 2 \rangle} \rightarrow \dots \rightarrow X_{\langle T \rangle}$$
+and feed-forward architecture pass information through exactly as the following:
+$$
+\text{Information in:} \rightarrow
+\begin{matrix}
+Y_{\langle 1 \rangle}, \hat{Y}_{\langle 1 \rangle} & Y_{\langle 2 \rangle}, \hat{Y}_{\langle 2 \rangle} &       & Y_{\langle T \rangle}, \hat{Y}_{\langle T \rangle} \\
+\uparrow               & \uparrow               &       & \uparrow \\
+X_{\langle 1 \rangle} \rightarrow    & X_{\langle 2 \rangle} \rightarrow    & \dots \rightarrow & X_{\langle T \rangle} \\
+\uparrow               & \uparrow               &       & \uparrow \\
+w_{\langle 1 \rangle}, b_{0, \langle 1 \rangle}    & w_{\langle 2 \rangle}, b_{0, \langle 2 \rangle}    &       & w_{\langle T \rangle}, b_{0, \langle T \rangle} \\
+\end{matrix}
+\rightarrow
+\text{Form beliefs about } Y_{\angle T \rangle}
+$$
+while the educated guesses $\hat{Y}_{\langle T \rangle}$ are our beliefs about real $Y$ at time stamp $T$. 
+
+## Architecture: Feed-backward
+
+Let us clearly define our loss function to make sure we have a proper grip of our mistakes. 
+$$\mathcal{L} = \sum_t L(\hat{y}_{\langle t \rangle} - y_t)^2$$
+and we can compute the gradient 
+$$\triangledown = \frac{\partial \mathcal{L}}{\partial a}$$
+and then with respect with parameters $w$ and $b$
+$$\frac{\partial \triangledown}{\partial w}, \frac{\partial \triangledown}{\partial a}$$
+and now with perspective of where we make our mistakes according to our parameters we can go backward
+$$
+\text{Information in:} \leftarrow
+\underbrace{
+\begin{matrix}
+Y_{\langle 1 \rangle}, \hat{Y}_{\langle 1 \rangle} & Y_{\langle 2 \rangle}, \hat{Y}_{\langle 2 \rangle} &       & Y_{\langle T \rangle}, \hat{Y}_{\langle T \rangle} \\
+\uparrow               & \uparrow               &       & \uparrow \\
+X_{\langle 1 \rangle} \leftarrow    & X_{\langle 2 \rangle} \leftarrow    & \dots \leftarrow & X_{\langle T \rangle} \\
+\uparrow               & \uparrow               &       & \uparrow \\
+w'_{\langle 1 \rangle}, b'_{0, \langle 1 \rangle}    & w'_{\langle 2 \rangle}, b'_{0, \langle 2 \rangle}    &       & w'_{\langle T \rangle}, b'_{0, \langle T \rangle} \\
+\end{matrix}}_{\text{Update: } w, b \text{ with } w', b'}
+\leftarrow
+\text{Total Loss: } \mathcal{L} (\hat{y}, y)
+$$
+and the *update* action in the above architecture is dependent on your optimizer specified in the algorithm.
