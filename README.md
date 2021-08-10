@@ -124,7 +124,7 @@ You only live once. Your life is your legacy! We all want to build a better worl
 
 You are here because you are entering college. This means you leave home for the first time in a very long time and you are about to write your own legacy. So you want to work hard and you want to deliver. Be the kind of person who thrives and shines. Be the kind of person who others look up to and who others can learn from. Show others what life can be. Show others what legacy is about. 
 
-End of the day we are fighting off a common enemy: the extinction of mankind. Newton left us the laws in physics. Confucius left us laws in being the right person. Dr. MLK showed us what can be done as a regular citizen. Elon Musk sent a car to space. These are stories that were told. These are the stories that will be told. These are the legacies we are left with. These are all noble work. What type of noble work will you choose do? What kind of tomorrow are you trying to build so you can start today?
+End of the day we are fighting off a common enemy: the extinction of mankind. Newton left us the laws in physics. Confucius left us the Analects of ancient Chinese wisdom. Dr. MLK showed us what can be done as a regular citizen. Elon Musk sent a car to space. These are stories that were told. These are the stories that will be told. These are the legacies we are left with. These are all noble work. What type of noble work will you choose do? What kind of tomorrow are you trying to build that you can start today?
 
 ### Skill Sets
 
