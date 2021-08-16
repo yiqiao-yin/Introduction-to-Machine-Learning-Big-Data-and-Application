@@ -62,6 +62,7 @@ For Probability and Statistics:
 For Computer Science & Deep Learning:
 - Deep Learning: [site](https://www.deeplearningbook.org/lecture_slides.html)
 - Stanford CS 229: [site](https://stanford.edu/~shervine/teaching/cs-229/)
+- NYU CS Yan LeCun: [site](https://cds.nyu.edu/deep-learning/)
 - Columbia COMS 4995: [site](https://www.cs.columbia.edu/~amueller/comsw4995s19/schedule/)
 - Isabelle Guyon: [site](http://www.clopinet.com/isabelle/)
 - Trevor Hastie: [site](https://web.stanford.edu/~hastie/)
