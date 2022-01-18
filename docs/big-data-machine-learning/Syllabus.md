@@ -309,6 +309,14 @@ Afternoon Session - In-Class Activities:
 Post-Session Readings and Other Activities:
 - Group Project submission
 
+How to carry out a data science project?
+- Background or Introduction: What is the field? What are some interesting and existing applications? What are we interested in? What is the motivation?
+- Data: Does the data support evidence that can address issues in answering the above motivation question? Can you process the data? Can you clean up the data? What's the estimated cost of running the model on this data? 
+- Baseline Model or Benchmark Model: Anything you can get your hands on, feel free to try it? Usually this refers to easy models.
+- Proposed Model or Advanced Model: More complex models that have higher performance. 
+- Deliverables or Software Production: Extrapolate your machine learning model and turn it into a function or a product.
+- Conclusion: Wrap things up and come up with a conclusion that address the question you are interested. In addition, add some future outlook.
+
 To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
 
 ## Day 14
