@@ -106,6 +106,18 @@ Writing can be considered an optimization problem in which you simultaneously im
 
 There are multiple signs that further work is necessary on a manuscript (see Table 1). For example, if you, as the writer, cannot describe the entire outline of a paper to a colleague in a few minutes, then clearly a reader will not be able to. You need to further distill your story. Finding such violations of good writing helps to improve the paper at all levels.
 
+## State your case with confidence
+
+Clarity is the sole obligation of the science writer, yet I find constantly that the ‘What’s new’ element is buried. Answering one central question — What did you do? — is the key to finding the structure of a piece. Every section of the manuscript needs to support that one fundamental idea.
+
+There is a German concept known as the ‘red thread’, which is the straight line that the audience follows from the introduction to the conclusion. In science, ‘What’s new and compelling?’ is the red thread. It’s the whole reason for writing the paper. Then, once that’s established, the paragraphs that follow become the units of logic that comprise the red thread.
+
+Scientific authors are often scared to make confident statements with muscularity. The result is turgid or obfuscatory writing that sounds defensive, with too many caveats and long lists — as if the authors are writing to fend off criticism that hasn’t been made yet. When they write for a journal gatekeeper rather than for a human being, the result is muddy prose.
+
+Examples such as this are not uncommon: “Though not inclusive, this paper provides a useful review of the well-known methods of physical oceanography using as examples various research that illustrates the methodological challenges that give rise to successful solutions to the difficulties inherent in oceanographic research.” Why not this instead: “We review methods of oceanographic research with examples that reveal specific challenges and solutions”?
+
+And if the prose muddies the science, the writer has not only failed to convey their idea, but they’ve also made the reader work so hard that they have alienated him or her. The reader’s job is to pay attention and remember what they read. The writer’s job is to make those two things easy to do. I encourage scientists to read outside their field to better appreciate the craft and principles of writing.
+
 ## Source
 
 - How to write a first-class paper? | [paper](https://www.nature.com/articles/d41586-018-02404-4)
