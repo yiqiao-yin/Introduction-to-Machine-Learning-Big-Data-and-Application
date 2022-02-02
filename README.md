@@ -84,6 +84,21 @@ It is required to use the programming language R. I will explain the difference 
 
 For dev purpose, please install Git (sometimes also called Git Bash) using links here for [Windows](https://git-scm.com/download/win). If you have a Macbook, it should be built in already. 
 
+### News and Social Media
+
+Sometimes I just want to give myself some light and leisure reading on my getaway trip to a resort. When that's the case, I save the following websites to ensure I have an updated AI environment from around the world. 
+
+- [AI Magazine](https://aimagazine.com/)
+- [Analytics Insight](https://www.analyticsinsight.net/magazine/)
+- [AI Trends](https://www.aitrends.com/)
+- [MIT News](https://news.mit.edu/topic/artificial-intelligence2)
+- [Wired](https://www.wired.co.uk/topic/artificial-intelligence)
+- [Dataversity](https://www.dataversity.net/)
+- [Open AI](https://openai.com/)
+- [AI News](https://artificialintelligence-news.com/)
+- [Emerj](https://emerj.com/)
+- [Extreme Tech](https://www.extremetech.com/tag/artificial-intelligence)
+
 # Philosophy
 
 There are the following philosophy I would like to address with my audience. 
