@@ -35,7 +35,7 @@ Post-SectionReadings and Assignments:
 - Github Workflow and Production Management
 - Write professional paper or presentation using LaTeX: Overleaf (tutorial on using LaTex in Overleaf).
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 2 - Data science process: from a problem to model that leads to a solution. 
 
@@ -57,7 +57,7 @@ Post-SectionReadings and Other Activities:
 - Class Laboratory Notebook Review: For-Loop Simulation Example Using Stock Data (stock data can be accessed using a library called “quantmod”)
 - Some basic R tutorial (simple algebra, matrix algebra, for loop, definition of a function), some basic R (see [BookDown: R for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)) and advanced R (see [RStudio AI Blog](https://blogs.rstudio.com/ai/))
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 3 – Understanding Value of Data. Introduction into Statistics for Data Science.
 
@@ -87,7 +87,7 @@ Second Section– Topics and In-Class Activities:
 - Take-home Exercise: Investigate the stock returns of your favorite stocks, animations of stock price behavior (R or Python).
 - Lab: Python tutorial
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 4 – Data Visualization and Intermediate Statistical Concepts Towards Data Science
 
@@ -108,7 +108,7 @@ Post-SectionReadings and Other Activities:
 - Requirements: (i) use R Notebook for presentation and submit with R Markdown format (in one PDF document) (ii) select a data, (iii) pick an interesting question, (iv) provide a solution
 - Prepare a pitch of analytical project based on Assignment 1.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 5 – Summary of the 1st Week and Introduction to Data Science
 
@@ -131,7 +131,7 @@ Post-SectionReadings and Other Activities:
 - Kaki King & Giorgia Lupi: "Bruises: The Data We Don't See", Talks at Google | [Link](https://www.youtube.com/watch?v=zi3jIT8cqgs) 
 - Technology Tackles Teen Suicide: TED Talk | [Link](https://www.ted.com/talks/tanmay_bakshi_technology_that_tackles_the_teen_suicide_epidemic?trk=organization-update-content_share-video-embed_share-article_title) 
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 6 – Introduction into Machine Learning
 
@@ -156,7 +156,7 @@ Second Section- In-Class Activities:
 Post-SectionReadings and Other Activities:
 - Data Visualization Challenge – Reproducing the Visualization
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 7 – Linear Regression & Logistic Regression
 
@@ -178,7 +178,7 @@ Post-SectionReadings and Other Activities:
 - Building a linear regression model on a given dataset. 
 - Deep Learning Review | [Link](https://youtu.be/U1NLM91g0Kk) Watch this video and take some notes. Prepare for in-class discussion.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 8 – Classification Algorithms I
 
@@ -206,7 +206,7 @@ Post-SectionReadings and Other Activities:
 - Building a logistic regression model on a given dataset.
 - Building a neural network model on a given dataset.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 9 - Classification Algorithms II
 
@@ -232,7 +232,7 @@ Post-SectionReadings and Other Activities:
 - Decision Trees in R. Running the code.
 - Lab: Introduction to Sci-kit Learn (Python, specifically training, testing, and performance; models include linear regression, logistic regression, decision-tree, and random forest)
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 10 – Supervised Machine Learning Review. Brief Introduction to Unsupervised Machine Learning: Clustering.
 
@@ -250,7 +250,7 @@ Second Section- In-Class Activities:
 - Class Laboratory: K-means implementation.
 - Project Time: Feature Engineering and Modeling. Choosing what technique works best to solve the problem. Looking into interpretation of the results.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 11 - Text Mining and Natural Language Processing
 
@@ -271,7 +271,7 @@ Second Section- In-Class Activities:
 - Optional: Predict stock price using LSTM. Ep1: Idea Explanation: [Link](https://youtu.be/oZRmrf6V62g) | Ep2: Code Review: [Link](https://youtu.be/L_yVdwCEK6w) 
 - Project time: Working towards interpretation of a model output. Using a model to predict. Evaluate the predictions quality.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 12 – Reinforcement Learning and Data Ethics
 
@@ -294,7 +294,7 @@ Second Section- In-Class Activities:
 - Class Discussion: Data Ethics
 - Continuation of group project.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 13 - Data Science Wrap-up and Capstone Project
 
@@ -316,7 +316,7 @@ How to carry out a data science project?
 - Deliverables or Software Production: Extrapolate your machine learning model and turn it into a function or a product.
 - Conclusion: Wrap things up and come up with a conclusion that address the question you are interested. In addition, add some future outlook.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Session 14 - Capstone Project and Presentation
 
@@ -333,7 +333,7 @@ Second Section- In-Class Activities:
 - Data professions landscape
 - Class Activity: Reflections on the course and future steps.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/Syllabus.md#content).
+To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 Capstone Project:
 - Team 1 
