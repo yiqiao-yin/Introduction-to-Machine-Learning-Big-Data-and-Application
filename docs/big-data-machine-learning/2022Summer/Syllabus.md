@@ -31,7 +31,10 @@ Second Section:
 - Lab: Linear Regression
 
 Post-section Assignments:
-- Homework: Linear Regression
+- Homework: Build a simple linear regression model.
+- Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
+
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 2 - Linear Regression
 
@@ -59,6 +62,9 @@ Second Section:
 
 Post-section Assignments:
 - Homework: Run a linear regression model and interpret the results. Upload a notebook to your Github page.
+- Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
+
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 3 - Logistic Regression
 
@@ -83,6 +89,9 @@ Second Section:
 
 Post-section Assignments:
 - Homework: Run a logistic regression model using a dataset from sklearn package. Submit a colab notebook to your github page.
+- Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
+
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 4 - Sampling
 
@@ -103,7 +112,10 @@ Second Section:
 - [Holy Grail of Bias Variance Tradeoff](https://juhiramzai.medium.com/holy-grail-for-bias-variance-tradeoff-overfitting-underfitting-7fad64ab5d76)
 
 Post-section Assignments:
-- Homework: 
+- Homework: Use *yfinance* library to download your favoriate stock and sample different length of historical data to plot histogram. Describe how the histogram changes as you change the length of the period.
+- Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
+
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 5 - Model Selection and Regularization
 
@@ -130,7 +142,10 @@ Second Section:
 - Under what circumstances do we like or dislike sparse solutions?
 
 Post-section Assignments:
-- Homework:
+- Homework: Build a linear regression model and use ridge or lasso with backward stepwise selection to narrow down to the best model.
+- Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
+
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 6 - Going beyond Linearity and Tree-based Method
 
@@ -157,6 +172,9 @@ Second Section:
 Post-section Assignments:
 - Homework: Build a decision tree model. Submit your Colab notebook to github page.
 - Homework: Build a random forests model. Submit your Colab notebook to github page.
+- Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
+
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 7 - Deep Learning
 
@@ -200,7 +218,9 @@ Post-section Assignments:
 - Homework: Build a simple neural network regressor.
 - Homework: Build a simple convolutional neural network. 
 - Homework: Build a simple recurrent neural network. 
-- Submit all Colab notebook on github page. Submit the github page.
+- Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
+
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 9 - Unsupervised Learning
 
@@ -227,7 +247,9 @@ Second Section:
 Post-section Assignments:
 - Homework: Build a k-means clustering method to classify data. 
 - Homework: Build a simple VAE model to recreate MNIST images. 
-- Submit all Colab notebook above to your github page. Submit the github page.
+- Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
+
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 10 - Classification Metrics
 
@@ -251,7 +273,10 @@ Second Section:
 - How can F1 score be elaborated?
 
 Post-section Assignments:
-- Homework: Build customized loss function when training a neural network model. Submit your Colab notebook to github page and then submit the github page.
+- Homework: Build customized loss function when training a neural network model.
+- Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
+
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 11 - Data Science Wrap-up and Capstone Project
 
@@ -273,7 +298,7 @@ How to carry out a data science project?
 - Deliverables or Software Production: Extrapolate your machine learning model and turn it into a function or a product.
 - Conclusion: Wrap things up and come up with a conclusion that address the question you are interested. In addition, add some future outlook.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 ## Topic 12 - Capstone Project and Presentation
 
@@ -290,7 +315,7 @@ Second Section- In-Class Activities:
 - Data professions landscape
 - Class Activity: Reflections on the course and future steps.
 
-To go back to the Content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
+To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 Capstone Project:
 - Team 1 
