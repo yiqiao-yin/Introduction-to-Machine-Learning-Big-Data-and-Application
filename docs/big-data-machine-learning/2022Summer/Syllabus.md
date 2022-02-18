@@ -128,66 +128,128 @@ Second Section:
 - Under what circumstances do we like or dislike sparse solutions?
 
 Post-section Assignments:
+- Homework:
 
-## Topic 6 - Going beyond Linearity
-
-Pre-session Reading and Assignments:
-
-First Section:
-
-Second Section:
-
-Third Section:
-
-Post-section Assignments:
-
-## Topic 7 - Tree-based Method
+## Topic 6 - Going beyond Linearity and Tree-based Method
 
 Pre-session Reading and Assignments:
+- [Decision Trees in ML](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052)
+- [When and why tree is better](https://towardsdatascience.com/when-and-why-tree-based-models-often-outperform-neural-networks-ceba9ecd0fd8)
+- [How to visualize decision tree](https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c)
+- [Decision Tree Ensemble](https://towardsdatascience.com/decision-tree-ensembles-bagging-and-boosting-266a8ba60fd9)
+- [Random Forests](https://medium.com/theboredhuman/random-forests-explained-intuitively-2cecb9e1a7b5)
+- [Decision Tree and Random Forests](https://towardsdatascience.com/decision-trees-and-random-forests-df0c3123f991)
 
 First Section:
+- What is decision tree?
+- The art of splitting regions
+- Algorithm: Building a decision tree
+- Apply decision tree regressor and decision tree classifier
+- Important: Interesting statistical phenomenon in bagging
+- Important: Expand decision tree to random forests
 
 Second Section:
-
-Third Section:
+- Discuss: Difference of decision tree and random forests
+- Advanced: Bayesian Additive Regression Tree or BART
 
 Post-section Assignments:
+- Homework: Build a decision tree model. Submit your Colab notebook to github page.
+- Homework: Build a random forests model. Submit your Colab notebook to github page.
 
-## Topic 8 - Deep Learning
+## Topic 7 - Deep Learning
 
 Pre-session Reading and Assignments:
+- [Read AI with me](https://youtu.be/U1NLM91g0Kk)
+- [Activation Function](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
+- [Understanding Neural Networks](https://medium.com/analytics-vidhya/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
+- [What is neural network](https://towardsdatascience.com/what-is-neural-network-implementation-anyway-a37e108d0143)
+- [What is neural network](https://medium.datadriveninvestor.com/what-is-a-neural-network-4f08cbfad4b7)
+- [What is convolutional operation](https://medium.com/analytics-vidhya/convolution-operation-in-cnn-a3352f21613)
+- [Illustrated Guide of RNN](https://towardsdatascience.com/illustrated-guide-to-recurrent-neural-networks-79e5eb8049c9)
+- [Recurrent Neural Network in Examples](https://towardsdatascience.com/recurrent-neural-networks-by-example-in-python-ffd204f99470)
+- [My Udemy Course: Fundamentals in Neural Networks](https://www.udemy.com/course/fundamentals-in-neural-networks/) | Please ask me for 100% FREE discount. You DO NOT have to pay for this!
 
 First Section:
+- Linear Regression
+- Logistic Regression
+- Purpose of Neural Network
+- Forward Propagation
+- Backward Propagation
+- Activation Function (Relu, Sigmoid, Softmax)
+- Cross-entropy Loss Function
+- Gradient Descent
 
 Second Section:
+- Convolutional Operation
+- Stride
+- Padding
+- Convolutional Neural Network
+- Transfer Learning
 
 Third Section:
+- Lanugage Processing
+- Embedding Layer
+- Bi-gram, Three-gram, and N-gram 
+- Recurrent Layer and Simple RNN
+- Recurrent Neural Network
 
 Post-section Assignments:
+- Homework: Build a simple neural network classifier. 
+- Homework: Build a simple neural network regressor.
+- Homework: Build a simple convolutional neural network. 
+- Homework: Build a simple recurrent neural network. 
+- Submit all Colab notebook on github page. Submit the github page.
 
 ## Topic 9 - Unsupervised Learning
 
 Pre-session Reading and Assignments:
+- [Unsupervised and Supervised Learning](https://towardsdatascience.com/supervised-vs-unsupervised-learning-14f68e32ea8d)
+- [Unsupervised Learning - Clustering](https://towardsdatascience.com/clustering-unsupervised-learning-788b215b074b)
+- [Intuitively Understanding Autoencoder](https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf)
+- [PCA Using Python](https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60)
+- [PCA Step by Step](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c)
 
 First Section:
+- What is unsupervised learning?
+- Why use unsupervised learning?
+- Principle Component Analysis or PCA
+- Visualizing PCA
 
 Second Section:
-
-Third Section:
+- Clustering
+- K-means clustering
+- Hierarchical clustering
+- Variational Autoencoder or VAE
+- Important: Connection between VAE and PCA
 
 Post-section Assignments:
+- Homework: Build a k-means clustering method to classify data. 
+- Homework: Build a simple VAE model to recreate MNIST images. 
+- Submit all Colab notebook above to your github page. Submit the github page.
 
 ## Topic 10 - Classification Metrics
 
 Pre-session Reading and Assignments:
+- [Confusion Matrix](https://medium.com/@awabmohammedomer/confusion-matrix-b504b8f8e1d1)
+- [Recall, Precision, F1, ROC, AUC, and everything](https://medium.com/swlh/recall-precision-f1-roc-auc-and-everything-542aedf322b9)
+- [Simplifying the ROC and AUC metrics](https://towardsdatascience.com/understanding-the-roc-and-auc-curves-a05b68550b69)
+- [Accuracy vs. F1-Score](https://medium.com/analytics-vidhya/accuracy-vs-f1-score-6258237beca2)
+- [Custom metrics for Keras/TensorFlow](https://medium.com/analytics-vidhya/custom-metrics-for-keras-tensorflow-ae7036654e05)
 
 First Section:
+- What is continuous prediction and categorical prediction?
+- Accuracy, Specificity, Sensitivity
+- Receiver Operating Characteristics or ROC
+- Area Under Curve or AUC
+- Why use AUC?
 
 Second Section:
-
-Third Section:
+- F1 score
+- Why use F1 score?
+- How can F1 score be elaborated?
 
 Post-section Assignments:
+- Homework: Build customized loss function when training a neural network model. Submit your Colab notebook to github page and then submit the github page.
 
 ## Topic 11 - Data Science Wrap-up and Capstone Project
 
