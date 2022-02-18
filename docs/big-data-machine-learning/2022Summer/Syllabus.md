@@ -120,7 +120,7 @@ To go back to the main content, please click [here](https://github.com/yiqiao-yi
 ## Topic 5 - Model Selection and Regularization
 
 Pre-session Reading and Assignments:
-- [A Short Intro](https://towardsdatascience.com/a-short-introduction-to-model-selection-bb1bb9c73376
+- [A Short Intro](https://towardsdatascience.com/a-short-introduction-to-model-selection-bb1bb9c73376)
 - [Model Selection](https://towardsdatascience.com/model-selection-101-using-r-c8437b5f9f99)
 - [Keep it simple](https://towardsdatascience.com/keep-it-simple-stupid-lesson-in-model-selection-5fd1193009d)
 - [Cross-validation for Model Selection](https://medium.com/dataseries/cross-validation-for-model-selection-5e843c71553d)
