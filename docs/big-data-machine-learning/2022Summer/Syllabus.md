@@ -11,6 +11,10 @@
 ## Topic 1 - Statistical Learning
 
 Pre-session Reading and Assignments:
+- [Basics: Introduction to Python](https://colab.research.google.com/drive/1JvFihr4n2BRQk5Z2yq8We3-kUVyh3E2a?usp=sharing)
+- [Basics: Introduction to Numpy, Pandas, and Matplotlib](https://colab.research.google.com/drive/1yo7efDYCfjLkNTMbA-9cDPwBTTDHvA4x?usp=sharing)
+- [Numpy](https://medium.com/@adi.bronshtein/a-quick-introduction-to-the-numpy-library-6f61b7dee4db)
+- [Pandas](https://medium.com/@adi.bronshtein/a-quick-introduction-to-the-pandas-python-library-f1b678f34673)
 - [Basic Introduction of Statistical Learning](https://medium.com/@mohanraj.raja.ai/https-medium-com-mohanraj-raja-ai-intro-to-statistical-learning-ex1-15640235bf8)
 - [Statistical Learning Theory](https://medium.com/swlh/statistical-learning-theory-de62fada0463)
 - [Data Science Principle](https://becominghuman.ai/data-science-simplified-principles-and-process-b06304d63308) | [Data Science Principle (Continued)](https://towardsdatascience.com/data-science-simplified-key-concepts-of-statistical-learning-45648049709e)
@@ -60,6 +64,9 @@ Second Section:
 - How to interpret the regression results?
 - What is F-statistics in linear regression?
 
+Third Section:
+- [Lab: Linear Regression](https://colab.research.google.com/drive/141d4QDChZ2SLoibrYqI4t7edwl6VcXbW?usp=sharing)
+
 Post-section Assignments:
 - Homework: Run a linear regression model and interpret the results. Upload a notebook to your Github page.
 - Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
@@ -86,6 +93,9 @@ Second Section:
 - Maximum likelihood function
 - How to solve a maximum likelihood?
 - What is partial derivative?
+
+Third Section:
+- [Lab: Logistic Regression](https://colab.research.google.com/drive/1hnKAJMup5Ci-aorOSe1fvqITsMghTGY9?usp=sharing)
 
 Post-section Assignments:
 - Homework: Run a logistic regression model using a dataset from sklearn package. Submit a colab notebook to your github page.
@@ -141,6 +151,10 @@ Second Section:
 - Which is more likely to create sparse solutions?
 - Under what circumstances do we like or dislike sparse solutions?
 
+Third Section:
+- [Ridge](https://colab.research.google.com/drive/15EXhM-8BsYldLB6thYWumYfPZdlk71MS?usp=sharing)
+- [Lasso](https://colab.research.google.com/drive/12VWGUlEFYtPdhYX6vDYi9JDZS6wmrxGX?usp=sharing)
+
 Post-section Assignments:
 - Homework: Build a linear regression model and use ridge or lasso with backward stepwise selection to narrow down to the best model.
 - Please download your Python notebook from Colab and upload it to your Github page. Please submit the link of your Github page.
@@ -168,6 +182,11 @@ First Section:
 Second Section:
 - Discuss: Difference of decision tree and random forests
 - Advanced: Bayesian Additive Regression Tree or BART
+
+Third Section:
+- [Lab: Decision Tree](https://colab.research.google.com/drive/1k_zXpo4kj2TeT0uzo3L-T7sT6scVePeE?usp=sharing)
+- [Lab: Random Forests](https://colab.research.google.com/drive/1NmYJOgarDjrXsWZQv_uBbUxzeO7S0YY9?usp=sharing)
+- [Lab (optional): SVM](https://colab.research.google.com/drive/1PZ86_LfNOA8vALawARwjwJSJGf1dCaqs?usp=sharing)
 
 Post-section Assignments:
 - Homework: Build a decision tree model. Submit your Colab notebook to github page.
@@ -198,6 +217,9 @@ First Section:
 - Activation Function (Relu, Sigmoid, Softmax)
 - Cross-entropy Loss Function
 - Gradient Descent
+- [Lab: MLP](https://colab.research.google.com/drive/1X0isvu25dHIy2v2N-wtyLjTFC8hTalnn?usp=sharing)
+- [Lab: Intro to Neural Networks](https://colab.research.google.com/drive/10E68qlus5cpkZ-kNetLDI2jVyVqFuqXG?usp=sharing)
+- [Lab: Tuning Neural Networks](https://colab.research.google.com/drive/1lIq_pvGaXQmldVUXL0g37cDuQQMUpp6g?usp=sharing)
 
 Second Section:
 - Convolutional Operation
@@ -205,6 +227,9 @@ Second Section:
 - Padding
 - Convolutional Neural Network
 - Transfer Learning
+- [Lab: Intro to CNN](https://colab.research.google.com/drive/1683raEMax4jfDUANqczEO3VU6iVbHg16?usp=sharing)
+- [Lab: Intermediate CNN](https://colab.research.google.com/drive/1jjZq9U41FqRK7jLODRctlgT25i2H18RX?usp=sharing)
+- [Lab: Advanced CNN](https://colab.research.google.com/drive/1w3JF7aT7F8Mjsh1lFN70Ot1Cwl8RZ1zN?usp=sharing)
 
 Third Section:
 - Lanugage Processing
@@ -212,6 +237,8 @@ Third Section:
 - Bi-gram, Three-gram, and N-gram 
 - Recurrent Layer and Simple RNN
 - Recurrent Neural Network
+- [Lab: RNN](https://colab.research.google.com/drive/16y524HxPN6Xy8-FWAcszrJ0e-m1jYsry?usp=sharing)
+- [Lab: LSTM on IMDB Dataset](https://colab.research.google.com/drive/12g6YwUTdP-eIOhzET2DHf4PU6R8k05jY?usp=sharing)
 
 Post-section Assignments:
 - Homework: Build a simple neural network classifier. 
