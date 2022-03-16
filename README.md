@@ -127,7 +127,7 @@ Things to think about:
 
 ## Philosophy with Machine Learning / Data Science / Artificial Intelligence
 
-There are three stages of learning curves down the road of pursuing Machine Learning / Data Science / Artificial Intelligence.
+There are three stages of learning curves down the road of pursuing Machine Learning / Data Science / Artificial Intelligence. For detailed description of the following stages, please see [My Advice](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/Advice.md).
 
 - Stage I: This stage is at the beginner level. There is a wide range of topics that I need to learn and I need to smash time to get through all of them as fast as I can. This means pick a common machine learning book and go through them word by word and topic by topic. Through this journey you also get a sense of what are the practices that other people do. More importantly, you need to explore what are the pros and cons of these practices. In brief, Stage I is about collecting tools.
 
