@@ -17,8 +17,8 @@ Some great books are:
 - Dive into Deep Learning: course website [here](https://d2l.ai/). I love this course and I gained a lot of insight in my learning of deep learning models especially from brute coding point of view using three different libraries at the same time (MXNet, Torch, and Keras Tensorflow). This course is also associated with UC Berkeley course which is [here](https://courses.d2l.ai/berkeley-stat-157/index.html).
 
 For those of you who has the time and capital resources, I recommend to follow a sequence of courses that are designed to teach you the entire system thoroughly. 
-- Andrew Ng's Coursera Deep Learning Certificate: click [here](https://github.com/yiqiao-yin/Deep-Learning-Coursera)
-- Stanford Website Machine Learning Course - CS 229 Machine Learning: [Course Page](https://stanford.edu/~shervine/teaching/cs-229/)
+- Andrew Ng's Coursera Deep Learning Certificate: click [here](https://github.com/yiqiao-yin/Deep-Learning-Coursera) | Yiqiao Yin's Fundamentals in Neural Networks: click [here](https://wyn-associates.com/education/) and feel free to ask me for free edition. 
+- Stanford Website Machine Learning Course - CS229 Machine Learning: [Course Page](https://stanford.edu/~shervine/teaching/cs-229/)
 - Stanford Website Deep Learning Course - CS230 Deep Learning: [Github](https://github.com/afshinea/stanford-cs-230-deep-learning), [Course Page](https://stanford.edu/~shervine/teaching/cs-230/)
 
 Programming Languages (academic level):
@@ -66,3 +66,4 @@ A new data set is like a new person you may want to be friends with. You treat i
 - From YinsPredictor 3.0, I further advanced another version of stock predictor. Though a small piece of building blocks at Yin's Capital, it is the most rudimentary part required for my organization. Click [here](https://github.com/yiqiao-yin/YinsPredictor3_0) to get yourself acquainted with this package.
 - I published my version of neural network package using Keras R interface, click [here](https://github.com/yiqiao-yin/YinsKerasNN) to learn more about how to download this package. A more consolidated ML package can be found at [YinsLibrary](https://github.com/yiqiao-yin/YinsLibrary__).
 - For my own holding company, I developed a corporate level package and one can access it here at [YinsCapital](https://github.com/yiqiao-yin/YinsCapital).
+- For my most recent updates, please see my company's site: [WYN Associates Software](https://wyn-associates.com/software/).
