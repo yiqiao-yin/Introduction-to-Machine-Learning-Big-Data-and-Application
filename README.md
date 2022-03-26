@@ -1,4 +1,4 @@
-# Pre-College Big Data & Machine Learning
+# Pre-College Big Data, Machine Learning, and Artificial Intelligence
 
 [![AnYinProduction](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://yinscapital.com/research/)
 [![Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
