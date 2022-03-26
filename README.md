@@ -89,6 +89,7 @@ For dev purpose, please install Git (sometimes also called Git Bash) using links
 
 Sometimes I just want to give myself some light and leisure reading on my getaway trip to a resort. When that's the case, I save the following websites to ensure I have an updated AI environment from around the world. 
 
+- [Yiqiao Yin Medium List](https://medium.com/@yiqiaoyin/lists)
 - [AI Magazine](https://aimagazine.com/)
 - [Analytics Insight](https://www.analyticsinsight.net/magazine/)
 - [AI Trends](https://www.aitrends.com/)
