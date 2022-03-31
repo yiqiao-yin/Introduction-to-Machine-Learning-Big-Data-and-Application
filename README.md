@@ -48,8 +48,8 @@ Required text (all links are publicly available):
 - Hastie and Efron, Computer Age Statistical Inference: Algorithms, Evidence, and Data Science: [Link](https://web.stanford.edu/~hastie/pub.htm)
 
 We focus on selected topics in the required textbooks above. Topics are described under Course Schedule below. For additional textbooks, please reach out to Yiqiao Yin for more resources. It is also recommended for students to have a working laptop or desktop. Please install R / RStudio for homework as well as capstone project.
-- R/RStudio (required): please refer to [RStudio Cloud](https://rstudio.cloud/), we will be using this IDE as main development environment
-- Python/Jupyter Lab (optional)
+- R/RStudio (required): please refer to [RStudio Cloud](https://rstudio.cloud/), we will be using this IDE as the main development environment
+- Python/Jupyter Lab (required): please refer to [Google Colab](https://colab.research.google.com/notebooks/basic_features_overview.ipynb), we will be using this IDE as the main development environment
 - Github (a website repo where students show case their projects)
 
 ### Resources and References
@@ -69,6 +69,7 @@ For Computer Science & Deep Learning:
 - Trevor Hastie: [site](https://web.stanford.edu/~hastie/)
 
 For Capstone Projects (Individual Research Project):
+- Tensorflow Keras: [site](https://www.tensorflow.org/guide/keras/sequential_model)
 - Tensorflow R Interface: [site](https://tensorflow.rstudio.com/guide/keras/)
 - RStudio AI Blog: [site](https://blogs.rstudio.com/ai/)
 
@@ -77,7 +78,11 @@ For Online CoderPad (Technical Interview):
 
 ### Software Installation
 
-It is required to use the programming language R. I will explain the difference of using Python and R.
+It is required to use the programming language Python. I will explain the difference of using Python and R.
+- For lecture, homework, tutorials, and capstone projects, we all use Python programming language. 
+- You only need a [Gmail account](https://gmail.com/) and [Google Drive](https://drive.google.com/) to be able to access Colab. You will need to log in to your Drive and look for "New" button on the top left of the screen. Once you click on "New" button, then please click on "More" button to open up the apps. If this is the first time you use Colab, you will have to go to "Connect More Apps". Once you click on it, a window pops out and you will have to search and install "Colab". 
+
+It is optional to use the programming language R. 
 - For installation of the programming language R, please use the link [here](https://cran.r-project.org/bin/windows/base/) and click the big blue link that says "Download R 4.0.3. for Windows". In situation where the location is not in the United States, there could be different versions. Do not worry about this the version. 
 - For installation of the programming IDE RStudio (this is a different installation of R), please use the link [here](https://rstudio.com/products/rstudio/download/#download)
 - Do not worry about Windows or Macbook. The links provided above have download for both Windows and Macbook. 
