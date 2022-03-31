@@ -34,7 +34,7 @@ Additional course materials from Yiqiao Yin or W.Y.N. Associates can be found at
 
 ## Overview
 
-The course focuses on the strategic use of data and innovative technologies to derive actionable decision-making process. Participants develop strong understanding of using statistical learning and data-driven critical thinking for solving real-world problems. Students are introduced foundations of statistical learning and machine learning tools. Moreover, they gain data analytical thinking process and a familiarity of using programming language such as R (a software programming language for statistics and data science). 
+The course focuses on the strategic use of data and innovative technologies to derive actionable decision-making process. Participants develop strong understanding of using statistical learning and data-driven critical thinking for solving real-world problems. Students are introduced foundations of statistical learning and machine learning tools. Moreover, they gain data analytical thinking process and a familiarity of using programming language such as Python or R (software programming languages for statistics and data science). 
 
 ### Materials
 
