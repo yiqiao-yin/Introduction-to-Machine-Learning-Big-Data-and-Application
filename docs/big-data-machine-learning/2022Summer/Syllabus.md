@@ -317,6 +317,12 @@ Second Section- In-Class Activities:
 Post-SectionReadings and Other Activities:
 - Group Project submission
 
+Where to find public data?
+- [Sci-kit Learn Toy Datasets](https://scikit-learn.org/stable/datasets/toy_dataset.html)
+- [Tensorflow Datasets](https://www.tensorflow.org/datasets)
+- [Torch Datasets](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+
 How to carry out a data science project?
 - Background or Introduction: What is the field? What are some interesting and existing applications? What are we interested in? What is the motivation?
 - Data: Does the data support evidence that can address issues in answering the above motivation question? Can you process the data? Can you clean up the data? What's the estimated cost of running the model on this data? 
