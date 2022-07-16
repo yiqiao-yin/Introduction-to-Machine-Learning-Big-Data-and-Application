@@ -351,7 +351,7 @@ Second Section- In-Class Activities:
 To go back to the main content, please click [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/docs/big-data-machine-learning/2022Summer/Syllabus.md#content).
 
 Capstone Project:
-- Team 1 
+- Team 1: [link](https://github.com/RayOuKairui/Intro-to-Machine-Learning-Big-Data-and-Application-Capstone-Project)
 - Team 2
 - Team 3
 - Team 4
