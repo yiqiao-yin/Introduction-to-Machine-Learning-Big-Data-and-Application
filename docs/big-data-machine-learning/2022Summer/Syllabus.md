@@ -355,4 +355,7 @@ Capstone Project:
 - Team 2: [Fake News Prediction](https://github.com/Ash1R/FakeNewsConditions)
 - Team 3: [World Happiness](https://github.com/YianWuOlivia/Capstone-Project)
 - Team 4: [Automobile Sales Price Forecast](https://github.com/John102020/Big-Data-ML-Capstone-Project)
-- Team 5
+- Team 5: [Hand Gesture Recognition](https://github.com/Gsebs/Data_Science)
+- Team 6:
+- Team 7:
+- Team 8:
