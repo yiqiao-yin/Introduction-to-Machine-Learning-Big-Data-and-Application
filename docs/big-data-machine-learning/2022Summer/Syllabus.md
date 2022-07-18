@@ -356,6 +356,6 @@ Capstone Project:
 - Team 3: [World Happiness](https://github.com/YianWuOlivia/Capstone-Project)
 - Team 4: [Automobile Sales Price Forecast](https://github.com/John102020/Big-Data-ML-Capstone-Project)
 - Team 5: [Hand Gesture Recognition](https://github.com/Gsebs/Data_Science)
-- Team 6:
-- Team 7:
+- Team 6: [Basketball Game Wins Forecast](https://github.com/vganesh24/College-Wins-Prediction)
+- Team 7: [Stock Price Forecast](https://github.com/SumedhKundu/CapstoneColumbia-Aarna-Anant-Sumedh)
 - Team 8:
