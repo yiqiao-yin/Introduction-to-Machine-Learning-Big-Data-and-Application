@@ -74,7 +74,21 @@ For Capstone Projects (Individual Research Project):
 - RStudio AI Blog: [site](https://blogs.rstudio.com/ai/)
 
 For Online CoderPad (Technical Interview): 
-- Free Online Coding Platform (C++/Python/R/Matlab/Java all available): https://coderpad.io/launch-sandbox 
+- Free Online Coding Platform (C++/Python/R/Matlab/Java all available): https://coderpad.io/launch-sandbox
+
+### Collection of Course Resources
+
+Available resources for data:
+- UCI Machine Learning: [link](https://archive.ics.uci.edu/ml/datasets.php)
+- Kaggle: [link](https://www.kaggle.com/datasets)
+- Tensorflow datasets: [link](https://www.tensorflow.org/api_docs/python/tf/keras/datasets)
+
+Common resources:
+- The main course repo is [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application). Deep Learning related repo is [here](https://github.com/yiqiao-yin/WYNAssociates).
+- Related course topics are fully uploaded to YouTube channels: [Machine Learning](https://www.youtube.com/playlist?list=PLE06V2Lg9GqMANpojdMXRerSREyGnX9Oa), and [Deep Learning](https://www.youtube.com/playlist?list=PLE06V2Lg9GqPlq3Jk4X8Hg1B2i61b7GZo).
+- Google drive link (include both machine learning code and deep learning code) is [here](https://drive.google.com/drive/folders/1x4YJYkoEzqn6t4vVk8CevtzHBX5ia80c?usp=sharing). I made it view-only, so please make sure to save it as a copy on your own Google Drive. This way other students can also use it as well and one person's edit won't interfere with others'. 
+- Selected course zoom recordings are posted on this [YouTube link](https://www.youtube.com/watch?v=fuKQkTb--RU&list=PLE06V2Lg9GqO5cGWqrab1ocP2kOVqa7ZV).
+- Previous student projects are on this [YouTube link](https://www.youtube.com/watch?v=uZC1dd4YFUk&list=PLE06V2Lg9GqOjFYw7XxIbvJLFBdiNpwZc). PLEASE FEEL FREE TO WATCH AND TAKE IT AS REFERENCE! 
 
 ### Software Installation
 
