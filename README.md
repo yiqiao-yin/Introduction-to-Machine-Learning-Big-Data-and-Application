@@ -26,7 +26,7 @@ Additional course materials from Yiqiao Yin or W.Y.N. Associates can be found at
 | -- News and Social Media | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#news-and-social-media) |
 | Philosophy  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#philosophy)  |
 | -- Teaching Philosophy  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#teaching-philosophy-trinity-set)  |
-| -- Why do I want to teach | [Link]() |
+| -- Why do I want to teach | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/README.md#why-do-i-want-to-teach) |
 | -- Philosophy with Machine Learning / Data Science / Artificial Intelligence  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#philosophy-with-machine-learning--data-science--artificial-intelligence)  |
 | -- What You Take Away From This Course  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#what-you-take-away-from-this-course)  |
 | -- Skill Sets  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#skill-sets)  |
@@ -154,7 +154,7 @@ Why do I want to teach? What do I get out of this? Well, there are so many diffe
 
 1. I truly love it. I really enjoy talking to different people and show people what I know about Data Science, Machine Learning, and Artificial Intelligence. It is, in some way, a small reinforcement to the knowledge flow in the overall population. I found it super helpful myself when I was in the beginning of my career and I want to give it back to the community if I can. 
 2. I am learning from all my students. Being humble aside, I truly believe one important way of learning is to teach. The process of stating a piece of information and then breaking it down to another person is non-trivial. It is not a skill to gain overnight. Rather, it takes years of practicing. On top of all that, it requires me to understand the knowledge and its many caveat scenarios by heart, which is a piece of experience I hold dear.
-3. A data scientist's career goes takes the following trend: Data Analyst > Data Scientist > Senior Data Scientist > Lead/Principle Data Scientist > Associate Director > Director > Senior Vice President > Vice President and so on. I can take on a project, but that is just for me and it is not enough. I want to be able to train and mentor others to be successful in their data science career as well. This leadership skill and experience come in practice and training, years of it. I better start now. 
+3. A data scientist's career goes takes the following trend: Data Analyst > Data Scientist > Senior Data Scientist > Lead/Principle Data Scientist > Associate Director > Director > Senior Vice President > Vice President and so on. I can take on a project, but that is just for me and it is not enough. I want to be able to train and mentor others to be successful in their data science career as well. This leadership skill and experience come in practice and training, years of it. It is also not that trivial. It takes time to get to know a person's background and their strength to be able to mentor them and encourage them to move above and beyond. 
 
 ## Philosophy with Machine Learning / Data Science / Artificial Intelligence
 
