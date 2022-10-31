@@ -17,14 +17,16 @@ Additional course materials from Yiqiao Yin or W.Y.N. Associates can be found at
 
 | ITEMS  | LINK |
 | ------------- | ------------- |
-| Courses  | [Link](https://github.com/yiqiao-yin/SML#courses)  |
+| Courses  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#courses)  |
 | - Overview  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#overview)  |
 | -- Materials  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#materials)  |
 | -- Resources and References  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#resources-and-references)  |
+| -- Collection of Course Resources | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#collection-of-course-resources) |
 | -- Software Installation  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#software-installation)  |
-| Philosophy  | [Link](https://github.com/yiqiao-yin/SML#philosophy)  |
-| -- Teaching Philosophy  | [Link](https://github.com/yiqiao-yin/SML#teaching-philosophy-trinity-set)  |
-| -- News and Social Media | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#news-and-social-media) | 
+| -- News and Social Media | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#news-and-social-media) |
+| Philosophy  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#philosophy)  |
+| -- Teaching Philosophy  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#teaching-philosophy-trinity-set)  |
+| -- Why do I want to teach | [Link]() |
 | -- Philosophy with Machine Learning / Data Science / Artificial Intelligence  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#philosophy-with-machine-learning--data-science--artificial-intelligence)  |
 | -- What You Take Away From This Course  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#what-you-take-away-from-this-course)  |
 | -- Skill Sets  | [Link](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application#skill-sets)  |
