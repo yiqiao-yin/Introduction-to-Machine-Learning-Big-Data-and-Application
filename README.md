@@ -148,6 +148,14 @@ Things to think about:
 - Why is it called a Trinity Set? What happens when one side of arraws dissappear? 
 - Why an ideal career path needs all three elements?
 
+## Why do I want to teach
+
+Why do I want to teach? What do I get out of this? Well, there are so many different reasons and they all based on different factors. The truth is that the reasons change over time. However, let me summarize in the following:
+
+1. I truly love it. I really enjoy talking to different people and show people what I know about Data Science, Machine Learning, and Artificial Intelligence. It is, in some way, a small reinforcement to the knowledge flow in the overall population. I found it super helpful myself when I was in the beginning of my career and I want to give it back to the community if I can. 
+2. I am learning from all my students. Being humble aside, I truly believe one important way of learning is to teach. The process of stating a piece of information and then breaking it down to another person is non-trivial. It is not a skill to gain overnight. Rather, it takes years of practicing. On top of all that, it requires me to understand the knowledge and its many caveat scenarios by heart, which is a piece of experience I hold dear.
+3. A data scientist's career goes takes the following trend: Data Analyst > Data Scientist > Senior Data Scientist > Lead/Principle Data Scientist > Associate Director > Director > Senior Vice President > Vice President and so on. I can take on a project, but that is just for me and it is not enough. I want to be able to train and mentor others to be successful in their data science career as well. This leadership skill and experience come in practice and training, years of it. I better start now. 
+
 ## Philosophy with Machine Learning / Data Science / Artificial Intelligence
 
 There are three stages of learning curves down the road of pursuing Machine Learning / Data Science / Artificial Intelligence. For detailed description of the following stages, please see [My Advice](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application/blob/main/Advice.md).
