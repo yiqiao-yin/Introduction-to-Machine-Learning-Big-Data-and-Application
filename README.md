@@ -82,6 +82,7 @@ Available resources for data:
 - UCI Machine Learning: [link](https://archive.ics.uci.edu/ml/datasets.php)
 - Kaggle: [link](https://www.kaggle.com/datasets)
 - Tensorflow datasets: [link](https://www.tensorflow.org/api_docs/python/tf/keras/datasets)
+- Firm AI: [link](https://github.com/firmai/industry-machine-learning)
 
 Common resources:
 - The main course repo is [here](https://github.com/yiqiao-yin/Introduction-to-Machine-Learning-Big-Data-and-Application). Deep Learning related repo is [here](https://github.com/yiqiao-yin/WYNAssociates).
