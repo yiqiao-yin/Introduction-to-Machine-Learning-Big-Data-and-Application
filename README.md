@@ -63,7 +63,10 @@ For Probability and Statistics:
 - Stat Lecture: [site](https://www.statlect.com/)
 
 For Computer Science & Deep Learning:
+- An Introduction to Statistical Learning: [site](https://www.statlearning.com/)
+  - Fundamental of Machine Learning by Mr. Yin: [YouTube](https://www.youtube.com/playlist?list=PLE06V2Lg9GqMANpojdMXRerSREyGnX9Oa)
 - Deep Learning: [site](https://www.deeplearningbook.org/lecture_slides.html)
+  - Deep Learning Series by Mr. Yin: [YouTube](https://www.youtube.com/playlist?list=PLE06V2Lg9GqPlq3Jk4X8Hg1B2i61b7GZo)
 - Stanford CS 229: [site](https://stanford.edu/~shervine/teaching/cs-229/)
 - NYU CS Yan LeCun: [site](https://cds.nyu.edu/deep-learning/)
 - Columbia COMS 4995: [site](https://www.cs.columbia.edu/~amueller/comsw4995s19/schedule/)
