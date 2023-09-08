@@ -68,6 +68,7 @@ For Computer Science & Deep Learning:
 - Deep Learning: [site](https://www.deeplearningbook.org/lecture_slides.html)
   - Deep Learning Series by Mr. Yin: [YouTube](https://www.youtube.com/playlist?list=PLE06V2Lg9GqPlq3Jk4X8Hg1B2i61b7GZo)
 - Stanford CS 229: [site](https://stanford.edu/~shervine/teaching/cs-229/)
+- Stanford CS 324: [site](https://stanford-cs324.github.io/winter2022/lectures/introduction/)
 - NYU CS Yan LeCun: [site](https://cds.nyu.edu/deep-learning/)
 - Columbia COMS 4995: [site](https://www.cs.columbia.edu/~amueller/comsw4995s19/schedule/)
 - Isabelle Guyon: [site](http://www.clopinet.com/isabelle/)
