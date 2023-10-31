@@ -389,6 +389,58 @@ def bubble_sort(arr):
     return arr
 ```
 
+### More in Sorting
+
+Sorting is fundamental in algorithmic design, impacting data organization and processing efficiency. Key considerations include:
+
+- **Comparison-Based**: Most classic sorting algorithms are comparison-based, meaning they work by comparing elements.
+- **Stability**: A stable sort preserves the relative order of equal elements. This can be crucial in applications like database sorting.
+- **In-Place**: An in-place sort uses a constant amount of extra memory (typically \( O(1) \)).
+- **Time Complexities**: Different algorithms have varied best, average, and worst-case time complexities. The choice often depends on data characteristics and specific needs.
+- **Adaptivity**: Some algorithms benefit from existing order in the data, becoming faster as the input becomes more sorted.
+
+**Bubble Sort**:
+Bubble Sort is a simple comparison-based algorithm where the largest elements "bubble" to the end of the list through successive swaps. It's inefficient for large lists, with a worst-case and average-case time complexity of \( O(n^2) \).
+
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+```
+
+**Merge Sort**:
+Merge Sort is a divide-and-conquer algorithm that splits the list in half, recursively sorts both halves, and then merges them back together. It's more efficient than Bubble Sort, with a worst-case time complexity of \( O(n \log n) \).
+
+```python
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left, right)
+
+def merge(left, right):
+    result = []
+    i = j = 0
+    while i < len(left) and j < len(right):
+        if left[i] < right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    result.extend(left[i:])
+    result.extend(right[j:])
+    return result
+```
+
+Both Bubble Sort and Merge Sort have their niches; the former for its simplicity and the latter for its efficiency in many scenarios.
+
 ## Recursion
 
 **Simple Explanation**: Recursion is when a function calls itself to solve smaller instances of the same problem.
