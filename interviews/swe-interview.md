@@ -633,9 +633,66 @@ def are_parentheses_balanced(s):
     return not stack
 ```
 
-Sure! Let's extend the markdown file by adding the sections you've mentioned.
+### More in Stacks
 
----
+Let's begin by designing the `Node` and `Stack` classes as described:
+
+#### Node Class
+
+This class represents an individual node in our stack. Each node has a `value` and a reference to the `next` node.
+
+```python
+class Node:
+    def __init__(self, val) -> None:
+        self.value = val
+        self.next = None
+```
+
+#### Stack Class
+
+This class represents our stack. It has methods to `push`, `pop`, and `peek` as described.
+
+```python
+class Stack:
+    def __init__(self) -> None:
+        self.top = None
+
+    def push(self, val) -> None:
+        new_node = Node(val)
+        new_node.next = self.top
+        self.top = new_node
+
+    def pop(self):
+        if self.top:
+            popped_value = self.top.value
+            self.top = self.top.next
+            return popped_value
+        return None
+
+    def peek(self):
+        return self.top.value if self.top else None
+```
+
+#### Testing with the given array
+
+Now, let's use the array `[1,2,3,4,5]` to test our stack:
+
+```python
+stack = Stack()
+
+# Pushing values onto the stack
+for value in [1,2,3,4,5]:
+    stack.push(value)
+
+print(stack.peek())  # Should print 5, as it's the top of the stack
+
+# Popping values from the stack
+print(stack.pop())  # Should print 5
+print(stack.pop())  # Should print 4
+print(stack.peek())  # Should print 3, as it's now the top of the stack
+```
+
+When you push values onto the stack, they are added to the top. When you pop values, they are removed from the top. The `peek` method lets you see the current top value without removing it. In the context of algorithmic design, stacks are useful in various scenarios, such as evaluating expressions, implementing undo-redo functionality, and more.
 
 ## Queues
 
