@@ -389,6 +389,12 @@ def bubble_sort(arr):
     return arr
 ```
 
+### Tips and Tricks
+
+- Make sure you are certain and aware of the problem statement and that you are dealing with a sorting problem
+- Wrtie sorting from scratch or from using builty-in sorting algorithms with multiple toolkits in your pocket
+- Know not the basic sorting algorithms such as bubble sort, quick sort, and merge sort, but also know the unconventional ones such as radix sort, and bucket sort. 
+
 ### More in Sorting
 
 Sorting is fundamental in algorithmic design, impacting data organization and processing efficiency. Key considerations include:
@@ -399,7 +405,8 @@ Sorting is fundamental in algorithmic design, impacting data organization and pr
 - **Time Complexities**: Different algorithms have varied best, average, and worst-case time complexities. The choice often depends on data characteristics and specific needs.
 - **Adaptivity**: Some algorithms benefit from existing order in the data, becoming faster as the input becomes more sorted.
 
-**Bubble Sort**:
+#### **Bubble Sort**
+
 Bubble Sort is a simple comparison-based algorithm where the largest elements "bubble" to the end of the list through successive swaps. It's inefficient for large lists, with a worst-case and average-case time complexity of \( O(n^2) \).
 
 ```python
@@ -412,7 +419,8 @@ def bubble_sort(arr):
     return arr
 ```
 
-**Merge Sort**:
+####  **Merge Sort**
+
 Merge Sort is a divide-and-conquer algorithm that splits the list in half, recursively sorts both halves, and then merges them back together. It's more efficient than Bubble Sort, with a worst-case time complexity of \( O(n \log n) \).
 
 ```python
@@ -441,6 +449,82 @@ def merge(left, right):
 
 Both Bubble Sort and Merge Sort have their niches; the former for its simplicity and the latter for its efficiency in many scenarios.
 
+#### **Quick Sort**
+
+Quick Sort is a divide-and-conquer algorithm. It selects a 'pivot' element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively. Quick Sort can be very fast in practice, with an average-case time complexity of \( O(n \log n) \), but a worst-case of \( O(n^2) \).
+
+```python
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
+```
+
+#### **Radix Sort**
+
+Radix Sort is a non-comparative sorting algorithm that works by distributing elements into buckets according to their individual digits. It processes the digits of each number one at a time, from the least significant digit (LSD) to the most significant digit (MSD) or vice-versa. Its time complexity is \( O(nk) \), where \( n \) is the number of elements and \( k \) is the number of passes of the sorting process.
+
+```python
+def counting_sort_for_radix(arr, position):
+    size = len(arr)
+    output = [0] * size
+    count = [0] * 10
+
+    for i in range(size):
+        index = arr[i] // position % 10
+        count[index] += 1
+
+    for i in range(1, 10):
+        count[i] += count[i - 1]
+
+    i = size - 1
+    while i >= 0:
+        index = arr[i] // position % 10
+        output[count[index] - 1] = arr[i]
+        count[index] -= 1
+        i -= 1
+
+    for i in range(size):
+        arr[i] = output[i]
+
+def radix_sort(arr):
+    max_num = max(arr)
+    position = 1
+    while max_num // position > 0:
+        counting_sort_for_radix(arr, position)
+        position *= 10
+    return arr
+```
+
+#### **Bucket Sort**
+
+Bucket Sort divides the interval of sorted values into buckets or bins. Elements are then distributed into these buckets. Each bucket is then sorted individually, either using a different sorting algorithm or recursively applying bucket sort. Its average-case time complexity is \( O(n + n^2/k + k) \) where \( n \) is the number of elements and \( k \) is the number of buckets. When \( k \) is approximately \( n \), the performance is close to \( O(n) \).
+
+```python
+def bucket_sort(arr):
+    if len(arr) == 0:
+        return arr
+
+    min_val, max_val = min(arr), max(arr)
+    bucket_range = (max_val - min_val) / len(arr)
+    buckets = [[] for _ in range(len(arr) + 1)]
+
+    for num in arr:
+        buckets[int((num - min_val) / bucket_range)].append(num)
+
+    sorted_arr = []
+    for bucket in buckets:
+        sorted_arr.extend(sorted(bucket))
+
+    return sorted_arr
+```
+
+Each of these algorithms has its strengths and is particularly suited to certain types of data or certain problem scenarios. Understanding their underlying mechanics and when to use them is a key skill in algorithm design.
+
 ## Recursion
 
 **Simple Explanation**: Recursion is when a function calls itself to solve smaller instances of the same problem.
@@ -454,6 +538,79 @@ def factorial(n):
         return 1
     return n * factorial(n-1)
 ```
+
+### Fibonacci Number
+
+Here's a simple recursive function to find the Fibonacci number at a given position, using type hints:
+
+```python
+def fibonacci(n: int) -> int:
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+```
+
+In this function, if \( n \) is 0 or 1, the function returns \( n \) itself (as the 0th and 1st Fibonacci numbers are 0 and 1, respectively). For any other value of \( n \), the function returns the sum of the Fibonacci numbers at positions \( n-1 \) and \( n-2 \). This is a direct application of the Fibonacci sequence definition.
+
+However, it's worth noting that this naive recursive approach is not efficient for large values of \( n \) due to the significant number of overlapping computations. For larger values, more efficient algorithms (like memoization or iterative approaches) should be considered.
+
+### Use Recursion to Check Whether a Number is in a Tree
+
+Let's begin by creating the binary tree.
+
+#### Binary Tree Class
+
+```python
+class TreeNode:
+    def __init__(self, value: int) -> None:
+        self.value = value
+        self.left = None
+        self.right = None
+```
+
+This `TreeNode` class represents a node in our binary tree. Each node has a `value` and two child nodes: `left` and `right`.
+
+#### Recursive Function to Check for a Value
+
+```python
+def contains_value(node: TreeNode, target: int) -> bool:
+    if not node:  # If the node is None, we've reached the end without finding the value
+        return False
+    if node.value == target:  # If the current node's value matches the target
+        return True
+    # Recursively check the left and right children
+    return contains_value(node.left, target) or contains_value(node.right, target)
+```
+
+#### Explanation
+
+1. The `contains_value` function checks if a given binary tree (or subtree) contains a specific value.
+2. If the current node (`node`) is `None`, the function returns `False`, indicating that the tree doesn't contain the target value.
+3. If the value of the current node matches the target value, the function returns `True`.
+4. If neither of the above conditions is met, the function recursively checks the left and right children of the current node.
+
+#### Usage Example
+
+```python
+# Create a binary tree:     1
+#                         /   \
+#                        2     3
+#                       / \   / \
+#                      4   5 6   7
+
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
+root.right.left = TreeNode(6)
+root.right.right = TreeNode(7)
+
+print(contains_value(root, 5))  # Output: True
+print(contains_value(root, 8))  # Output: False
+```
+
+In the example usage, we created a small binary tree and checked whether it contains the value `5` (which it does) and the value `8` (which it doesn't).
 
 ## Stacks
 
