@@ -196,6 +196,10 @@ BUD is short for:
 - U: Unnecessary work
 - D: Duplicated work
 
+### Best Conveivable Runtime
+
+"Best conceivable runtime" is about the problem, not a specific algorithm. It has nothing to do with the best case / worst case runtime. 
+
 ## Coding
 
 **Simple Explanation**: Coding is the act of translating a solution or algorithm into a programming language so that a computer can execute it.
@@ -326,7 +330,15 @@ def is_palindrome(s):
 
 ## Hash Tables
 
-**Simple Explanation**: A hash table (or dictionary in Python) is a data structure that stores key-value pairs.
+**Simple Explanation**: A hash table (or dictionary in Python) is a data structure that stores key-value pairs. Hash tables are a cornerstone of efficient algorithmic design, offering rapid access to data. Key attributes include:
+
+- **Speed**: Hash tables typically allow for constant time average complexity for search operations, making data retrieval swift.
+- **Key-Value Pairs**: Data is stored in key-value pairs, where each unique key maps to a specific value.
+- **Collisions**: Since multiple keys might hash to the same index, handling collisions is essential. Common strategies include chaining (where each table entry references a list of all key-value pairs that hash to the same index) and open addressing (where alternative slots are sought in the array).
+- **Dynamic Resizing**: To maintain efficiency, a hash table can be resized, often doubling its capacity when it's about to be filled and halving when it's less used.
+- **Use Cases**: They're invaluable for tasks like data deduplication, counting distinct elements, and cache implementations.
+
+The design and implementation of a hash table significantly influence the efficiency of algorithms that utilize it.
 
 **Example**:
 Count the frequency of each character in a string.
