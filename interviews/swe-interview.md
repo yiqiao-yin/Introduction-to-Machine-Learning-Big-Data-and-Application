@@ -930,6 +930,29 @@ print(num_islands(mat))
 
 The `dfs` function traverses the matrix in depth-first manner starting from a given cell `(x, y)`. If the current cell is unvisited and has a value `1`, it continues the DFS to its neighboring cells. This helps in visiting all the cells belonging to one island. The outer loop iterates over each cell and starts a DFS if it finds the start of a new island.
 
+#### Time-Space Complexity
+
+Let's analyze the time and space complexity of the `num_islands` function:
+
+**Time Complexity**:
+
+1. **Depth First Search (DFS) Calls**: At most, every cell in the matrix will be visited once by the DFS. Therefore, the DFS contributes a time complexity of \(O(rows \times cols)\), where `rows` is the number of rows in the matrix and `cols` is the number of columns.
+2. **Outer Loops**: The nested loops that iterate over every cell in the matrix also contribute a time complexity of \(O(rows \times cols)\).
+
+Since both the DFS and the outer loops have the same time complexity and they don't multiply with each other (i.e., one doesn't nest inside the other), the overall time complexity of the function is \(O(rows \times cols)\).
+
+**Space Complexity**:
+
+1. **Visited Matrix**: The `visited` matrix consumes \(O(rows \times cols)\) space.
+2. **Recursion Stack**: In the worst case, the DFS might end up visiting all cells in the matrix due to deep recursive calls. This contributes a space complexity of \(O(rows \times cols)\) for the call stack.
+3. **Other Variables**: Other variables in the function (like `count`, `directions`, etc.) take constant space, which is \(O(1)\).
+
+Considering the space taken by the `visited` matrix and the maximum potential call stack size of the DFS, the overall space complexity of the function is \(O(rows \times cols)\).
+
+In summary:
+- Time Complexity: \(O(rows \times cols)\)
+- Space Complexity: \(O(rows \times cols)\)
+
 ## Heaps
 
 **Simple Explanation**: A heap is a specialized tree-based data structure that satisfies the heap property. For a max heap, for any given node I, the value of I is greater than the values of its children. For a min heap, it's the opposite.
