@@ -713,6 +713,85 @@ q.put(3)
 print(q.get())  # Output: 1
 ```
 
+### Trips
+
+- It is a first-in, first out approach. You want to process items in the order they appear. 
+- You want to be familiar with `.enqueue` and `.dequeue` methods. 
+- Be careful of how the head and tail are updated. 
+- Know when to use queue, linked list, stacks, etc..
+
+### More in Queue
+
+Let's dive into the implementation of a `Queue` using a linked list.
+
+#### Node Class
+
+This class represents an individual node in our linked list. Each node has a `value` and a reference to the `next` node.
+
+```python
+class Node:
+    def __init__(self, val) -> None:
+        self.value = val
+        self.next = None
+```
+
+#### Queue Class
+
+This class represents our queue. It has methods to `enqueue` and `dequeue` as described. We'll also implement a `__str__` method to make it easy to print the queue's contents.
+
+```python
+class Queue:
+    def __init__(self) -> None:
+        self.front = None
+        self.rear = None
+
+    def enqueue(self, val) -> None:
+        new_node = Node(val)
+        if not self.rear:
+            self.front = self.rear = new_node
+            return
+        self.rear.next = new_node
+        self.rear = new_node
+
+    def dequeue(self):
+        if not self.front:
+            return None
+        dequeued_value = self.front.value
+        self.front = self.front.next
+        if not self.front:
+            self.rear = None
+        return dequeued_value
+
+    def __str__(self) -> str:
+        values = []
+        current = self.front
+        while current:
+            values.append(current.value)
+            current = current.next
+        return ' -> '.join(map(str, values))
+```
+
+#### Testing with the given array
+
+Now, let's use the array `[1,2,3,4,5]` to test our queue:
+
+```python
+queue = Queue()
+
+# Enqueueing values onto the queue
+for value in [1,2,3,4,5]:
+    queue.enqueue(value)
+
+# Dequeueing values from the queue and printing it at each step
+while True:
+    dequeued_value = queue.dequeue()
+    if dequeued_value is None:
+        break
+    print(f"Dequeued: {dequeued_value}, Queue: {queue}")
+```
+
+In this example, when values are enqueued, they are added to the rear of the queue. When values are dequeued, they are removed from the front of the queue, consistent with the First-In-First-Out (FIFO) behavior of a queue. The `__str__` method allows us to print the current state of the queue at each step.
+
 ## Trees
 
 **Simple Explanation**: A tree is a hierarchical data structure that consists of nodes connected by edges. The topmost node is called the root, and nodes with no children are called leaves.
@@ -731,6 +810,125 @@ root = TreeNode(10)
 root.left = TreeNode(5)
 root.right = TreeNode(20)
 ```
+
+### Boggle Example / Find Words
+
+To find specific valid words like "cat" from the grid, we need a dictionary or a list of valid words to cross-reference with the generated words from the grid. 
+
+For the purpose of this example, I'll assume we have a list `valid_words` that contains the word "cat". Our DFS-based function will then generate words from the grid and only return those that are present in `valid_words`.
+
+Let's implement this:
+
+```python
+def find_words(grid):
+    if not grid:
+        return []
+
+    rows, cols = len(grid), len(grid[0])
+    words = set()
+    valid_words = {"cat", "top"}
+    directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]  # right, down, left, up
+
+    def dfs(x, y, current_word):
+        if not (0 <= x < rows and 0 <= y < cols) or (x, y) in visited:
+            return
+
+        new_word = current_word + grid[x][y]
+        if new_word in valid_words:
+            words.add(new_word)
+
+        visited.add((x, y))
+
+        for dx, dy in directions:
+            dfs(x + dx, y + dy, new_word)
+
+        visited.remove((x, y))
+
+    for i in range(rows):
+        for j in range(cols):
+            visited = set()
+            dfs(i, j, "")
+
+    return list(words)
+
+# Test on the provided grid
+grid = [
+    ['c', 'a', 't'],
+    ['d', 'e', 'o'],
+    ['g', 'h', 'p']
+]
+
+print(find_words(grid))
+```
+
+This code will correctly identify and return the word "cat" and "top from the provided grid.
+
+### Count Islands (DFS)
+
+Given a binary 2D matrix, find the number of islands. A group of connected 1s forms an island. For example, the below matrix contains 4 islands.
+
+```md
+Input: mat[][] = {
+    {1, 1, 0, 0, 0},
+    {0, 1, 0, 0, 1},
+    {1, 0, 0, 1, 1},
+    {0, 0, 0, 0, 0},
+    {1, 0, 1, 0, 0}
+}
+```
+The goal is to count adjst islands and islands here is defined as integer 1 that is connected together. "Connected" means left/right and top/bottom. 
+
+```md
+Expected Output: 4
+```
+
+Hint: Define a helper function first. Then use recursion method. This should be depth first search. 
+
+Use the above information, write a python function that does it. 
+
+#### Solution
+
+To solve this problem, we'll use Depth First Search (DFS) to traverse through the 2D matrix. Starting from each cell, we'll use DFS to explore its neighboring cells. When a cell with value `1` is visited, we'll mark it as visited and continue the DFS for its neighbors. This way, we'll traverse the entire island of connected `1`s. For every unvisited cell with value `1`, it indicates the start of a new island.
+
+Let's write the function to solve this:
+
+```python
+def num_islands(matrix):
+    if not matrix:
+        return 0
+
+    rows, cols = len(matrix), len(matrix[0])
+    visited = [[False for _ in range(cols)] for _ in range(rows)]
+    directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]  # right, down, left, up
+
+    def dfs(x, y):
+        if not (0 <= x < rows and 0 <= y < cols) or visited[x][y] or matrix[x][y] == 0:
+            return
+        visited[x][y] = True
+        for dx, dy in directions:
+            dfs(x + dx, y + dy)
+
+    count = 0
+    for i in range(rows):
+        for j in range(cols):
+            if matrix[i][j] == 1 and not visited[i][j]:
+                dfs(i, j)
+                count += 1
+
+    return count
+
+# Test with the given matrix
+mat = [
+    [1, 1, 0, 0, 0],
+    [0, 1, 0, 0, 1],
+    [1, 0, 0, 1, 1],
+    [0, 0, 0, 0, 0],
+    [1, 0, 1, 0, 0]
+]
+print(num_islands(mat))
+```
+
+The `dfs` function traverses the matrix in depth-first manner starting from a given cell `(x, y)`. If the current cell is unvisited and has a value `1`, it continues the DFS to its neighboring cells. This helps in visiting all the cells belonging to one island. The outer loop iterates over each cell and starts a DFS if it finds the start of a new island.
 
 ## Heaps
 
