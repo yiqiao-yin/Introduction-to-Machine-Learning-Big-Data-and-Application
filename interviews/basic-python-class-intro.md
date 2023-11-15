@@ -354,7 +354,44 @@ For most purposes, in the simplest cases, you can think of the search for attrib
 
 In fact, it is slightly more complex than that; the method resolution order changes dynamically to support cooperative calls to `super()`. This approach is known in some other multiple-inheritance languages as call-next-method and is more powerful than the super call found in single-inheritance languages.
 
-Dynamic ordering is necessary because all cases of multiple inheritance exhibit one or more diamond relationships (where at least one of the parent classes can be accessed through multiple paths from the bottommost class). For example, all classes inherit from [object](https://docs.python.org/3/library/functions.html#object), so any case of multiple inheritance provides more than one path to reach object. To keep the base classes from being accessed more than once, the dynamic algorithm linearizes the search order in a way that preserves the left-to-right ordering specified in each class, that calls each parent only once, and that is monotonic (meaning that a class can be subclassed without affecting the precedence order of its parents). Taken together, these properties make it possible to design reliable and extensible classes with multiple inheritance. For more detail, see https://www.python.org/download/releases/2.3/mro/.
+Dynamic ordering is necessary because all cases of multiple inheritance exhibit one or more diamond relationships (where at least one of the parent classes can be accessed through multiple paths from the bottommost class). For example, all classes inherit from [object](https://docs.python.org/3/library/functions.html#object), so any case of multiple inheritance provides more than one path to reach object. To keep the base classes from being accessed more than once, the dynamic algorithm linearizes the search order in a way that preserves the left-to-right ordering specified in each class, that calls each parent only once, and that is monotonic (meaning that a class can be subclassed without affecting the precedence order of its parents). Taken together, these properties make it possible to design reliable and extensible classes with multiple inheritance. For more detail, see [here](https://www.python.org/download/releases/2.3/mro/).
+
+### Example of `Super()`
+
+The `super()` function in Python is used to call methods from a parent class within a subclass. This can be especially useful in inheritance structures where you want to augment or override the behavior of a parent class method in a subclass.
+
+Here's a simple example that demonstrates the use of `super()`:
+
+```python
+class Parent:
+    def __init__(self, value):
+        self.value = value
+
+    def do_something(self):
+        print(f"Doing something with value {self.value} in Parent")
+
+class Child(Parent):
+    def __init__(self, value, extra_value):
+        super().__init__(value)  # Calls the __init__ method of the Parent class
+        self.extra_value = extra_value
+
+    def do_something(self):
+        super().do_something()  # Calls the do_something method of the Parent class
+        print(f"Doing something else with extra value {self.extra_value} in Child")
+
+# Example usage:
+child_instance = Child(10, 20)
+child_instance.do_something()
+```
+
+Output of this program would be:
+
+```
+Doing something with value 10 in Parent
+Doing something else with extra value 20 in Child
+```
+
+In the `Child` class's `__init__` method, `super().__init__(value)` is used to call the `Parent` class's `__init__` method, so that the `value` attribute can be set up by the parent class. Similarly, `super().do_something()` is used in the `Child` class's `do_something` method to call the `Parent` class's `do_something` method and then extend its behavior with additional functionality (in this case, a print statement).
 
 ## 9.6. Private Variables
 
