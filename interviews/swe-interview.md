@@ -943,7 +943,7 @@ Since both the DFS and the outer loops have the same time complexity and they do
 
 1. **Visited Matrix**: The `visited` matrix consumes $\mathcal{O}(\text{rows} \times \text{cols})$ space.
 2. **Recursion Stack**: In the worst case, the DFS might end up visiting all cells in the matrix due to deep recursive calls. This contributes a space complexity of $\mathcal{O}(\text{rows} \times \text{cols})$ for the call stack.
-3. **Other Variables**: Other variables in the function (like `count`, `directions`, etc.) take constant space, which is \(O(1)\).
+3. **Other Variables**: Other variables in the function (like `count`, `directions`, etc.) take constant space, which is $\mathcal{O}(1)$.
 
 Considering the space taken by the `visited` matrix and the maximum potential call stack size of the DFS, the overall space complexity of the function is $\mathcal{O}(\text{rows} \times \text{cols})$.
 
@@ -969,6 +969,193 @@ heapq.heappush(heap, 20)
 # The smallest item will be popped first
 print(heapq.heappop(heap))  # Output: 5
 ```
+
+### Largest Triple Products
+
+You're given a list of n integers `arr[0..(n-1)]`. You must compute a list `output[0..(n-1)]` such that, for each index i (between 0 and n-1, inclusive), `output[i]` is equal to the product of the three largest elements out of `arr[0..i]` (or equal to $-1$ if $i < 2$, as `arr[0..i]` then includes fewer than three elements).
+
+Note that the three largest elements used to form any product may have the same values as one another, but they must be at different indices in arr.
+
+```md
+Example 1
+n = 5
+arr = [1, 2, 3, 4, 5]
+output = [-1, -1, 6, 24, 60]
+The 3rd element of output is 3*2*1 = 6, the 4th is 4*3*2 = 24, and the 5th is 5*4*3 = 60.
+
+Example 2
+n = 5
+arr = [2, 1, 2, 1, 2]
+output = [-1, -1, 4, 4, 8]
+The 3rd element of output is 2*2*1 = 4, the 4th is 2*2*1 = 4, and the 5th is 2*2*2 = 8.
+```
+
+#### Original Solution
+
+```py
+def helper(arr):
+  ans = 1
+  for i in arr:
+    ans = ans*i
+    
+  return ans
+
+def pick_top_3(arr):
+  arr.sort()
+  arr = arr[::-1]
+  return arr[:3]
+
+
+def findMaxProduct(arr):
+  # Write your code here
+  if len(arr) == 0:
+    return
+  
+  if len(arr) == 1:
+    return [-1]
+  
+  if len(arr) == 2:
+    return [-1, -1]
+  
+  answer = [-1, -1]
+  if len(arr) > 2:
+    for i in range(2, len(arr)):
+      current_array = arr[0:(i+1)]
+      top_3_elements = pick_top_3(current_array)
+      current_prod = helper(top_3_elements)
+      answer.append(current_prod)
+      
+    return answer
+```
+
+The code you have provided for solving the Largest Triple Products problem does not use a priority queue; rather, it uses sorting to find the top three elements at each iteration.
+
+The code you have provided for solving the Largest Triple Products problem does not use a priority queue; rather, it uses sorting to find the top three elements at each iteration.
+
+Here's the breakdown of the time and space complexity for your code:
+
+**Time Complexity:**
+
+- The main loop runs $n-2$ times, where $n$ is the length of the input array.
+- Inside the loop, you are creating a subarray `current_array` which is a $\mathcal{O}(i)$ operation.
+- Then you are sorting this subarray, which takes $\mathcal{O}(i \log i)$ time.
+- The product operation is $\mathcal{O}(1)$, since it always operates on three elements.
+
+The total time complexity would be the sum of the sorting operations over all the subarrays:
+
+$$T(n) = \sum_{i=3}^{n} O(i \log i)$$
+
+Which can be approximated to $\mathcal{O}(n^2 \log n)$ in the worst case when $n$ is large, because the sorting time grows with the size of the subarray.
+
+**Space Complexity:**
+
+- The space complexity of your code is $\mathcal{O}(n)$ due to the space required for the `answer` list that stores $n$ elements.
+- Additionally, there is the space taken by the `current_array` which at most will store $n$ elements, but since it is reused and not stored persistently across iterations, it does not add to the overall space complexity.
+
+#### Solution Using Priority Queue
+
+Here's how you would do it:
+
+- Use a min-heap to keep track of the three largest elements. The min-heap allows you to efficiently get rid of the smallest of the top three elements when you need to insert a new element into this set.
+- For each element in `arr`, insert it into the heap.
+- If the heap size exceeds three, remove the smallest element (the root of the min-heap).
+- When you have three elements in the heap, the product of these will be the required product for the current position in the output array.
+- Before you have three elements, the output is -1.
+
+The time complexity of this approach would be $\mathcal{O}(n \log 3)$, which simplifies to $\mathcal{O}(n)$, since the heap operations (insertion and extraction) can be done in $\mathcal{O}(\log k)$ time, where $\mathcal{O}(k)$ is the number of elements in the heap, which is constant (3 in this case). The space complexity would be $\mathcal{O}(1)$ or $\mathcal{O}(k)$ considering the heap size is constant and does not grow with $\mathcal{O}(n)$.
+
+The priority queue approach to solving the problem has been implemented in Python as follows:
+
+```python
+import heapq
+
+def findMaxProduct(arr):
+    # Initialize the heap and the answer array with default -1 values
+    heap = []
+    answer = [-1] * len(arr)
+    
+    for i in range(len(arr)):
+        # Push the current element into the heap
+        heapq.heappush(heap, arr[i])
+        # If the heap has more than three elements, pop the smallest one
+        if len(heap) > 3:
+            heapq.heappop(heap)
+        # If the heap has three elements, multiply them to get the current product
+        if len(heap) == 3:
+            answer[i] = heap[0] * heap[1] * heap[2]
+            
+    return answer
+
+# Example usage:
+arr1 = [1, 2, 3, 4, 5]
+arr2 = [2, 1, 2, 1, 2]
+print(findMaxProduct(arr1))  # Expected output: [-1, -1, 6, 24, 60]
+print(findMaxProduct(arr2))  # Expected output: [-1, -1, 4, 4, 8]
+```
+
+When executed, the function `findMaxProduct` correctly computes the expected outputs:
+
+- For the array `[1, 2, 3, 4, 5]`, the output is `[-1, -1, 6, 24, 60]`.
+- For the array `[2, 1, 2, 1, 2]`, the output is `[-1, -1, 4, 4, 8]`.
+
+This implementation efficiently uses a min-heap (priority queue) to keep track of the top three elements at any point in the array, ensuring that the time complexity is `O(n)` where `n` is the length of the input array.
+
+#### Try Use List
+
+```py
+def findMaxProduct(arr):
+  # Write your code here
+  if len(arr) == 0:
+    return
+  
+  if len(arr) == 1:
+    return [-1]
+  
+  if len(arr) == 2:
+    return [-1, -1]
+  
+  heap = []
+  answer = [-1, -1]
+  if len(arr) > 2:
+    for i in range(len(arr)):
+      heap.append(arr[i])
+      if len(heap) > 3:
+        heap.sort()
+        heap = heap[::-1]
+        heap.pop()
+      if len(heap) == 3:
+        answer.append(heap[0] * heap[1] * heap[2])
+      
+    return answer
+```
+
+**Important Comment**
+
+The provided function uses a list to simulate a priority queue without using the actual heap data structure provided by Python's `heapq` module. However, the way it's used in your function does not embody the efficient operations of a true heap.
+
+**Time Complexity:**
+
+- The main loop runs for each element in `arr`, so it has a linear component $\mathcal{O}(n)$.
+- Within the loop, you append an element to the heap, which is $\mathcal{O}(1)$ on average but can be $\mathcal{O}(n)$ in the worst case due to the need to resize the list.
+- When the heap size is greater than 3, you sort it, which is $\mathcal{O}(k \log k)$, where $\mathcal{O}(k)$ is the size of the heap. In this case, $\mathcal{O}(k)$ is at most 4, so this is a constant operation, but the constant factor is significant.
+- After sorting, you reverse the list (`heap[::-1]`), which is $\mathcal{O}(k)$.
+- The `pop` operation is $\mathcal{O}(1)$.
+
+The dominant factor here is the sort operation inside the loop. Even though the heap size is small, the sort is called for every element in the array. The overall time complexity would be $\mathcal{O}(n \log k)$ with the constant $\mathcal{O}(k)$ having a relatively small impact, so we can approximate this to $\mathcal{O}(n)$, but it's important to note that the sorting makes this less efficient than a true heap implementation.
+
+**Space Complexity:**
+
+- The space complexity for the `heap` list is $\mathcal{O}(1)$ since it stores at most 3 elements.
+- The `answer` list is $\mathcal{O}(n)$ since it stores an element for each input in `arr`.
+
+So, the space complexity of the function is $\mathcal{O}(n)$.
+
+**Is it a heap structure?**
+
+No, the structure you are using is not a heap. A heap is a specialized tree-based data structure that satisfies the heap property: if $P$ is a parent node of $C$, then the key (the value) of $P$ is either greater than or equal to (in a max heap) or less than or equal to (in a min heap) the key of $C$. The node at the "top" of the heap (the root node) has the greatest value in a max heap or the smallest in a min heap.
+
+In your function, you are enforcing this property manually by sorting the list every time it exceeds a size of 3. This does ensure that the largest (or smallest) element is always at a specific position in the list, but it does not provide the same performance guarantees as a heap. A true heap structure allows you to insert and extract elements in $\mathcal{O}(\log n)$ time, which is not the case with your list-based approach since the sort operation is more costly.
+
 
 ## Graphs
 
