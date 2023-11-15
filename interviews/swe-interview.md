@@ -2,9 +2,9 @@
 
 Software engineering interviews often test a candidate's ability to solve problems, write code, and communicate their thought process. In this guide, we will discuss several key concepts that frequently come up in these interviews, along with Python examples for each.
 
-## Big O
+## Big $\mathcal{O}$
 
-**Simple Explanation**: Big O notation is a way to describe how long an algorithm takes to run or how much memory it uses as the size of the input increases. It gives us an upper bound on the runtime.
+**Simple Explanation**: Big $\mathcal{O}$ notation is a way to describe how long an algorithm takes to run or how much memory it uses as the size of the input increases. It gives us an upper bound on the runtime.
 
 ### Tricks
 
@@ -27,15 +27,15 @@ def find_num(lst, num):
     return False
 ```
 
-The time it takes grows linearly with the size of the list, so we say it's \(O(n)\).
+The time it takes grows linearly with the size of the list, so we say it's $\mathcal{O}(n)$.
 
-### Big O Notations and Examples
+### Big $\mathcal{O}$ Notations and Examples
 
-Let's expand on the Big O topic by discussing various common Big O notations and providing examples for each.
+Let's expand on the Big $\mathcal{O}$ topic by discussing various common Big $\mathcal{O}$ notations and providing examples for each.
 
-#### \( O(1) \) - Constant Time
+#### $\mathcal{O}(1)$ - Constant Time
 
-**Simple Explanation**: An algorithm is \( O(1) \) if its runtime doesn't change as the input size increases. It always takes a constant amount of time.
+**Simple Explanation**: An algorithm is $\mathcal{O}(1)$ if its runtime doesn't change as the input size increases. It always takes a constant amount of time.
 
 **Example**:
 Accessing an element from an array using its index.
@@ -45,9 +45,9 @@ def get_element(arr, index):
     return arr[index]
 ```
 
-#### \( O(\log n) \) - Logarithmic Time
+#### $\mathcal{O} (\log n)$ - Logarithmic Time
 
-**Simple Explanation**: An algorithm is \( O(\log n) \) if the number of operations is proportional to the logarithm of the input size. Binary search is a classic example.
+**Simple Explanation**: An algorithm is $\mathcal{O} (\log n)$ if the number of operations is proportional to the logarithm of the input size. Binary search is a classic example.
 
 **Example**:
 Binary search in a sorted array.
@@ -66,9 +66,9 @@ def binary_search(arr, x):
     return -1
 ```
 
-#### \( O(n) \) - Linear Time
+#### $\mathcal{O}(n)$ - Linear Time
 
-**Simple Explanation**: An algorithm is \( O(n) \) if its runtime grows linearly with the input size.
+**Simple Explanation**: An algorithm is $\mathcal{O}(n)$ if its runtime grows linearly with the input size.
 
 **Example**:
 Finding the maximum value in an array.
@@ -82,7 +82,7 @@ def find_max(arr):
     return maximum
 ```
 
-#### \( O(n \log n) \) - Linear Logarithmic Time
+#### $\mathcal{O}(n \log n)$ - Linear Logarithmic Time
 
 **Simple Explanation**: Common in algorithms that divide the input in each step. Many efficient sorting algorithms have this time complexity.
 
@@ -113,7 +113,7 @@ def merge(left, right):
     return result
 ```
 
-#### \( O(n^2) \) - Quadratic Time
+#### $\mathcal{O}(n^2)$ - Quadratic Time
 
 **Simple Explanation**: Algorithms with nested loops often have a quadratic time complexity.
 
@@ -130,9 +130,9 @@ def bubble_sort(arr):
     return arr
 ```
 
-#### \( O(2^n) \) - Exponential Time
+#### $\mathcal{O}(2^n)$ - Exponential Time
 
-**Simple Explanation**: Algorithms with this time complexity double their runtime with each additional input element. Recursive algorithms that solve a problem of size \( n \) by recursively solving two smaller problems of size \( n-1 \) often have this time complexity.
+**Simple Explanation**: Algorithms with this time complexity double their runtime with each additional input element. Recursive algorithms that solve a problem of size $n$ by recursively solving two smaller problems of size $n-1$ often have this time complexity.
 
 **Example**:
 Recursive calculation of the nth Fibonacci number.
@@ -164,7 +164,7 @@ def permutations(lst):
 ```
 
 
-These are just a few examples of Big O notations. Understanding the time complexity of algorithms is crucial for writing efficient code and excelling in technical interviews.
+These are just a few examples of Big $\mathcal{O}$ notations. Understanding the time complexity of algorithms is crucial for writing efficient code and excelling in technical interviews.
 
 ## Problem Solving
 
@@ -174,7 +174,7 @@ These are just a few examples of Big O notations. Understanding the time complex
 Find the sum of all numbers up to a given number.
 
 ```python
-def sum_upto_n(n):
+def sum_up_to_n(n):
     return n * (n + 1) // 2
 ```
 
@@ -279,8 +279,6 @@ def find_student(name: str) -> Optional[Student]:
 1. **Improved Code Readability**: Type hints make it clear what types of arguments are expected and what type of value a function will return.
 2. **Better Developer Experience**: Integrated development environments (IDEs) can use type hints to provide better auto-completions, warnings, and refactoring capabilities.
 3. **Static Type Checking**: Tools like [mypy](http://mypy-lang.org/) can be used to perform static type checking based on type hints, catching potential type-related errors before runtime.
-
----
 
 Incorporating type hints into your Python code can greatly enhance its clarity and maintainability. While Python remains a dynamically typed language, type hints offer a way to harness some of the benefits of static typing without sacrificing the language's flexibility.
 
@@ -401,13 +399,13 @@ Sorting is fundamental in algorithmic design, impacting data organization and pr
 
 - **Comparison-Based**: Most classic sorting algorithms are comparison-based, meaning they work by comparing elements.
 - **Stability**: A stable sort preserves the relative order of equal elements. This can be crucial in applications like database sorting.
-- **In-Place**: An in-place sort uses a constant amount of extra memory (typically \( O(1) \)).
+- **In-Place**: An in-place sort uses a constant amount of extra memory (typically $\mathcal{O}(1)$).
 - **Time Complexities**: Different algorithms have varied best, average, and worst-case time complexities. The choice often depends on data characteristics and specific needs.
 - **Adaptivity**: Some algorithms benefit from existing order in the data, becoming faster as the input becomes more sorted.
 
 #### **Bubble Sort**
 
-Bubble Sort is a simple comparison-based algorithm where the largest elements "bubble" to the end of the list through successive swaps. It's inefficient for large lists, with a worst-case and average-case time complexity of \( O(n^2) \).
+Bubble Sort is a simple comparison-based algorithm where the largest elements "bubble" to the end of the list through successive swaps. It's inefficient for large lists, with a worst-case and average-case time complexity of $\mathcal{O}(n^2)$.
 
 ```python
 def bubble_sort(arr):
@@ -421,7 +419,7 @@ def bubble_sort(arr):
 
 ####  **Merge Sort**
 
-Merge Sort is a divide-and-conquer algorithm that splits the list in half, recursively sorts both halves, and then merges them back together. It's more efficient than Bubble Sort, with a worst-case time complexity of \( O(n \log n) \).
+Merge Sort is a divide-and-conquer algorithm that splits the list in half, recursively sorts both halves, and then merges them back together. It's more efficient than Bubble Sort, with a worst-case time complexity of $\mathcal{O}(n \log n)$.
 
 ```python
 def merge_sort(arr):
@@ -451,7 +449,7 @@ Both Bubble Sort and Merge Sort have their niches; the former for its simplicity
 
 #### **Quick Sort**
 
-Quick Sort is a divide-and-conquer algorithm. It selects a 'pivot' element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively. Quick Sort can be very fast in practice, with an average-case time complexity of \( O(n \log n) \), but a worst-case of \( O(n^2) \).
+Quick Sort is a divide-and-conquer algorithm. It selects a 'pivot' element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively. Quick Sort can be very fast in practice, with an average-case time complexity of $\mathcal{O}(n \log n)$, but a worst-case of $\mathcal{O}(n^2)$.
 
 ```python
 def quick_sort(arr):
@@ -466,7 +464,7 @@ def quick_sort(arr):
 
 #### **Radix Sort**
 
-Radix Sort is a non-comparative sorting algorithm that works by distributing elements into buckets according to their individual digits. It processes the digits of each number one at a time, from the least significant digit (LSD) to the most significant digit (MSD) or vice-versa. Its time complexity is \( O(nk) \), where \( n \) is the number of elements and \( k \) is the number of passes of the sorting process.
+Radix Sort is a non-comparative sorting algorithm that works by distributing elements into buckets according to their individual digits. It processes the digits of each number one at a time, from the least significant digit (LSD) to the most significant digit (MSD) or vice-versa. Its time complexity is $\mathcal{O}(nk)$, where $n$ is the number of elements and $k$ is the number of passes of the sorting process.
 
 ```python
 def counting_sort_for_radix(arr, position):
@@ -502,7 +500,7 @@ def radix_sort(arr):
 
 #### **Bucket Sort**
 
-Bucket Sort divides the interval of sorted values into buckets or bins. Elements are then distributed into these buckets. Each bucket is then sorted individually, either using a different sorting algorithm or recursively applying bucket sort. Its average-case time complexity is \( O(n + n^2/k + k) \) where \( n \) is the number of elements and \( k \) is the number of buckets. When \( k \) is approximately \( n \), the performance is close to \( O(n) \).
+Bucket Sort divides the interval of sorted values into buckets or bins. Elements are then distributed into these buckets. Each bucket is then sorted individually, either using a different sorting algorithm or recursively applying bucket sort. Its average-case time complexity is $\mathcal{O}(n + n^2/k + k)$ where $n$ is the number of elements and $k$ is the number of buckets. When $k$ is approximately $n$, the performance is close to $\mathcal{O}(n)$.
 
 ```python
 def bucket_sort(arr):
@@ -550,9 +548,9 @@ def fibonacci(n: int) -> int:
     return fibonacci(n-1) + fibonacci(n-2)
 ```
 
-In this function, if \( n \) is 0 or 1, the function returns \( n \) itself (as the 0th and 1st Fibonacci numbers are 0 and 1, respectively). For any other value of \( n \), the function returns the sum of the Fibonacci numbers at positions \( n-1 \) and \( n-2 \). This is a direct application of the Fibonacci sequence definition.
+In this function, if $n$ is 0 or 1, the function returns $n$ itself (as the 0th and 1st Fibonacci numbers are 0 and 1, respectively). For any other value of $n$, the function returns the sum of the Fibonacci numbers at positions $n-1$ and $n-2$. This is a direct application of the Fibonacci sequence definition.
 
-However, it's worth noting that this naive recursive approach is not efficient for large values of \( n \) due to the significant number of overlapping computations. For larger values, more efficient algorithms (like memoization or iterative approaches) should be considered.
+However, it's worth noting that this naive recursive approach is not efficient for large values of $n$ due to the significant number of overlapping computations. For larger values, more efficient algorithms (like memoization or iterative approaches) should be considered.
 
 ### Use Recursion to Check Whether a Number is in a Tree
 
@@ -936,22 +934,22 @@ Let's analyze the time and space complexity of the `num_islands` function:
 
 **Time Complexity**:
 
-1. **Depth First Search (DFS) Calls**: At most, every cell in the matrix will be visited once by the DFS. Therefore, the DFS contributes a time complexity of \(O(rows \times cols)\), where `rows` is the number of rows in the matrix and `cols` is the number of columns.
-2. **Outer Loops**: The nested loops that iterate over every cell in the matrix also contribute a time complexity of \(O(rows \times cols)\).
+1. **Depth First Search (DFS) Calls**: At most, every cell in the matrix will be visited once by the DFS. Therefore, the DFS contributes a time complexity of $\mathcal{O}(\text{rows} \times \text{cols})$, where `rows` is the number of rows in the matrix and `cols` is the number of columns.
+2. **Outer Loops**: The nested loops that iterate over every cell in the matrix also contribute a time complexity of $\mathcal{O}(\text{rows} \times \text{cols})$.
 
-Since both the DFS and the outer loops have the same time complexity and they don't multiply with each other (i.e., one doesn't nest inside the other), the overall time complexity of the function is \(O(rows \times cols)\).
+Since both the DFS and the outer loops have the same time complexity and they don't multiply with each other (i.e., one doesn't nest inside the other), the overall time complexity of the function is $\mathcal{O}(\text{rows} \times \text{cols})$.
 
 **Space Complexity**:
 
-1. **Visited Matrix**: The `visited` matrix consumes \(O(rows \times cols)\) space.
-2. **Recursion Stack**: In the worst case, the DFS might end up visiting all cells in the matrix due to deep recursive calls. This contributes a space complexity of \(O(rows \times cols)\) for the call stack.
+1. **Visited Matrix**: The `visited` matrix consumes $\mathcal{O}(\text{rows} \times \text{cols})$ space.
+2. **Recursion Stack**: In the worst case, the DFS might end up visiting all cells in the matrix due to deep recursive calls. This contributes a space complexity of $\mathcal{O}(\text{rows} \times \text{cols})$ for the call stack.
 3. **Other Variables**: Other variables in the function (like `count`, `directions`, etc.) take constant space, which is \(O(1)\).
 
-Considering the space taken by the `visited` matrix and the maximum potential call stack size of the DFS, the overall space complexity of the function is \(O(rows \times cols)\).
+Considering the space taken by the `visited` matrix and the maximum potential call stack size of the DFS, the overall space complexity of the function is $\mathcal{O}(\text{rows} \times \text{cols})$.
 
 In summary:
-- Time Complexity: \(O(rows \times cols)\)
-- Space Complexity: \(O(rows \times cols)\)
+- Time Complexity: $\mathcal{O}(\text{rows} \times \text{cols})$
+- Space Complexity: $\mathcal{O}(\text{rows} \times \text{cols})$
 
 ## Heaps
 
