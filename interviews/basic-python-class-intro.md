@@ -33,11 +33,8 @@ A `scope` is a textual region of a Python program where a namespace is directly 
 Although scopes are determined statically, they are used dynamically. At any time during execution, there are 3 or 4 nested scopes whose namespaces are directly accessible:
 
 - the innermost scope, which is searched first, contains the local names
-
 - the scopes of any enclosing functions, which are searched starting with the nearest enclosing scope, contain non-local, but also non-global names
-
 - the next-to-last scope contains the current module’s global names
-
 - the outermost scope (searched last) is the namespace containing built-in names
 
 If a name is declared global, then all references and assignments go directly to the next-to-last scope containing the module’s global names. To rebind variables found outside of the innermost scope, the `nonlocal` statement can be used; if not declared nonlocal, those variables are read-only (an attempt to write to such a variable will simply create a new local variable in the innermost scope, leaving the identically named outer variable unchanged).
