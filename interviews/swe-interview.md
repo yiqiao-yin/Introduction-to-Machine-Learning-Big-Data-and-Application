@@ -144,7 +144,7 @@ def fibonacci(n):
     return fibonacci(n-1) + fibonacci(n-2)
 ```
 
-#### \( O(n!) \) - Factorial Time
+#### $\mathcal{O}(n!)$ - Factorial Time
 
 **Simple Explanation**: Algorithms with this time complexity grow extremely fast and can become impractical even for small input sizes. Commonly seen in brute-force solutions.
 
@@ -691,6 +691,88 @@ print(stack.peek())  # Should print 3, as it's now the top of the stack
 ```
 
 When you push values onto the stack, they are added to the top. When you pop values, they are removed from the top. The `peek` method lets you see the current top value without removing it. In the context of algorithmic design, stacks are useful in various scenarios, such as evaluating expressions, implementing undo-redo functionality, and more.
+
+### Problem: Function Runtime
+
+Assume we have captured information about the execution of a program: at function entry and exit we save a record which has:
+
+- the name of the function
+- the current time
+- whether function starts or ends
+    
+From the sequence of records, compute the time spent in each function exclusive of time spent in called functions.
+
+```md
+For example, given
+
+Name      operation            time
+A          Start                 0
+B          Start                 2
+B          End                   5
+A          End                   6    
+
+Result: return time exclusive for each function, e.g. A: 3, B: 3
+```
+
+#### Solution (Use Stacks)
+
+To solve this problem, you would need to use a stack to keep track of the function calls. When a function starts, its name and start time are pushed onto the stack. When a function ends, it's popped off the stack, and the time spent on this function is calculated by subtracting the start time from the end time. To handle the exclusive time, you have to subtract the time spent in the called functions (which are tracked on the stack).
+
+Here's a step-by-step algorithm:
+
+1. Initialize an empty stack and an empty dictionary to hold the result of the exclusive times for each function.
+2. Iterate through the list of records.
+3. If a record indicates that a function is starting, push it onto the stack.
+4. If a record indicates that a function is ending, pop the last function from the stack and calculate the time it ran by subtracting the start time from the current end time. Also, update the exclusive time for this function in the dictionary.
+5. If there are still functions on the stack, subtract the time of the current function from the last function on the stack to maintain the exclusive time.
+
+Here's a sample Python function to implement this algorithm:
+
+```python
+def calculate_exclusive_times(records):
+    stack = []
+    exclusive_times = {}
+    
+    for record in records:
+        name, operation, time = record
+        
+        if operation == 'Start':
+            stack.append((name, time))
+        elif operation == 'End':
+            last_function, start_time = stack.pop()
+            duration = time - start_time
+            # Initialize the key for the last function if it doesn't exist
+            exclusive_times[last_function] = exclusive_times.get(last_function, 0) + duration
+            
+            # Adjust the exclusive time for the function currently at the top of the stack
+            if stack:
+                parent_function, _ = stack[-1]
+                exclusive_times[parent_function] = exclusive_times.get(parent_function, 0) - duration
+    
+    return exclusive_times
+
+# Example usage:
+records = [
+    ('A', 'Start', 0),
+    ('B', 'Start', 2),
+    ('B', 'End', 5),
+    ('A', 'End', 6)
+]
+
+calculate_exclusive_times(records)
+```
+
+**Time Complexity:**
+- The time complexity is $\mathcal{O}(n)$ where $n$ is the number of records, as we iterate through the records just once.
+
+**Space Complexity:**
+- The space complexity is $\mathcal{O}(m)$ for the stack, where $m$ is the maximum depth of function calls, and $\mathcal{O}(f)$ for the exclusive times dictionary, where $f$ is the number of unique functions. In the worst case, $m$ and $f$ could be equal to $n/2$ (if every other record is a start), so the overall space complexity can be considered $\mathcal{O}(n)$.
+
+Let's write the function in Python and execute it with the provided example.
+
+The Python function has computed the exclusive times for each function from the given records. The result is as expected: Function 'A' ran exclusively for 3 units of time, and Function 'B' also ran exclusively for 3 units of time.
+
+The time complexity of this function is $\mathcal{O}(n)$, where $n$ is the number of records, because we iterate through the list of records once. The space complexity is $\mathcal{O}(m+f)$, where $m$ is the maximum depth of the function call stack at any point in time, and $f$ is the number of unique functions, which could be up to $\mathcal{O}(n)$ in the worst case if every other record is a 'Start'.
 
 ## Queues
 
