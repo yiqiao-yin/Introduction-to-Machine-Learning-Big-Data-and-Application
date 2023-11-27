@@ -2,6 +2,8 @@
 
 Software engineering interviews often test a candidate's ability to solve problems, write code, and communicate their thought process. In this guide, we will discuss several key concepts that frequently come up in these interviews, along with Python examples for each.
 
+For more details, I recommend the following [link](https://github.com/yiqiao-yin/Data-Science-Interview-Questions-Answers). 
+
 ## Big $\mathcal{O}$
 
 **Simple Explanation**: Big $\mathcal{O}$ notation is a way to describe how long an algorithm takes to run or how much memory it uses as the size of the input increases. It gives us an upper bound on the runtime.
